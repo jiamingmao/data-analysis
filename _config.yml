@@ -1,22 +1,22 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://elotroalex.github.io'
-baseurl:             '/ed'
+title:               Data Analysis for Economics
+tagline:             'Jiaming Mao'
+description:         'Data Analysis for Economics'
+url:                 'https://jiamingmao.github.io'
+baseurl:             '/data-analysis'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Jiaming Mao
+  url:               https://jiamingmao.github.io
+  email:             jmao@xmu.edu.cn
 
 # Permalinks
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: 
+color-scheme:
 
 permalink: pretty
 permalink: /:title/
@@ -48,5 +48,3 @@ exclude:
 
 # Theme
 theme: "ed."
-
-
