@@ -2,9 +2,9 @@
 
 # Setup
 title:               Data Analysis for Economics
-tagline:             'Jiaming Mao'
+tagline:             'A Modern Introduction'
 description:         'Data Analysis for Economics'
-url:                 'https://jiamingmao.github.io'
+url:                 'http://jiamingmao.github.io'
 baseurl:             '/data-analysis'
 
 # About/contact
@@ -16,7 +16,7 @@ author:
 # Permalinks
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+color-scheme: 
 
 permalink: pretty
 permalink: /:title/
