@@ -31,8 +31,8 @@ Foundations of Statistical Learning ([slides]({{ site.baseurl }}/assets/Lectures
 <a id="regression" />
 
 Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
-  - *Topics:* linear regression; hypothesis testing; bootstrap; polynomial regression; piecewise constant regression; basis functions; regression splines; generalized additive models
-  - `codes:` [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Stata)
+  - *Topics:* linear regression; hypothesis testing; bootstrap; polynomial regression; piecewise constant regression; regression splines; generalized additive models
+  - `codes:` [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Python), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Stata)
 
 ---
 
