@@ -5,7 +5,7 @@ order: 1
 ---
 <p style="height: 1px"></p>
 
-## Teaching Staff
+## Instructor
 **Jiaming Mao**<br>
 D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
@@ -28,4 +28,4 @@ The course spans the fields of econometrics, statistics, and computer science. A
 
 ## Computing
 
-You are expected to have some familiarity with at least one programming/statistical computing language. We provide ample data analysis problems for you to work through in this course. Programs in `R`, `Python`, and `Stata` are provided. For your homework and final project, you can choose any language that you are familiar with. 
+You are expected to have some familiarity with at least one programming/statistical computing language. We provide ample data analysis problems for you to work through in this course. Programs in `R`, `Python`, and `Stata` are provided. For your homework and final project, you can choose any language that you are familiar with.
