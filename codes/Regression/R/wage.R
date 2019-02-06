@@ -68,6 +68,6 @@ title("Cubic and Natural Cubic Spline")
 fit = lm(wage ~ poly(year,2) + ns(age,knots=c(25,40,60)) + education)
 summary(fit)
 par(mfrow =c(1,3))
-plot.gam(fit, se=TRUE, col="brown")
+plot.Gam(fit, se=TRUE, col="brown")
 
 detach(Wage)
