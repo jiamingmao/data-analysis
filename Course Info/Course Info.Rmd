@@ -1,36 +1,36 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Course Information</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Jiaming Mao" />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
-    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Course Information
-## <html>
-<div style="float:left">
-
-</div>
-<hr color='#EB811B' size=1px width=796px>
-</html>
-### Jiaming Mao
-
+---
+title: "Course Information"
+subtitle: "<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
+author: Jiaming Mao 
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
-
-
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center",  
+  fig.height=4, #fig.width=6,
+  # out.width="748px", #out.length="520.75px",
+  dpi=300, #fig.path='Figs/',
+  cache=T#, echo=F, warning=F, message=F
+  )
+library(tidyverse)
+library(hrbrthemes)
+```
 
 # General Information
 
 Course website: 
 
-&lt;div style="text-align:center"&gt;&lt;a href="https://jiamingmao.github.io/data-analysis"&gt;https://jiamingmao.github.io/data-analysis&lt;/a&gt;&lt;/div&gt;
+<div style="text-align:center"><a href="https://jiamingmao.github.io/data-analysis">https://jiamingmao.github.io/data-analysis</a></div>
 
 - Github: https://github.com/jiamingmao/data-analysis
 
@@ -62,9 +62,9 @@ Course materials are continually updated and posted to the website and the Githu
 
 # Evaluation
 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
+<br>
+<br>
+<br>
 
 Final Grade | 100%
 -------- | -------
@@ -129,7 +129,7 @@ Class (Piazza) Participation | 5% extra credit
     - If you have any questions, ask them on Piazza!
     
     
-&gt; How much you learn depends on how much time you spend.
+> How much you learn depends on how much time you spend.
 
 ---
 
@@ -162,51 +162,3 @@ Class (Piazza) Participation | 5% extra credit
 - Related courses, programming learning resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
 
 - My book list on data science: https://www.goodreads.com/review/list/59975031-jiaming-mao?shelf=data-science
-    </textarea>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})();</script>
-
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-})();
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
