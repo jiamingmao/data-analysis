@@ -19,13 +19,19 @@ Email: <273753002@qq.com>
 
 ---
 
-## Syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
+## Syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf), [slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course_Info.html))
 
 ---
 
-## Computing
+## Requirements
 
 You are expected to have some familiarity with at least one programming/statistical computing language. We provide ample data analysis problems for you to work through in this course. Programs in `R`, `Python`, and `Stata` are provided. For your homework and final project, you can choose any language that you are familiar with.
+
+---
+
+## Communications
+
+We will be using [Piazza](https://piazza.com/xmu.edu.cn/spring2019/001/home) for course related discussions. All questions about course materials should be posted to Piazza, so that everyone can benefit from the discussions. Extra credits will be awarded for active participation on the platform.
 
 ---
 
