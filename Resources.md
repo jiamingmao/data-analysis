@@ -41,6 +41,6 @@ order: 3
 - Google Developer, [Python Class](https://developers.google.com/edu/python)
 - Python software foundation, [The Python Tutorial](https://docs.python.org/3/tutorial)
 - Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
-- Miller, B. and D. Ranum, [Problem Solving with Algorithms and Data Structures using Python](http://www.interactivepython.org/courselib/static/pythonds/index.html)
+- VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
 - Stanford CS 231n, [NumPy Tutorial](https://cs231n.github.io/python-numpy-tutorial)
 - [scikit-learn](https://scikit-learn.org/)
