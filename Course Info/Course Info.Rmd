@@ -34,7 +34,7 @@ Course website:
 
 - Github: https://github.com/jiamingmao/data-analysis
 
-- Homework submission: http://l.xmu.edu.cn (Moodle)
+- Homework submission: http://l.xmu.edu.cn (Moodle; pw: raven)
 
 - Class discussion: https://piazza.com/xmu.edu.cn/spring2019/001/home (Piazza)
 
