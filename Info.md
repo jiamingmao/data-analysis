@@ -31,7 +31,7 @@ You are expected to have some familiarity with at least one programming/statisti
 
 ## Communications
 
-We will be using [Piazza](https://piazza.com/xmu.edu.cn/spring2019/001/home) for course related discussions. All questions about course materials should be posted to Piazza, so that everyone can benefit from the discussions. Extra credits will be awarded for active participation on the platform.
+We will be using [Piazza](https://piazza.com) for course related discussions. All questions about course materials should be posted to Piazza, so that everyone can benefit from the discussions. Extra credits will be awarded for active participation on the platform.
 
 ---
 
@@ -40,13 +40,15 @@ We will be using [Piazza](https://piazza.com/xmu.edu.cn/spring2019/001/home) for
 There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
-- Angrist and Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press.
+- Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press.
+- Angrist and Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press.
+- Hernán, M. A. and J. M. Robins (2019). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
 - Morgan, S. L. and C. Winship. (2007). *Counterfactuals and Causal Inference: Methods and Principles for Social Research*. Cambridge University Press.
-- James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer.
+- James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 
 ### Graduate
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press.
-- Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer.
+- Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press.
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
