@@ -32,7 +32,7 @@ Course website:
 
 <div style="text-align:center"><a href="https://jiamingmao.github.io/data-analysis">https://jiamingmao.github.io/data-analysis</a></div>
 
-- Github: https://github.com/jiamingmao/data-analysis
+- Github repo: https://github.com/jiamingmao/data-analysis
 
 - Homework submission: http://l.xmu.edu.cn (Moodle; pw: raven)
 
@@ -108,6 +108,8 @@ Class (Piazza) Participation | 5% extra credit
 
 - The lecture materials are written to be both deep conceptually and easy to follow technically.
 
+- The course [Github repo](https://github.com/jiamingmao/data-analysis) contains additional materials, notes, and resources for each lecture. 
+
 - This course is fast paced and covers a lot of ground. 
 
     - It is *highly recommended* that you preview the lecture materials before each class and review them afterwards.
@@ -153,9 +155,7 @@ Class (Piazza) Participation | 5% extra credit
 
 # Where can I learn more?
 
-- See [Syllabus](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf): recommended readings  
-
-- See references at the end of each lecture.
+- [Syllabus](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf): recommended readings  
 
 - Related courses, programming learning resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
 
