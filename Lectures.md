@@ -8,6 +8,7 @@ toc:
 - Foundations of Statistical Learning
 - Regression
 - The Truth about P-values
+- Classification
 ---
 
 <p style="height: 1px"></p>
@@ -25,14 +26,16 @@ Introduction ([slides]({{ site.baseurl }}/assets/Lectures/Data_Analysis_for_Econ
 
 Foundations of Statistical Learning ([slides]({{ site.baseurl }}/assets/Lectures/Foundations_of_Statistical_Learning.pdf))
   - *Topics:* learning theory; VC analysis; approximation-generalization tradeoff; probabilistic model; information theory; KL divergence; maximum likelihood; decision theory; bayes classifier; discriminative vs. generative model; scientific model
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Foundations%20of%20Statistical%20Learning/notes%20and%20resources.md)
 
 ---
 
 <a id="regression" />
 
 Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
-  - *Topics:* linear regression; hypothesis testing; bootstrap; polynomial regression; piecewise constant regression; regression splines; generalized additive models
-  - `codes:` [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Python)
+  - *Topics:* linear regression; hypothesis testing; bootstrap; feature and target transform; polynomial regression; piecewise constant regression; regression splines; generalized additive models
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Regression/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/Python)
 
 ---
 
@@ -40,6 +43,13 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 
 The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_about_P-values.pdf))
   - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
-  - `codes:` [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/The%20Truth%20About%20P-Values/R)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/The%20Truth%20About%20P-Values/R)
 
 ---
+
+<a id="classification" />
+
+Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
+  - *Topics:* binary and multiclass classification; logistic regression; probit regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice model; random utility framework; independence of irrelevant alternatives (IIA)
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Python)
