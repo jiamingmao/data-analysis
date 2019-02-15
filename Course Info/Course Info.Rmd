@@ -36,7 +36,7 @@ Course website:
 
 - Homework submission: http://l.xmu.edu.cn (Moodle; pw: raven)
 
-- Class discussion: https://piazza.com/xmu.edu.cn/spring2019/001/home (Piazza)
+- Class discussion: https://piazza.com/xmu.edu.cn/spring2019/microeconometrics (Piazza)
 
 Course materials are continually updated and posted to the website and the Github repository. It is recommended that you clone the repo and pull regularly to get updates (here is information on  [how](https://jiamingmao.github.io/principles-of-economics/Software)).
 
@@ -88,7 +88,9 @@ Class (Piazza) Participation | 5% extra credit
     
     - Coding examples into other languages
     
-- You are encouraged to discuss and collaborate with classmates. Up to 2 people are allowed to work together on a single homework (collaborators submit 1 homework only).
+- You are encouraged to discuss and collaborate with classmates. Up to 2 individuals are allowed to work together on a single homework (collaborators submit 1 homework only).
+
+- In addition, we may have small quizzes and tasks for each lecture.
 
 ---
 
@@ -137,7 +139,7 @@ Class (Piazza) Participation | 5% extra credit
 
 # Communications
 
-- We will be using [Piazza]( https://piazza.com/xmu.edu.cn/spring2019/001/home) for course related discussions.
+- We will be using [Piazza]( https://piazza.com/xmu.edu.cn/spring2019/microeconometrics) for course related discussions.
 
 - If you any questions about course materials, the best way to get answers is to ask them on Piazza.
 
@@ -157,6 +159,6 @@ Class (Piazza) Participation | 5% extra credit
 
 - [Syllabus](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf): recommended readings  
 
-- Related courses, programming learning resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
+- Related courses, programming resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
 
 - My book list on data science: https://www.goodreads.com/review/list/59975031-jiaming-mao?shelf=data-science

@@ -2,7 +2,7 @@
 
 - [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
     - Lectures 1 - 8
-- Harvard AM 207
+- Harvard AM207
     - [Entropy](http://am207.info/wiki/Entropy.html)
     - [Divergence and Deviance](http://am207.info/wiki/Divergence.html)
     - [Learning without noise](http://am207.info/wiki/noiseless_learning.html)
