@@ -60,6 +60,87 @@ Course materials are continually updated and posted to the website and the Githu
 
 ---
 
+# Time and Location
+
+**Session 1**
+
+- Time: Tue, Thu 8:00 - 9:40am
+
+- Location: Haiyun 408 (Tue), Nanqiang 402 (Thu)
+
+**Session 2** 
+
+- Time: Tue, Thu 2:30 - 4:10pm
+
+- Location: Lianxing 401
+
+---
+
+# This Course 
+
+This course offers a *unified* introduction to: 
+
+
+1. **Statistical learning**
+
+    - Pattern recognition and predictive modeling
+    
+2. **Causal inference**
+
+    - Causal effect and causal model estimation
+    
+3. **Reduced-form** and **structural econometrics**
+
+<div style='float:left'></div><hr color='#EB811B' size=1px width=796px>
+
+- Goal is equip you with both a solid theoretical foundation, and the tools to conduct empirical research using state-of-the-art technology.
+
+- Lecture materials are written to be both deep conceptually and easy to follow technically.
+
+- Methods are demonstrated with applications to actual and simulated problems in applied microeconomics.
+
+---
+
+# This Course 
+
+- There are no textbooks. We will rely on lecture notes.
+
+- The course repo contains additional materials, notes, and resources for each lecture. 
+
+- This course is fast paced and covers a lot of ground. 
+
+    - It is *highly recommended* that you preview the lecture materials before each class and review them afterwards.
+    
+    - It is *also recommended* that you form study groups to discuss the materials and work together to understand them.
+
+---
+
+# This Course 
+
+- Weekly review sessions will go over course materials, as well as programming and data analysis problems.
+
+    - Consider them partly as lab sessions!
+    
+- Due to time constraint, many topics discussed in the lecture notes will not be covered in detail in class.
+
+    - You are encouraged to read them by yourself or in study groups.
+    
+    - If you have any questions, ask them on Piazza!
+    
+> How much you learn depends on how much time you spend.
+
+---
+
+# Computing
+
+- You are expected to have some familiarity with <u>at least one</u> programming/statistical computing language. 
+
+- Lectures are written in `R`, but examples in `Python` and `Stata` are also provided. 
+
+- For your homework and final project, you can choose *any* language you want.
+
+---
+
 # Evaluation
 
 <br>
@@ -84,56 +165,13 @@ Class (Piazza) Participation | 5% extra credit
 
     - Writing a report on a lecture-related topic
     
-    - Empirical application of methods
+    - Empirical applications of methods
     
     - Coding examples into other languages
     
 - You are encouraged to discuss and collaborate with classmates. Up to 2 individuals are allowed to work together on a single homework (collaborators submit 1 homework only).
 
 - In addition, we may have small quizzes and tasks for each lecture.
-
----
-
-# Computing
-
-- You are expected to have some familiarity with *at least one* programming/statistical computing language. 
-
-- Lectures are written in `R`, but examples in `Python` and `Stata` are also provided. 
-
-- For your homework and final project, you can choose *any* language you want.
-
----
-
-# How this course is taught
-
-- No textbooks. We will rely on lecture notes.
-
-- The lecture materials are written to be both deep conceptually and easy to follow technically.
-
-- The course [Github repo](https://github.com/jiamingmao/data-analysis) contains additional materials, notes, and resources for each lecture. 
-
-- This course is fast paced and covers a lot of ground. 
-
-    - It is *highly recommended* that you preview the lecture materials before each class and review them afterwards.
-    
-    - It is *also recommended* that you form study groups to discuss the materials and work together to understand them.
-
----
-
-# How this course is taught
-
-- Weekly review sessions will go over course materials, as well as programming and data analysis problems.
-
-    - Consider them partly as lab sessions!
-    
-- Due to time constraint, many topics discussed in the lecture notes will not be covered in detail in class.
-
-    - You are encouraged to read them by yourself or in study groups.
-    
-    - If you have any questions, ask them on Piazza!
-    
-    
-> How much you learn depends on how much time you spend.
 
 ---
 
