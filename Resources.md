@@ -12,6 +12,7 @@ order: 3
 
 ## Related Courses
 - [Machine Learning](http://cs229.stanford.edu/index.html) (Stanford CS229)
+- [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/index.html) (Balcan & Mitchell, CMU)
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
 - [Applied Econometrics](https://www.ssc.wisc.edu/~ctaber/teaching.html) (Taber, Wisconsin)
