@@ -1,0 +1,26 @@
+---
+title: "Math in Markdown: Some Examples"
+output:
+  html_document: default
+  pdf_document: default
+---
+`Markdown` uses `Latex` syntax to type math.
+
+- To type math in markdown, try: $y=x+1$ or $$y=x+1$$
+
+- subscript and superscript: $x_1$, $x^1$
+
+- multiplication and division: $x \times y$, $\frac{y}{x}$ 
+
+Now some (slightly) more complicated examples:
+
+$$\sum_{i=1}^{N}t_{i}=T$$
+$$\max_{t_{i}}[pt_{i}q-ct_{i}]$$
+$$t_{i}^{*}=\frac{a-\frac{c}{p}-bT^{2}}{2bT}$$
+$$N(\frac{a-\frac{c}{p}-bT^{2}}{2bT}) = T$$
+$$T^{*}=\sqrt{\frac{a-\frac{c}{p}}{(1+\frac{2}{N})b}}$$
+
+
+
+
+
