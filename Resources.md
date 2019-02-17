@@ -14,6 +14,7 @@ order: 3
 - [Machine Learning](http://cs229.stanford.edu/index.html) (Stanford CS229)
 - [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/index.html) (Balcan & Mitchell, CMU)
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
+- [Principles and Techniques of Data Science](http://www.ds100.org) (Berkeley DS100)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
 - [Applied Econometrics](https://www.ssc.wisc.edu/~ctaber/teaching.html) (Taber, Wisconsin)
 - [Empirical Microeconomics](http://economics.ozier.com/econ626) (Jakiela & Ozier, Maryland)
