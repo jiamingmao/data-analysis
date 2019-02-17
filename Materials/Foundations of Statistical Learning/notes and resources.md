@@ -5,6 +5,8 @@
 - Mitchell
     - [Estimating Probabilities: MLE and MAP](https://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf)
     - [Key Ideas in Machine Learning](https://www.cs.cmu.edu/~tom/mlbook/keyIdeas.pdf)
+- Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
+    - Chapter 10, 15
 - Harvard AM207
     - [Entropy](http://am207.info/wiki/Entropy.html)
     - [Divergence and Deviance](http://am207.info/wiki/Divergence.html)

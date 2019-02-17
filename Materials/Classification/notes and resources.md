@@ -2,6 +2,8 @@
 
 - Yeh, [Binary vs. Multi-Class Logistic Regression](https://chrisyeh96.github.io/2018/06/11/logistic-regression.html)
 - Mitchell, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
+- Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
+    - Chapter 17, 18
 - Stanford CS229
     - [Classification and logistic
 regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
