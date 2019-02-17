@@ -7,6 +7,10 @@
     - [Divergence and Deviance](http://am207.info/wiki/Divergence.html)
     - [Learning without noise](http://am207.info/wiki/noiseless_learning.html)
     - [Learning with noise](http://am207.info/wiki/noisylearning.html)
-- Daumé III, H., [Limits of Learning](http://ciml.info/dl/v0_99/ciml-v0_99-ch02.pdf), [Probabilistic Modeling](http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf), [Learning Theory](http://ciml.info/dl/v0_99/ciml-v0_99-ch12.pdf)
+- Stanford CS229
+    - [Learning Theory](http://cs229.stanford.edu/notes/cs229-notes4.pdf)
+    - [Hoeffding’s inequality](http://101.96.10.72/cs229.stanford.edu/extra-notes/hoeffding.pdf)
+- Daumé III, [A Course in Machine Learning](http://ciml.info/)
+    - Chapter 2, 9, 12
 - Domingos, P., "A Few Useful Things to Know about Machine Learning." [[link](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)]
-- F. Cucker and S. Smale. 2002. "On the Mathematical Foundations of Learning," *Bulletin of the American Mathematical Society*. [[link](http://www.mit.edu/~9.520/Papers/cuckersmale.pdf)]
+- Cucker, F. and S. Smale. 2002. "On the Mathematical Foundations of Learning," *Bulletin of the American Mathematical Society*. [[link](http://www.mit.edu/~9.520/Papers/cuckersmale.pdf)]
