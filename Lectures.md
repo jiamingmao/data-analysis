@@ -44,7 +44,6 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_about_P-values.pdf))
   - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/The%20Truth%20About%20P-Values/notes%20and%20resources.md)
-  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/The%20Truth%20About%20P-Values/R)
 
 ---
 
