@@ -1,5 +1,6 @@
 # Notes and Resources
 
+- Machine Learning Cheatsheet, [Logistic Regression](https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#)
 - Yeh, [Binary vs. Multi-Class Logistic Regression](https://chrisyeh96.github.io/2018/06/11/logistic-regression.html)
 - Mitchell, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
 - Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
