@@ -22,6 +22,12 @@ order: 3
 
 ---
 
+## Useful Links
+- [A Statistical Learning/Pattern Recognition Glossary](http://alumni.media.mit.edu/~tpminka/statlearn/glossary/)
+- [UCI Machine learning repository](https://archive.ics.uci.edu/ml/index.php)
+
+---
+
 ## Computing
 
 ### R
@@ -43,6 +49,7 @@ order: 3
 - [The Python Tutorial](https://docs.python.org/3/tutorial)
 - Stanford CS221, [Conway's Game of Life](http://stanford.edu/~cpiech/cs221/handouts/pythonTutorial.html)
 - Stanford CS231n, [NumPy Tutorial](https://cs231n.github.io/python-numpy-tutorial)
+- Sargent, T. and J. Stachurski, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
 - Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
 - VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
 - [scikit-learn](https://scikit-learn.org/)
