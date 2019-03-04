@@ -1,10 +1,11 @@
 # Homework Guidelines
 
-## Evaluation
+## General
 
 - Each assignment will be graded on a 0 - 4 scale.
     - Truly exceptional assignment may get a 5 and will be posted on the course repo.
 - Up to two people are allowed to work on the same assignment. The assignment will have two authors.
+- You can write your assignment in either English or Chinese.
 
 ## Format
 You can submit your assignment in two ways:
@@ -13,7 +14,7 @@ You can submit your assignment in two ways:
 
 *note*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
 
-<u>Extra points for</u>:
+Extra points for:
 - writing in `LaTeX` (+0.5)
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
 - publishing on your own github page (+1.0)
