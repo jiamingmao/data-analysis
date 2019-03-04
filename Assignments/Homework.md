@@ -17,7 +17,7 @@ You can submit your assignment in two ways:
 - writing in `LaTeX` (+0.5)
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
 - publishing on your own github page (+1.0)
-    - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md)
+    - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 
 ## Theoretical Report
 
