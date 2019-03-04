@@ -11,8 +11,8 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 ## Assistant
-**Xiaoyuan Shen**<br>
-Email: <xyshen@stu.xmu.edu.cn>
+**Tie Shi**<br>
+Email: <27720170155473@stu.xmu.edu.cn>
 
 **Xiaoqin Wang**<br>
 Email: <273753002@qq.com>
