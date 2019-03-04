@@ -23,7 +23,7 @@ You can submit your assignment in two ways:
 
 Write a short report (1 - 2 pages) on a lecture-related topic.
 
-*Suggestions*: Other than the lecture slides, the "[notes and resources]((https://jiamingmao.github.io/data-analysis/Lectures/))" page contains additional readings and materials for each lecture that should be helpful for you in choosing a topic as well as in your writing.
+*Suggestions*: Other than the lecture slides, the "[notes and resources](https://jiamingmao.github.io/data-analysis/Lectures/)" page contains additional readings and materials for each lecture that should be helpful for you in choosing a topic as well as in your writing.
 
 *Important*: you should write as if your target audience is your fellow students, *not* me. In other words, try to be as clear and detailed as possible.
 
@@ -36,7 +36,7 @@ Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/
 
 ## Frequently Asked Questions
 - I am an undergraduate student and I just learned what "probability" means for the first time last week. Are my assignments going to be graded under the same criteria as those of graduate students? Would that be unfair?
-    - Whether an assignment is written by one student or two students, by undergraduate or graduate students, will be not be a factor of consideration in initial evaluation. However, at the end of the semester, your homework grades will be adjusted to reflect your proper academic level and contribution. This means that if you are an undergraduate student or if you write your homework alone, your grades will be bumped up at the end of the semester.
+    - Whether an assignment is written by one student or two students, by undergraduate or graduate students, will be not be a factor of consideration in initial evaluation. However, at the end of the semester, your homework grades will be adjusted to reflect your proper academic level and contribution. This means that if you are an undergraduate student or if you write your homework alone, your grades will be bumped up at the end of the semester. Conversely, this means if you are a graduate student or if you work in groups of two, you need to do a better job!
 
 
 - I do not have any friends. I expect to do all the homework by myself. Are my assignments going to be graded under the same criteria as those that are the results of collaboration? Would that be unfair?
