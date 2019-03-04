@@ -29,7 +29,7 @@ Write a short report (1 - 2 pages) on a lecture-related topic.
 
 Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/wiki/Entropy.html)], [[3](https://vsoch.github.io/2013/bias-and-variance-tradeoff/)], [[4](https://sudongqi.github.io/p6)], [[5](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[6](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[7](https://pandeykartikey.github.io/machine/learning/basics/2018/05/22/cross-entropy.html)], [[8](https://colah.github.io/posts/2015-09-Visual-Information/)], [[9](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)], [[10](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
 
-## Reference and Academic Integrity
+## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
 - You **must** acknowledge any sentences or codes that are not written by yourself.
 - Plagiarism is a serious violation of academic integrity. If it is found that you used sources without proper reference, you will get a zero for your homework the first time and you will fail the course the second time.
