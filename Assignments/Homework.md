@@ -2,8 +2,8 @@
 
 ## Evaluation
 
-- Each assignment will be graded on a 0-4 scale.
-    - Truly exceptional assignment may get 5.
+- Each assignment will be graded on a $0-4$ scale.
+    - Truly exceptional assignment may get a $5$ and will be posted on the course repo. 
 - Up to two people are allowed to work on the same assignment. The assignment will have two authors.
 
 ## Format
@@ -25,7 +25,7 @@ Write a short report (1 - 2 pages) on a lecture-related topic.
 
 *Suggestions*: Other than the lecture slides, the "[notes and resources](https://jiamingmao.github.io/data-analysis/Lectures/)" page contains additional readings and materials for each lecture that should be helpful for you in choosing a topic as well as in your writing.
 
-*Important*: you should write as if your target audience is your fellow students, *not* me. In other words, try to be as clear and detailed as possible.
+*Important*: you should write as if your target audience is your fellow students, *not* me. In other words, imagine you are writing a tutorial for your fellow students and try to be as clear as possible.
 
 Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/wiki/Entropy.html)], [[3](https://vsoch.github.io/2013/bias-and-variance-tradeoff/)], [[4](https://sudongqi.github.io/p6)], [[5](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[6](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[7](https://pandeykartikey.github.io/machine/learning/basics/2018/05/22/cross-entropy.html)], [[8](https://colah.github.io/posts/2015-09-Visual-Information/)], [[9](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)], [[10](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
 
