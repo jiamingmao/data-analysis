@@ -15,3 +15,4 @@ regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-not
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 3, 6
 - Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
+- Ng, A. Y. and M. I. Jordan. 2001. "On Discriminative vs. Generative Classifiers: A comparison of logistic regression and naive Bayes," NIPS 2001. [[link](http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes.pdf)]
