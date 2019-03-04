@@ -2,8 +2,8 @@
 
 ## Evaluation
 
-- Each assignment will be graded on a $0-4$ scale.
-    - Truly exceptional assignment may get a $5$ and will be posted on the course repo. 
+- Each assignment will be graded on a 0 - 4 scale.
+    - Truly exceptional assignment may get a 5 and will be posted on the course repo.
 - Up to two people are allowed to work on the same assignment. The assignment will have two authors.
 
 ## Format
