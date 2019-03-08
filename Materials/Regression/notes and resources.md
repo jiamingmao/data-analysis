@@ -14,3 +14,4 @@
 - Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
     - Chapter 4 - 9
 - Harvard AM207, [From the normal model to regression](http://am207.info/wiki/normalreg.html)
+- Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
