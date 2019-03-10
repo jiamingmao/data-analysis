@@ -16,9 +16,3 @@ The course spans the fields of econometrics, statistics, and computer science. A
 - Instructor: Jiaming Mao
 - Email: jmao@xmu.edu.cn
 - **Homepage**: [jiamingmao.github.io/data-analysis](http://jiamingmao.github.io/data-analysis)
-
-<br>
-
-- Teaching Assistants:
-    - Tie Shi (shitie@stu.xmu.edu.cn)
-    - Xiaoqin Wang (xqwang@stu.xmu.edu.cn)
