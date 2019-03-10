@@ -10,3 +10,6 @@
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 16
 - scikit-learn, [Model selection and evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
+- Hyndman
+    - [Cross-validation for time series](https://robjhyndman.com/hyndsight/tscv/)
+    - [Time series cross-validation: an R example](https://robjhyndman.com/hyndsight/tscvexample/)
