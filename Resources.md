@@ -31,7 +31,7 @@ order: 3
 
 ## Computing
 
-### R
+### R/R Markdown
 - Rodríguez, G., [R Tutorial](https://data.princeton.edu/R)
 - Michonneau, F., [The R Class](http://r-bio.github.io/)
 - Grolemund, G. and H. Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
