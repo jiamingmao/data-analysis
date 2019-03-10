@@ -16,6 +16,7 @@
 - Stanford CS229
     - [Learning Theory](http://cs229.stanford.edu/notes/cs229-notes4.pdf)
     - [Hoeffding’s inequality](http://101.96.10.72/cs229.stanford.edu/extra-notes/hoeffding.pdf)
+    - [Bias-Variance and Error Analysis](http://cs229.stanford.edu/section/error-analysis.pdf)
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 2, 9, 12
 - Olah, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
