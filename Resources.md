@@ -26,6 +26,7 @@ order: 3
 - [A Statistical Learning/Pattern Recognition Glossary](http://alumni.media.mit.edu/~tpminka/statlearn/glossary/)
 - [UCI Machine learning repository](https://archive.ics.uci.edu/ml/index.php)
 - [Kaggle](https://www.kaggle.com/)
+- [IPUMS](https://www.ipums.org/)
 
 ---
 
