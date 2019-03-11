@@ -1,5 +1,6 @@
 # Notes and Resources
 
+- Santon, [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](http://www.amstat.org/publications/jse/v9n3/stanton.html)
 - Machine Learning Cheatsheet, [Linear Regression](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)
 - Roelants, [Regression quattro stagioni](https://peterroelants.github.io/posts/linear-regression-four-ways)
 - Stanford CS229, [Linear Regression](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
@@ -11,7 +12,11 @@
     - Chapter 2
 - Penn State STAT 501, [Regression Methods](https://newonlinecourses.science.psu.edu/stat501/)
     - Lesson 1 - 7, 9, 11, 12
-- Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
-    - Chapter 4 - 9
 - Harvard AM207, [From the normal model to regression](http://am207.info/wiki/normalreg.html)
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
+- Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+    - Chapter 4 - 9
+- r-statistics.co
+    - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
+    - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
+    - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html) 

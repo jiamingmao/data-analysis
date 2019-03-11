@@ -14,10 +14,17 @@ You can submit your assignment in two ways:
 
 *note*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
 
-Extra points for:
-- writing in `LaTeX` (+0.5)
+Extra points (+0.5) for:
+- writing in `LaTeX`
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
-- publishing on your own github page (+1.0)
+- writing in `R Markdown`
+    - see [here](https://jiamingmao.github.io/data-analysis/Resources/#rr-markdown)
+- writing in `Stata Markdown`
+    - see [here](https://jiamingmao.github.io/data-analysis/Resources/#stata)
+- writing in `Jupyter notebook`
+    - see [here](https://jupyter.org/) and [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+    - note: if you upload jupyter notebook files (.ipynb) to github, they will automatically render as static `html` files.
+- publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 
 ## Theoretical Report
@@ -29,6 +36,14 @@ Write a short report (1 - 2 pages) on a lecture-related topic.
 *Important*: you should write as if your target audience is your fellow students, *not* me. In other words, imagine you are writing a tutorial for your fellow students and try to be as clear as possible.
 
 Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/wiki/Entropy.html)], [[3](https://vsoch.github.io/2013/bias-and-variance-tradeoff/)], [[4](https://sudongqi.github.io/p6)], [[5](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[6](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[7](https://pandeykartikey.github.io/machine/learning/basics/2018/05/22/cross-entropy.html)], [[8](https://colah.github.io/posts/2015-09-Visual-Information/)], [[9](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)], [[10](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
+
+## Technique Demonstration
+
+Similar to a theoretical report, but with codes. Recommend: write in R markdown, or Jupyter notebook. For stata, either write in Stata markdown or attach Stata codes in pdf.
+
+Examples: [1], [2
+
+## Empirical Analysis
 
 ## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
