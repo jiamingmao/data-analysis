@@ -29,7 +29,7 @@ Extra points (+0.5) for:
 
 *note 2*: if you upload your assignment to github, you need to supply a _viewable link_. This means that the instructor needs to be able to click the link and immediately review your assignment (rather than having to download any files and open them). In practice, this means that:
  - `pdf`, plain `markdown`, and `jupyter notebook` (.ipynb) files can be viewed on github directly, hence a link directly to the file works.
- - `html` files cannot be viewed on github directly. So if you have got an `html` file, you need to [do this]().
+ - `html` files cannot be viewed on github directly. So if you have got an `html` file, you need to generate a viewable link using the [github html viewer](https://htmlpreview.github.io/).
  - `R markdown`, `Stata markdown` etc. cannot be viewed on github directly and need to be compiled to `pdf` or `html`
 
 ## Theoretical Report
@@ -54,7 +54,7 @@ Examples: [[1](http://htmlpreview.github.io/?https://github.com/jiamingmao/princ
 
 Analyze real data using a method introduced in or relevant to the lecture.
 
-For sources of data, see [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data) and [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research. 
+For sources of data, see [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data) and [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research.
 
 ## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
