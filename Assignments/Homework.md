@@ -10,22 +10,27 @@
 ## Format
 You can submit your assignment in two ways:
 1. compile your assignment to `pdf` or `html` and submit on Moodle
-2. upload your assignment to your personal github repo and provide a link to the file on Moodle.
-
-*note*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
+2. upload your assignment to your personal github repo and provide a _viewable link_ to the file on Moodle.
 
 Extra points (+0.5) for:
 - writing in `LaTeX`
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
-- writing in `R Markdown`
-    - see [here](https://jiamingmao.github.io/data-analysis/Resources/#rr-markdown)
-- writing in `Stata Markdown`
-    - see [here](https://jiamingmao.github.io/data-analysis/Resources/#stata)
+- writing in `markdown`, including:
+    - plain `markdown`: see [here](https://jiamingmao.github.io/principles-of-economics/Software/#markdown)
+    - `R markdown`: see [here](https://jiamingmao.github.io/data-analysis/Resources/#rr-markdown)
+    - `Stata markdown`: see [here](https://jiamingmao.github.io/data-analysis/Resources/#stata)
 - writing in `Jupyter notebook`
-    - see [here](https://jupyter.org/) and [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
-    - note: if you upload jupyter notebook files (.ipynb) to github, they will automatically render as static `html` files.
+    - see [here](https://jupyter.org/) and [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) for instructions. see [here](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science) for examples.
 - publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
+- analyzing real data (i.e., doing empirical analysis)
+
+*note 1*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
+
+*note 2*: if you upload your assignment to github, you need to supply a _viewable link_. This means that the instructor needs to be able to click the link and immediately review your assignment (rather than having to download any files and open them). In practice, this means that:
+ - `pdf`, plain `markdown`, and `jupyter notebook` (.ipynb) files can be viewed on github directly, hence a link directly to the file works.
+ - `html` files cannot be viewed on github directly. So if you have got an `html` file, you need to [do this]().
+ - `R markdown`, `Stata markdown` etc. cannot be viewed on github directly and need to be compiled to `pdf` or `html`
 
 ## Theoretical Report
 
@@ -37,13 +42,19 @@ Write a short report (1 - 2 pages) on a lecture-related topic.
 
 Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/wiki/Entropy.html)], [[3](https://vsoch.github.io/2013/bias-and-variance-tradeoff/)], [[4](https://sudongqi.github.io/p6)], [[5](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[6](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[7](https://pandeykartikey.github.io/machine/learning/basics/2018/05/22/cross-entropy.html)], [[8](https://colah.github.io/posts/2015-09-Visual-Information/)], [[9](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)], [[10](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
 
-## Technique Demonstration
+## Method Demonstration
 
-Similar to a theoretical report, but with codes. Recommend: write in R markdown, or Jupyter notebook. For stata, either write in Stata markdown or attach Stata codes in pdf.
+Writing a report demonstrating a method introduced in or relevant to the lecture. Possibilities include:
+- Implement a method using simulated data
+- translate an example in class into an alternative language
 
-Examples: [1], [2
+Examples: [[1](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Homework/intro_regression.html)], [[2](https://github.com/philippbauch/simple-linear-regression-notebook/blob/master/linear-regression-demo.ipynb)]
 
 ## Empirical Analysis
+
+Analyze real data using a method introduced in or relevant to the lecture.
+
+For sources of data, see [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data) and [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research. 
 
 ## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
