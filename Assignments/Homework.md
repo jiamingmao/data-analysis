@@ -16,7 +16,6 @@ Extra points (+0.5) for:
 - writing in `LaTeX`
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
 - writing in `markdown`, including:
-    - plain `markdown`: see [here](https://jiamingmao.github.io/principles-of-economics/Software/#markdown)
     - `R markdown`: see [here](https://jiamingmao.github.io/data-analysis/Resources/#rr-markdown)
     - `Stata markdown`: see [here](https://jiamingmao.github.io/data-analysis/Resources/#stata)
 - writing in `Jupyter notebook`
