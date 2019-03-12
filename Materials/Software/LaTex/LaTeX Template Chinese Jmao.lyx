@@ -38,9 +38,7 @@ figs-within-sections
 \index_command default
 \paperfontsize 12
 \spacing single
-\use_hyperref false
-\pdf_title "Teaching Effectiveness Summary"
-\pdf_author "Jiaming Mao"
+\use_hyperref true
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -49,7 +47,7 @@ figs-within-sections
 \pdf_pdfborder true
 \pdf_colorlinks true
 \pdf_backref false
-\pdf_pdfusetitle true
+\pdf_pdfusetitle false
 \papersize default
 \use_geometry true
 \use_package amsmath 1
@@ -82,7 +80,7 @@ figs-within-sections
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation 0in
+\paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
@@ -116,21 +114,37 @@ begin{CJK}{UTF8}{gbsn}
 \end_layout
 
 \begin_layout Title
-
-\noun on
-Title
+陋室铭
 \end_layout
 
 \begin_layout Author
-小明
+刘禹锡
 \end_layout
 
-\begin_layout Date
-厦门大学
+\begin_layout Section*
+作品原文
 \end_layout
 
 \begin_layout Standard
-[正文]
+山不在高，有仙则名。水不在深，有龙则灵。斯是陋室，惟吾德馨。苔痕上阶绿，草色入帘青。谈笑有鸿儒，往来无白丁。可以调素琴，阅金经。无丝竹之乱耳，无案牍之劳形。南阳
+诸葛庐，西蜀子云亭，孔子云：何陋之有？
+\end_layout
+
+\begin_layout Section*
+作品鉴赏
+\end_layout
+
+\begin_layout Standard
+参见
+\begin_inset CommandInset href
+LatexCommand href
+name "古诗文网"
+target "https://so.gushiwen.org/shiwenv_6c1ea9b7dd44.aspx"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
