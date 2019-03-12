@@ -1,6 +1,6 @@
 # Notes and Resources
 
-- Santon, [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](http://www.amstat.org/publications/jse/v9n3/stanton.html)
+- Santon, [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](http://www.amstat.org/publications/jse/v9n3/stanton.html)
 - Machine Learning Cheatsheet, [Linear Regression](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)
 - Roelants, [Regression quattro stagioni](https://peterroelants.github.io/posts/linear-regression-four-ways)
 - Stanford CS229, [Linear Regression](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
@@ -19,4 +19,4 @@
 - r-statistics.co
     - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
-    - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html) 
+    - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html)

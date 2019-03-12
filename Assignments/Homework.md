@@ -20,6 +20,7 @@ Extra points (+0.5) for:
     - `Stata markdown`: see [here](https://jiamingmao.github.io/data-analysis/Resources/#stata)
 - writing in `Jupyter notebook`
     - see [here](https://jupyter.org/) and [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) for instructions. see [here](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science) for examples.
+    - here is an entire course written in `jupyter notebooks`: [Computational Statistics and Statistical Computing](http://people.duke.edu/~ccc14/sta-663-2018/index.html) (also an excellent course you can check out)
 - publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 - analyzing real data (i.e., doing empirical analysis)
