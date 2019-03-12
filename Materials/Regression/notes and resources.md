@@ -20,3 +20,4 @@
     - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
     - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html)
+- McDermott, [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html)
