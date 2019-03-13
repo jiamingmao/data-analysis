@@ -21,3 +21,4 @@
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
     - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html)
 - McDermott, [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html)
+- UC Business Analytics R Programming Guide, [Multivariate Adaptive Regression Splines](http://uc-r.github.io/mars)
