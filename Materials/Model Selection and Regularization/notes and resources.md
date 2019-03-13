@@ -16,3 +16,4 @@
 - Arnold, [Shrinkage and Regularized Regression](https://jrnold.github.io/bayesian_notes/shrinkage-and-regularized-regression.html)
 - r-statistics.co, [Model Selection Approaches](http://r-statistics.co/Model-Selection-in-R.html)
 - scikit-learn, [Model selection and evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
+- Keng, [A Probabilistic Interpretation of Regularization](http://bjlkeng.github.io/posts/probabilistic-interpretation-of-regularization/)
