@@ -22,4 +22,8 @@
 - Olah, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
 - Bata, [Discriminative vs Generative models](https://deveshbatra.github.io/Generative-vs-Discriminative-models/)
 - Domingos, P., "A Few Useful Things to Know about Machine Learning." [[link](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)]
+- Stanford Encyclopedia of Philosophy
+    - [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)
+    - [Bayesian Epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/)
+- VanderPlas, [Frequentism and Bayesianism](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/)
 - Cucker, F. and S. Smale. 2002. "On the Mathematical Foundations of Learning," *Bulletin of the American Mathematical Society*. [[link](http://www.mit.edu/~9.520/Papers/cuckersmale.pdf)]

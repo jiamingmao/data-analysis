@@ -8,6 +8,7 @@
     - [Multinomial Regression](http://r-statistics.co/Multinomial-Regression-With-R.html)
     - [Ordinal Logistic Regression](http://r-statistics.co/Ordinal-Logistic-Regression-With-R.html)
     - [Poisson and Negative Binomial Regression](http://r-statistics.co/Poisson-and-Negative-Binomial-Regression-With-R.html)
+- UC Business Analytics R Programming Guide, [Logistic Regression](https://uc-r.github.io/logistic_regression)
 - Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
     - Chapter 17, 18
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
