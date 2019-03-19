@@ -60,6 +60,6 @@ Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
   <a id="model-selection-and-regularization" />
 
   Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf))
-  - *Topics:* cross validation; information criteria (AIC, BIC); forward stepwise selection; regularization; ridge regression; lasso; elastic net; smoothing splines
+  - *Topics:* cross validation; information criteria (AIC, BIC); best subset selection; stepwise selection; regularization; ridge regression; lasso; elastic net; smoothing splines
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/Python)
