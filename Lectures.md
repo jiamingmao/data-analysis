@@ -9,6 +9,7 @@ toc:
 - Regression
 - The Truth about P-values
 - Classification
+- Model Selection and Regularization
 ---
 
 <p style="height: 1px"></p>
@@ -53,3 +54,12 @@ Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
   - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice model; random utility framework; probit model; conditional logit model; independence of irrelevant alternatives (IIA)
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Python)
+
+  ---
+
+  <a id="model-selection-and-regularization" />
+
+  Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf))
+  - *Topics:* validation set; cross validation; information criteria (AIC, BIC); forward stepwise selection; regularization; ridge regression; lasso; elastic net; smoothing splines
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/Python)
