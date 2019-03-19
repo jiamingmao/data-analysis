@@ -12,7 +12,8 @@ The goal of this course is to equip students with both a solid theoretical found
 The course spans the fields of econometrics, statistics, and computer science. Although the focus is on the analysis of economic data, the theories and the tools presented should be useful for a wide range of research areas in business and the social sciences.
 
 ## Course Information
-
-- Instructor: Jiaming Mao
+- Instructor: **Jiaming Mao**
 - Email: jmao@xmu.edu.cn
-- **Homepage**: [jiamingmao.github.io/data-analysis](http://jiamingmao.github.io/data-analysis)
+- Course Website: [jiamingmao.github.io/data-analysis](http://jiamingmao.github.io/data-analysis)
+- Syllabus ([slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course_Info.html))
+- Review Session: [github.com/trustxiaoqinwang/Microeconometrics_TA_Session](https://github.com/trustxiaoqinwang/Microeconometrics_TA_Session)
