@@ -20,3 +20,4 @@
 - UC Business Analytics R Programming Guide
     - [Linear Model Selection](https://uc-r.github.io/model_selection)
     - [Regularized Regression](https://uc-r.github.io/regularized_regression)
+- Minka, [Bayesian model selection](http://alumni.media.mit.edu/~tpminka/statlearn/demo/)
