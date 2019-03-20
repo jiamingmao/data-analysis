@@ -12,6 +12,8 @@
     - Chapter 2
 - Penn State STAT 501, [Regression Methods](https://newonlinecourses.science.psu.edu/stat501/)
     - Lesson 1 - 7, 9, 11, 12
+- Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
+    - Lesson 3
 - Harvard AM207, [From the normal model to regression](http://am207.info/wiki/normalreg.html)
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)

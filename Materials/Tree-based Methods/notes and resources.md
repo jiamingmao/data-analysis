@@ -1,5 +1,7 @@
 # Notes and Resources
 
+- Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
+    - Lesson 11
 - R2D3, [A Visual Introduction to Machine Learning](http://www.r2d3.us)
     - [A Decision Tree](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
     - [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)

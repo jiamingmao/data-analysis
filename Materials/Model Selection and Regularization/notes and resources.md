@@ -9,6 +9,8 @@
 - Stanford CS230, [Splitting into train, dev and test sets](https://cs230-stanford.github.io/train-dev-test-split.html)
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 16
+- Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
+    - Lesson 2, 4, 5
 - Hyndman
     - [Cross-validation for time series](https://robjhyndman.com/hyndsight/tscv/)
     - [Time series cross-validation: an R example](https://robjhyndman.com/hyndsight/tscvexample/)
