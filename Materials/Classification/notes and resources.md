@@ -26,5 +26,9 @@ regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-not
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 3, 6
 - Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
-- Mitchell, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf)
-- Ng, A. Y. and M. I. Jordan. 2001. "On Discriminative vs. Generative Classifiers: A comparison of logistic regression and naive Bayes," NIPS 2001. [[link](http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes.pdf)]
+- StatQuest
+    - Logistic Regression [video: [part 1](https://www.youtube.com/watch?v=yIYKR4sgzI8&feature=youtu.be), [2](https://www.youtube.com/watch?v=vN5cNN2-HWE&feature=youtu.be), [3](https://www.youtube.com/watch?v=BfKanl1aSG0&feature=youtu.be), [4](https://www.youtube.com/watch?v=xxFYro8QuXA&feature=youtu.be)]
+    - The Confusion Matrix [[video](https://www.youtube.com/watch?v=Kdsp6soqA7o)]
+    - Sensitivity and Specificity [[video](https://www.youtube.com/watch?v=sunUKFXMHGk)]
+    - ROC and AUC, Clearly Explained! [[video](https://www.youtube.com/watch?v=xugjARegisk&feature=youtu.be)]
+    - ROC and AUC in R [[video](https://www.youtube.com/watch?v=qcvAqAH60Yw&feature=youtu.be)]

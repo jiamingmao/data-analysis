@@ -26,3 +26,5 @@
 - UC Business Analytics R Programming Guide
     - [Linear Regression](https://uc-r.github.io/linear_regression)
     - [Multivariate Adaptive Regression Splines](http://uc-r.github.io/mars)
+- StatQuest
+    - Linear Regression [video: [part 1](https://www.youtube.com/watch?v=PaFPbb66DxQ&index=2&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&t=0s), [2](https://www.youtube.com/watch?v=nk2CQITm_eo&index=3&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&t=0s), [3](https://www.youtube.com/watch?v=u1cc1r_Y7M0&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&index=4&t=0s), [4](https://www.youtube.com/watch?v=zITIFTsivN8&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&index=5&t=0s), [5](https://www.youtube.com/watch?v=hokALdIst8k&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&index=6&t=0s), [6](https://www.youtube.com/watch?v=NF5_btOaCig&index=7&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&t=0s), [7](https://www.youtube.com/watch?v=CqLGvwi-5Pc&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&index=8&t=0s), [8](https://www.youtube.com/watch?v=Hrr2anyK_5s&index=9&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&t=0s)]
