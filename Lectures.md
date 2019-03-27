@@ -51,7 +51,7 @@ The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_
 <a id="classification" />
 
 Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
-  - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice model; random utility framework; probit model; conditional logit model; independence of irrelevant alternatives (IIA)
+  - *Topics:* binary and multiclass classification; the perceptron; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Python)
 
