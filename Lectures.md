@@ -10,6 +10,7 @@ toc:
 - The Truth about P-values
 - Classification
 - Model Selection and Regularization
+- Tree-based Methods
 ---
 
 <p style="height: 1px"></p>
@@ -63,3 +64,12 @@ Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
   - *Topics:* cross validation; information criteria (AIC, BIC); best subset selection; stepwise selection; regularization; ridge regression; lasso; elastic net; smoothing splines
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/Python)
+
+  ---
+
+  <a id="tree-based-methods" />
+
+  Tree-based Methods ([slides]({{ site.baseurl }}/assets/Lectures/Tree-based_Methods.pdf))
+  - *Topics:* decision trees; ensemble methods; bagging; random forest; boosting
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/Python)
