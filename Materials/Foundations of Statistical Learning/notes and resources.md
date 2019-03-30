@@ -17,6 +17,7 @@
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 2, 9, 12
 - Olah, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+- The RL Probabilist, [KL Divergence for Machine Learning](https://dibyaghosh.com/blog/probability/kldivergence.html)
 - Bata, [Discriminative vs Generative models](https://deveshbatra.github.io/Generative-vs-Discriminative-models/)
 - Stanford Encyclopedia of Philosophy
     - [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)
