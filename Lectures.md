@@ -72,4 +72,4 @@ Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
   Tree-based Methods ([slides]({{ site.baseurl }}/assets/Lectures/Tree-based_Methods.pdf))
   - *Topics:* decision trees; ensemble methods; bagging; random forest; boosting
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/notes%20and%20resources.md)
-  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/Python)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/Python)
