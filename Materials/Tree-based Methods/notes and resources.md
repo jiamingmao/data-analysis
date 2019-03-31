@@ -1,5 +1,6 @@
 # Notes and Resources
 
+- Harvard BST 260, [Decision Trees](https://htmlpreview.github.io/?https://github.com/datasciencelabs/2018/blob/master/ml/decision-trees.html)
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 11
 - R2D3, [A Visual Introduction to Machine Learning](http://www.r2d3.us)

@@ -32,3 +32,5 @@ regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-not
     - Sensitivity and Specificity [[video](https://www.youtube.com/watch?v=sunUKFXMHGk)]
     - ROC and AUC, Clearly Explained! [[video](https://www.youtube.com/watch?v=xugjARegisk&feature=youtu.be)]
     - ROC and AUC in R [[video](https://www.youtube.com/watch?v=qcvAqAH60Yw&feature=youtu.be)]
+-  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
+- Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)

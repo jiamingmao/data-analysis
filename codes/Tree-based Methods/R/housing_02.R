@@ -7,6 +7,7 @@
 ## https://jiamingmao.github.io
 
 library(MASS)
+library(corrplot)
 library(caret)
 library(rpart)
 library(rpart.plot)
@@ -15,9 +16,24 @@ library(randomForest)
 library(gbm)
 rm(list=ls())
 head(Boston)
+corrplot(cor(Boston)) # visualize correlation matrix 
 
 set.seed(100)
 train = sample(nrow(Boston), nrow(Boston)*0.7) #training sample idx
+
+#####################
+# Linear Regression #
+#####################
+fit = lm(medv~.,data=Boston[train,])
+summary(fit)
+
+# test error
+y = Boston[-train,"medv"] #true medv on test data
+yhat = predict(fit,newdata=Boston[-train,]) 
+plot(yhat,y)
+abline(0,1)
+testErr = mean((yhat-y)^2)
+testErr
 
 #################
 # Decision Tree #
@@ -32,8 +48,7 @@ fit = prune(fit0,cp=fit0$cptable[which.min(fit0$cptable[,"xerror"]),"CP"])
 rpart.plot(fit,extra=1,box.palette="Oranges")
 
 # test error
-y = Boston[-train,"medv"] #true medv on test data
-yhat = predict(fit,newdata=Boston[-train,]) #predicted medv
+yhat = predict(fit,newdata=Boston[-train,]) 
 plot(yhat,y)
 abline(0,1)
 testErr = mean((yhat-y)^2)
@@ -50,7 +65,7 @@ partialPlot(fit, Boston[train,],rm)
 partialPlot(fit, Boston[train,],lstat)
 
 # test error
-yhat = predict(fit,newdata=Boston[-train,]) #predicted medv
+yhat = predict(fit,newdata=Boston[-train,])
 plot(yhat,y)
 abline(0,1)
 testErr = mean((yhat-y)^2)
@@ -67,7 +82,7 @@ partialPlot(fit, Boston[train,],rm)
 partialPlot(fit, Boston[train,],lstat)
 
 # test error
-yhat = predict(fit,newdata=Boston[-train,]) #predicted medv
+yhat = predict(fit,newdata=Boston[-train,]) 
 plot(yhat,y)
 abline(0,1)
 testErr = mean((yhat-y)^2)
@@ -84,7 +99,7 @@ plot(fit,i="rm")
 plot(fit,i="lstat")
 
 # test error
-yhat = predict(fit,newdata=Boston[-train,],n.trees=5000) #predicted medv
+yhat = predict(fit,newdata=Boston[-train,],n.trees=5000) 
 plot(yhat,y)
 abline(0,1)
 testErr = mean((yhat-y)^2)
