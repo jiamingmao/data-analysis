@@ -1,5 +1,6 @@
 # Notes and Resources
 
+- Merriam-Webster, [Shrink, shrank, shrunk...shrinked?](https://www.merriam-webster.com/words-at-play/shrink-shrank-shrunk-shrinked)
 - Harvard AM207
     - [Training and Testing](http://am207.info/wiki/testingtraining.html)
     - [Why do we need validation?](http://am207.info/wiki/validation.html)
