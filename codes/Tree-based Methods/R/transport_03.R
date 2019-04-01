@@ -13,8 +13,11 @@ library(rpart.plot)
 library(ipred)
 library(randomForest)
 library(gbm)
+library(mlogit)
+library(caret)
 library(ramify)
 source("decisionplot.R")
+source("decisionplot_probit.R")
 source("decisionplot_gbm.R")
 
 ## reading data
@@ -30,11 +33,33 @@ transport_test = transport[-train,]
 # Logistic Regression #
 #######################
 logitfit <- multinom(mode~.,data=transport_train) 
+summary(logitfit)
+
+# visualize decision boundary
 decisionplot(logitfit,transport_test,class="mode",main="Logistic Regression")
 
 # test err
 yhat = predict(logitfit,transport_test) 
 err <- 1-mean(yhat==transport_test$mode)
+err
+
+#####################
+# Probit Regression #
+#####################
+set.seed(100)
+transport_train_long = mlogit.data(transport_train,shape="wide",choice="mode")
+transport_test_long = mlogit.data(transport_test,shape="wide",choice="mode")
+
+probitfit = mlogit(mode ~ 0|loginc + distance,transport_train_long,probit=TRUE)
+summary(probitfit)
+
+# visualize decision boundary
+decisionplot_probit(probitfit,transport_test,class="mode",main="Probit Regression")
+
+# test err
+phat = predict(probitfit,transport_test_long) 
+yhat = argmax(phat)
+err <- 1-mean(yhat==as.numeric(transport_test$mode))
 err
 
 #######################
@@ -79,3 +104,6 @@ fhat = drop(fhat)
 yhat = argmax(fhat)
 err <- 1-mean(yhat==as.numeric(transport_test$mode))
 err
+
+# save results
+# save.image(file="transport03.RData")
