@@ -18,6 +18,6 @@ Do a simple discrete game model involving several players and estimate their uti
 
 ## Reference
 
-Estimation of games is is a type of **structural estimation**, and has been a big topic in *empirical industrial organization*.
+Estimation of games is a type of **structural estimation**, and has been a big topic in *empirical industrial organization*.
 
-While there is a long list of literature, here you can find a simple introduction to the estimation of static discrete games: [Ellickson & Misra (2011)](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Games).
+While there is a long list of literature, here you can find a simple introduction to the estimation of static games: [Ellickson & Misra (2011)](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Games).
