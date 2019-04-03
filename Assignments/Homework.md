@@ -24,6 +24,8 @@ Extra points (+0.5) for:
 - publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 
+Extra points (+1) for: completing a challenge satisfactorily.
+
 *note 1*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
 
 *note 2*: if you upload your assignment to github, you need to supply a _viewable link_. This means that the instructor needs to be able to click the link and immediately review your assignment (rather than having to download any files and open them). In practice, this means that:
