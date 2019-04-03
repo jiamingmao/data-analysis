@@ -49,6 +49,8 @@ Writing a report demonstrating a method introduced in or relevant to the lecture
 - Implement a method using simulated data
 - translate an example in class into an alternative language
 
+You **must** include your code with your report.
+
 Examples: [[1](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Homework/intro_regression.html)], [[2](https://github.com/philippbauch/simple-linear-regression-notebook/blob/master/linear-regression-demo.ipynb)]
 
 ## Empirical Analysis
@@ -56,6 +58,8 @@ Examples: [[1](http://htmlpreview.github.io/?https://github.com/jiamingmao/princ
 Analyze real data using a method introduced in or relevant to the lecture.
 
 For sources of data, see [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data) and [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research.
+
+You **must** include your code as well as your data with the report. 
 
 ## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
