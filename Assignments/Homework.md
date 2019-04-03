@@ -12,7 +12,8 @@ You can submit your assignment in two ways:
 1. compile your assignment to `pdf` or `html` and submit on Moodle
 2. upload your assignment to your personal github repo and provide a _viewable link_ to the file on Moodle.
 
-Extra points (+0.5) for:
+#### Extra Points
++0.5:
 - writing in `LaTeX`
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md).
 - writing in `markdown`, including:
@@ -24,7 +25,9 @@ Extra points (+0.5) for:
 - publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 
-Extra points (+1) for: completing a challenge satisfactorily.
++1: completing a challenge satisfactorily.
+
++0.2: suggesting additions to course materials successfully.
 
 *note 1*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
 
@@ -59,7 +62,7 @@ Analyze real data using a method introduced in or relevant to the lecture.
 
 For sources of data, see [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data) and [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research.
 
-You **must** include your code as well as your data with the report. 
+You **must** include your code as well as your data with the report.
 
 ## Academic Integrity
 - You **must** reference any sources you used in your writing using proper citations (author, year, title, time accessed, URL)
