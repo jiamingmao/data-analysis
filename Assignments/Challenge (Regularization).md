@@ -2,7 +2,7 @@
 
 [1] Look for data from one of the following sources:
 
-- [IPUMS](https://www.ipums.org/): inclding U.S. Census, American Community Survey, CPS, and other U.S. and international survey data
+- [IPUMS](https://www.ipums.org/): including the U.S. Census, American Community Survey, CPS, and other U.S. and international survey data
 - [U.S. General Social Survey (GSS)](http://gss.norc.org/)
 - [European Social Survey (ESS)](https://www.europeansocialsurvey.org/)
 
