@@ -1,4 +1,4 @@
-# Homework Challenge
+# Homework Challenge (4 Extra Points)
 
 In the random utility framework, we model individual choice as individual i choosing among K choices by maximizing her utility U(i,k), with U(i,k) being a function of observed individual and alternative characteristics x(i,k).
 
@@ -14,7 +14,7 @@ In these cases, individual choices involve **strategic interactions**, which we 
 
 Can you think of a way to model this type of strategic interactions in discrete choice problems?
 
-Do a simple discrete game model involving several players and estimate their utility parameters from data (Feel free to simulate the data yourself).
+Challenge: do a simple discrete game model involving several players and estimate their utility parameters from data (feel free to simulate the data yourself).
 
 ## Reference
 

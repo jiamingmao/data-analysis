@@ -25,9 +25,10 @@ You can submit your assignment in two ways:
 - publishing on your own github page
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/Git%20and%20Github/Git%20and%20Github.md) for instructions. see [here](https://sudongqi.github.io/) for an example.
 
-+1: completing a challenge satisfactorily.
-
 +0.2: suggesting additions to course materials successfully.
+
++n: completing a challenge satisfactorily (n varies by challenge)
+- n = maximum point you can get by doing the challenge
 
 *note 1*: if two people co-author an assignment, **both** need to submit it using one of the methods above.
 
