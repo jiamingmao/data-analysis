@@ -37,6 +37,7 @@ order: 3
 - Rodríguez, G., [R Tutorial](https://data.princeton.edu/R)
 - Michonneau, F., [The R Class](http://r-bio.github.io/)
 - Grolemund, G. and H. Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
+- Ejdemyr, S., [R Tutorials: Statistics](https://sejdemyr.github.io/r-tutorials/statistics/)
 - McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
 - [R Markdown from RStudio](http://rmarkdown.rstudio.com)
 - Bryan, J., [Test drive R Markdown](http://stat545.com/block007_first-use-rmarkdown.html)
