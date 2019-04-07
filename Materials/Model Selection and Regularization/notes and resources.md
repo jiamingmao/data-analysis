@@ -23,7 +23,6 @@
 - UC Business Analytics R Programming Guide
     - [Linear Model Selection](https://uc-r.github.io/model_selection)
     - [Regularized Regression](https://uc-r.github.io/regularized_regression)
-
 - StatQuest
     - Cross Validation [[video](https://www.youtube.com/watch?v=fSytzGwwBVw&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=3&t=0s)]
     - Ridge Regression [[video](https://www.youtube.com/watch?v=Q81RR3yKn30&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=9&t=0s)]
@@ -31,3 +30,4 @@
     - Elastic Net [[video](https://www.youtube.com/watch?v=1dKRdX9bfIo&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=11&t=0s)]
     - Ridge, Lasso and Elastic-Net Regression in R [[video](https://www.youtube.com/watch?v=ctmNq7FgbvI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=12&t=0s)]
 - Minka, [Bayesian model selection](http://alumni.media.mit.edu/~tpminka/statlearn/demo/)
+- Mount & Zumel, [How do you know if your model is going to work?](http://www.win-vector.com/blog/2015/09/isyourmodelgoingtowork/)
