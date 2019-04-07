@@ -8,9 +8,9 @@ toc:
 - Foundations of Statistical Learning
 - Regression
 - The Truth about P-values
-- Classification
+- Classification and Discrete Choice Models
 - Model Selection and Regularization
-- Tree-based Methods
+- Decision Trees and Ensemble Learning
 ---
 
 <p style="height: 1px"></p>
@@ -49,10 +49,10 @@ The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_
 
 ---
 
-<a id="classification" />
+<a id="classification-and-discrete-choice-models" />
 
-Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
-  - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; independence of irrelevant alternatives (IIA)
+Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
+  - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Python)
 
@@ -67,9 +67,9 @@ Classification ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
 
   ---
 
-  <a id="tree-based-methods" />
+  <a id="decision-trees-and-ensemble-learning" />
 
-  Tree-based Methods ([slides]({{ site.baseurl }}/assets/Lectures/Tree-based_Methods.pdf))
-  - *Topics:* decision trees; ensemble methods; bagging; random forest; boosting
+  Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lectures/Tree-based_Methods.pdf))
+  - *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
   - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/notes%20and%20resources.md)
   - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/Python)
