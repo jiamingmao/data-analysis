@@ -53,8 +53,8 @@ The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_
 
 Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification.pdf))
   - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
-  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification/notes%20and%20resources.md)
-  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification/Python)
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification%20and%20Discrete%20Choice%20Models/R), [`Stata`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification%20and%20Discrete%20Choice%20Models/Stata), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification%20and%20Discrete%20Choice%20Models/Python)
 
   ---
 
@@ -71,5 +71,5 @@ Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Le
 
   Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lectures/Tree-based_Methods.pdf))
   - *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
-  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Tree-based%20Methods/notes%20and%20resources.md)
-  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Tree-based%20Methods/Python)
+  - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Learning/notes%20and%20resources.md)
+  - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Learning/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Learning/Python)
