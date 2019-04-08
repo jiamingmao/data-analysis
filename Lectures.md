@@ -79,6 +79,6 @@ Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lecture
 <a id="neural-networks" />
 
 Neural Networks ([slides]({{ site.baseurl }}/assets/Lectures/Neural-Networks.pdf))
-- *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
+- *Topics:* the multilayer perceptron; neural network; deep learning
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Neural%20Networks/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/Python)
