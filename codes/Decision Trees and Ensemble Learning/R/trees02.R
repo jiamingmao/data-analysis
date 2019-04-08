@@ -1,6 +1,6 @@
-########################
-## Trees: Simulation 2 #
-########################
+##########
+## Trees #
+##########
 ## Code to accompany Lecture on 
 ## Tree-based Methods
 ## Jiaming Mao (jmao@xmu.edu.cn)
