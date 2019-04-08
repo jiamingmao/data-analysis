@@ -10,7 +10,8 @@ toc:
 - The Truth about P-values
 - Classification and Discrete Choice Models
 - Model Selection and Regularization
-- Decision Trees and Ensemble Learning
+- Decision Trees and Ensemble Methods
+- Neural Networks
 ---
 
 <p style="height: 1px"></p>
@@ -69,16 +70,16 @@ Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/
 
 <a id="decision-trees-and-ensemble-learning" />
 
-Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lectures/Decision_Trees_and_Ensemble_Learning.pdf))
+Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf))
 - *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
-- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Learning/notes%20and%20resources.md)
-- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Learning/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Learning/Python)
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Methods/notes%20and%20resources.md)
+- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Methods/Python)
 
 ---
 
 <a id="neural-networks" />
 
-Neural Networks ([slides]({{ site.baseurl }}/assets/Lectures/Neural-Networks.pdf))
+Neural Networks ([slides]({{ site.baseurl }}/assets/Lectures/Neural_Networks.pdf))
 - *Topics:* the multilayer perceptron; neural network; deep learning
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Neural%20Networks/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/Python)
