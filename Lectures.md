@@ -70,7 +70,7 @@ Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/
 
 <a id="decision-trees-and-ensemble-learning" />
 
-Decision Trees and Ensemble Learning ([slides]({{ site.baseurl }}/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf))
+Decision Trees and Ensemble Methods ([slides]({{ site.baseurl }}/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf))
 - *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Methods/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Methods/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Decision%20Trees%20and%20Ensemble%20Methods/Python)
