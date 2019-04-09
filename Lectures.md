@@ -5,6 +5,7 @@ order: 2
 editor: Jiaming Mao
 toc:
 - Introduction
+- Part I
 - Foundations of Statistical Learning
 - Regression
 - The Truth about P-values
@@ -12,6 +13,8 @@ toc:
 - Model Selection and Regularization
 - Decision Trees and Ensemble Methods
 - Neural Networks
+- Part II
+- Foundations of Causal Inference
 ---
 
 <p style="height: 1px"></p>
@@ -22,6 +25,8 @@ Introduction ([slides]({{ site.baseurl }}/assets/Lectures/Data_Analysis_for_Econ
 - *Topics:* regression; classification; supervised vs. unsupervised learning; parametric vs. nonparametric models; bias-variance tradeoff; causal inference; treatment effect; randomized experiment; self-selection bias; causal diagram; structural estimation; counterfactual simulation
 
 ---
+
+<a id="part-I" />
 
 ## Part I
 
@@ -85,6 +90,8 @@ Neural Networks ([slides]({{ site.baseurl }}/assets/Lectures/Neural_Networks.pdf
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/Python)
 
 ---
+
+<a id="part-II" />
 
 ## Part II
 
