@@ -83,3 +83,13 @@ Neural Networks ([slides]({{ site.baseurl }}/assets/Lectures/Neural_Networks.pdf
 - *Topics:* the multilayer perceptron; neural network; deep learning
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Neural%20Networks/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/R), [`Python`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Neural%20Networks/Python)
+
+---
+
+## Part II
+
+<a id="foundations-of-causal-inference" />
+
+Foundations of Causal Inference ([slides]({{ site.baseurl }}/assets/Lectures/Foundations_of_Causal_Inference.pdf))
+- *Topics:* causal effect and causal mechanism learning; Rubin causal model; potential outcomes framework; average treatment effect; randomized controlled trials (RCT); exchangeability; self-selection bias; sample-selection bias; internal and external validity; SUTVA; Bayesian belief network; causal model; causal diagrams; endogeneity and exogeneity; selection on observables; selection on unobservables; identification of causal effects; do-calculus; back-door and front-door criterion; reduced-form analysis; structural estimation; counterfactual simulation
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Foundations%20of%20Causal%20Inference/notes%20and%20resources.md)
