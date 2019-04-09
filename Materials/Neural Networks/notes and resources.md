@@ -1,8 +1,11 @@
 # Notes and Resources
 
 - Nielsen, [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+- Zhang et al, [Dive into Deep Learning](https://d2l.ai/index.html)
 - Harvard AM207, [MLP as universal approximator](http://am207.info/wiki/FuncTorch.html)
-- Stanford CS231n, [Neural Networks](https://cs231n.github.io/neural-networks-1/)
+- Stanford CS231n,
+    - [Neural Networks](https://cs231n.github.io/neural-networks-1/)
+    - [Convolutional Neural Networks](http://cs231n.github.io/convolutional-networks/)
 - Wiecki, [Hierarchical Bayesian Neural Networks with Informative Priors](https://twiecki.io/blog/2018/08/13/hierarchical_bayesian_neural_network/)
 - Boney, [Theoretical Motivations for Deep Learning](https://rinuboney.github.io/2015/10/18/theoretical-motivations-deep-learning.html)
 - Skalski,
@@ -10,3 +13,15 @@
     - [Preventing Deep Neural Network from Overfitting](https://towardsdatascience.com/preventing-deep-neural-network-from-overfitting-953458db800a)
     - [Let’s code a Neural Network in plain NumPy](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795)
     - [How to train Neural Network faster with optimizers?](https://towardsdatascience.com/how-to-train-neural-network-faster-with-optimizers-d297730b3713)
+- Olah et al,
+    - [Neural Networks, Types, and Functional Programming](http://colah.github.io/posts/2015-09-NN-Types-FP/)
+    - [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
+    - [Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
+    - [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+    - [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+    - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+    - [Four Experiments in Handwriting with a Neural Network](https://distill.pub/2016/handwriting/)
+    - [Feature Visualization](https://distill.pub/2017/feature-visualization/)
+    - [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
+    - [Visualizing Representations: Deep Learning and Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
+- Barrat, [art-DCGAN](https://github.com/robbiebarrat/art-DCGAN)
