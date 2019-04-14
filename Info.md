@@ -41,7 +41,6 @@ There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
 - Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press.
-- Angrist and Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press.
 - Hernán, M. A. and J. M. Robins (2019). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
 - Morgan, S. L. and C. Winship. (2007). *Counterfactuals and Causal Inference: Methods and Principles for Social Research*. Cambridge University Press.
 - James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
