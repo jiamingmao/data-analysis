@@ -4,6 +4,7 @@
 
 - [IPUMS](https://www.ipums.org/): including the U.S. Census, American Community Survey, CPS, and other U.S. and international survey data
 - [U.S. General Social Survey (GSS)](http://gss.norc.org/)
+- [China General Soical Survey (CGSS)](http://cnsda.ruc.edu.cn/)
 - [European Social Survey (ESS)](https://www.europeansocialsurvey.org/)
 
 [2] Select an interesting target variable and *at least* 50 feature variables.
