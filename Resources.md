@@ -15,10 +15,8 @@ order: 3
 - [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/index.html) (Balcan & Mitchell, CMU)
 - [Principles and Techniques of Data Science](http://www.ds100.org) (Berkeley DS100)
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
-- [Data over Space and Time](http://www.stat.cmu.edu/~cshalizi/dst/18/) (Shalizi, CMU)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
-- [Applied Econometrics](https://www.ssc.wisc.edu/~ctaber/teaching.html) (Taber, Wisconsin)
-- [Empirical Microeconomics](http://economics.ozier.com/econ626) (Jakiela & Ozier, Maryland)
+- [A Crash Course in Causality: Inferring Causal Effects from Observational Data](https://www.coursera.org/learn/crash-course-in-causality/) (Roy, Penn)
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 
 ---
