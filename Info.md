@@ -47,6 +47,7 @@ There are no textbooks for this course. Recommended readings:
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 
 ### Graduate
+- Abu-Mostafa, Y. S., M. Magdon-Ismail, and H. Lin. (2012). *Learning from Data*. AMLBook.
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press.
 - Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press.
