@@ -14,6 +14,6 @@ The course spans the fields of econometrics, statistics, and computer science. A
 ## Course Information
 - Instructor: **Jiaming Mao**
 - Email: jmao@xmu.edu.cn
-- Course Website: [jiamingmao.github.io/data-analysis](http://jiamingmao.github.io/data-analysis)
+- Course Website: [jiamingmao.github.io/data-analysis](https://jiamingmao.github.io/data-analysis)
 - Course Information: syllabus ([pdf](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf), [slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course_Info.html))
 - Review Session: [github.com/trustxiaoqinwang/Microeconometrics_TA_Session](https://github.com/trustxiaoqinwang/Microeconometrics_TA_Session)
