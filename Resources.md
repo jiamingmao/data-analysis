@@ -37,8 +37,7 @@ order: 3
 - Ejdemyr, S., [R Tutorials: Statistics](https://sejdemyr.github.io/r-tutorials/statistics/)
 - McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
 - [R Markdown from RStudio](http://rmarkdown.rstudio.com)
-- Bryan, J., [Test drive R Markdown](http://stat545.com/block007_first-use-rmarkdown.html)
-- Shalizi, C., [Using R Markdown for Class Reports](http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
+- Xie et al., [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
 ### Stata
 - Rodríguez, G., [Stata Tutorial](https://data.princeton.edu/stata), [Stata Markdown](https://data.princeton.edu/stata/markdown)
