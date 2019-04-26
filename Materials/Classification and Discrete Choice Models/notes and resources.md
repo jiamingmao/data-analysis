@@ -8,11 +8,16 @@
     - [Multinomial Regression](http://r-statistics.co/Multinomial-Regression-With-R.html)
     - [Ordinal Logistic Regression](http://r-statistics.co/Ordinal-Logistic-Regression-With-R.html)
     - [Poisson and Negative Binomial Regression](http://r-statistics.co/Poisson-and-Negative-Binomial-Regression-With-R.html)
+- fast.ai
+    - [Log Loss](http://wiki.fast.ai/index.php/Log_Loss)
+    - [Logistic Regression](http://wiki.fast.ai/index.php/Logistic_Regression)
 - UC Business Analytics R Programming Guide, [Logistic Regression](https://uc-r.github.io/logistic_regression)
 - Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
     - Chapter 17, 18
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 17
+- Harvard AM207
+    - [Logistic Regression MLE](http://am207.info/wiki/LogisticBP.html)
 - Stanford CS229
     - [Classification and logistic regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
     - [Binary classification](http://cs229.stanford.edu/extra-notes/loss-functions.pdf)

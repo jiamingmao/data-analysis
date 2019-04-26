@@ -1,11 +1,36 @@
 # Notes and Resources
 
+- TensorFlow, [A Neural Network Playground](https://playground.tensorflow.org)
 - Nielsen, [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 - Zhang et al, [Dive into Deep Learning](https://d2l.ai/index.html)
-- Harvard AM207, [MLP as universal approximator](http://am207.info/wiki/FuncTorch.html)
+- Distill, [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+- Daumé III, [A Course in Machine Learning](http://ciml.info/)
+    - Chapter 4, 10
+- Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
+    - Chapter 11
+- UFLDL
+    - [Stochastic Gradient Descent](http://deeplearning.stanford.edu/tutorial/supervised/OptimizationStochasticGradientDescent/)
+    - [Multi-Layer Neural Network](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
+- Harvard AM207
+    - [Gradient Descent](http://am207.info/wiki/gradientdescent.html)
+    - [MLP as universal approximator](http://am207.info/wiki/FuncTorch.html)
+    - [How sigmoids combine](http://am207.info/wiki/nnreg.html)
+    - [Classification using Multi-Layer Perceptrons](http://am207.info/wiki/MLP_Classification.html)
+- Stanford CS229
+    - [Gradient Descent](http://cs229.stanford.edu/notes-spring2019/Gradient_Descent_Viz.pdf)
+    - [Backpropagation](http://cs229.stanford.edu/notes-spring2019/backprop.pdf)
+    - [Deep Learning](http://cs229.stanford.edu/notes-spring2019/cs229-notes-deep_learning.pdf)
 - Stanford CS231n
-    - [Neural Networks](https://cs231n.github.io/neural-networks-1/)
+    - [Stochastic Gradient Descent](https://cs231n.github.io/optimization-1/)
+    - [Backpropagation](https://cs231n.github.io/)
+    - Neural Networks ([Part I](https://cs231n.github.io/neural-networks-1/), [II](https://cs231n.github.io/neural-networks-2/), [III](https://cs231n.github.io/neural-networks-3/), [example](https://cs231n.github.io/neural-networks-case-study/))
     - [Convolutional Neural Networks](http://cs231n.github.io/convolutional-networks/)
+- fast.ai
+    - [Gradient Descent](http://wiki.fast.ai/index.php/Gradient_Descent)
+    - [Linear Algebra for Deep Learning](http://wiki.fast.ai/index.php/Linear_Algebra_for_Deep_Learning)
+    - [Calculus for Deep Learning](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning)
+- Ruder, [An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/)
+- Parr & Howard, [The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/index.html)
 - Wiecki, [Hierarchical Bayesian Neural Networks with Informative Priors](https://twiecki.io/blog/2018/08/13/hierarchical_bayesian_neural_network/)
 - Boney, [Theoretical Motivations for Deep Learning](https://rinuboney.github.io/2015/10/18/theoretical-motivations-deep-learning.html)
 - Skalski
@@ -24,4 +49,5 @@
     - [Feature Visualization](https://distill.pub/2017/feature-visualization/)
     - [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
     - [Visualizing Representations: Deep Learning and Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
+- scikit-learn, [Stochastic Gradient Descent](https://scikit-learn.org/stable/modules/sgd.html)
 - Barrat, [art-DCGAN](https://github.com/robbiebarrat/art-DCGAN)
