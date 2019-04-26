@@ -3,7 +3,7 @@
 - TensorFlow, [A Neural Network Playground](https://playground.tensorflow.org)
 - Nielsen, [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 - Zhang et al, [Dive into Deep Learning](https://d2l.ai/index.html)
-- Distill, [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+- [Deep Learning Tutorials](http://deeplearning.net/tutorial/)
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 4, 10
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
@@ -29,6 +29,7 @@
     - [Gradient Descent](http://wiki.fast.ai/index.php/Gradient_Descent)
     - [Linear Algebra for Deep Learning](http://wiki.fast.ai/index.php/Linear_Algebra_for_Deep_Learning)
     - [Calculus for Deep Learning](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning)
+- Distill, [Why Momentum Really Works](https://distill.pub/2017/momentum/)     
 - Ruder, [An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/)
 - Parr & Howard, [The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/index.html)
 - Wiecki, [Hierarchical Bayesian Neural Networks with Informative Priors](https://twiecki.io/blog/2018/08/13/hierarchical_bayesian_neural_network/)
