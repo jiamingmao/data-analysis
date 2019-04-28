@@ -29,7 +29,7 @@
     - [Gradient Descent](http://wiki.fast.ai/index.php/Gradient_Descent)
     - [Linear Algebra for Deep Learning](http://wiki.fast.ai/index.php/Linear_Algebra_for_Deep_Learning)
     - [Calculus for Deep Learning](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning)
-- Distill, [Why Momentum Really Works](https://distill.pub/2017/momentum/)     
+- Distill, [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 - Ruder, [An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/)
 - Parr & Howard, [The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/index.html)
 - Wiecki, [Hierarchical Bayesian Neural Networks with Informative Priors](https://twiecki.io/blog/2018/08/13/hierarchical_bayesian_neural_network/)
@@ -52,3 +52,8 @@
     - [Visualizing Representations: Deep Learning and Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
 - scikit-learn, [Stochastic Gradient Descent](https://scikit-learn.org/stable/modules/sgd.html)
 - Barrat, [art-DCGAN](https://github.com/robbiebarrat/art-DCGAN)
+
+---
+
+# Books
+- Goodfellow, I., Y. Bengio, and A. Courville. (2016). *Deep Learning*, MIT Press. [[book website](https://www.deeplearningbook.org/)]
