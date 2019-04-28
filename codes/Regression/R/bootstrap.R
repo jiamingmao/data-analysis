@@ -26,13 +26,13 @@ bootsample <- sample(n,n,replace=T) # generate one bootstrap sample
 alpha(Portfolio,bootsample) # calculate alpha based on this bootstrap sample
 
 # Bootstrap
-boot(Portfolio,alpha,R=1000) # calculate alpha based on 1000 bootstrap samples
+B = 1000 # number of bootstrap samples 
+boot(Portfolio,alpha,R=B) # calculate alpha based on B bootstrap samples
 
 # ------ we can do bootstrap in parallel -----
 boot(Portfolio,alpha,R=B, parallel="multicore")
 
 # ------ we can also do bootstrap manually -----
-B = 1000 # number of bootstrap samples 
 A = numeric(B)
 for(i in 1:B) {
   A[i] <- alpha(Portfolio,sample(n,n,replace=T))
