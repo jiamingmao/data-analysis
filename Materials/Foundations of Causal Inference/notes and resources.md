@@ -10,3 +10,4 @@
     - The New Science of Cause and Effect [[video](https://www.youtube.com/watch?v=ZaPV1OSEpHw)]
     - The Mathematics of Causal Inference: with Reflections on Machine Learning [[video](https://www.youtube.com/watch?time_continue=206&v=bcRl7sXR1hE)]
 - Athey, Machine Learning and Causal Inference for Policy Evaluation [[video](https://www.youtube.com/watch?v=Yx6qXM_rfKQ)]
+- Diebold, [Mostly Harmless Econometrics?](https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html)
