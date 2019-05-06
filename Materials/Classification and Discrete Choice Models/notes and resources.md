@@ -41,3 +41,10 @@
     - ROC and AUC in R [[video](https://www.youtube.com/watch?v=qcvAqAH60Yw&feature=youtu.be)]
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
 - Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)
+
+## Student Contributions
+- Xiaoyu Ji, [Heart Disease Classification with R](https://xiaoyuji001.github.io/blog/2019/04/13/classification)
+- Xiaolu Li, [Heart Disease Classification with Python](https://xiaoluli97.github.io/2019/04/06/DA-A3/)
+- Youwen Zhang, [KNN Classification](https://zywxmu2016.github.io/2019/04/13/hw3/)
+- Zihan Zhang, [IIA and Nested Logit](https://landbuland.github.io/moments/2019/04/07/Homework-3-for-Data-Analysis.html)
+- Yuwei Zheng, [The Battle of the Sexes](https://github.com/Yuwei-Econ/yuwei-econ.github.io/blob/master/Homework3.md)
