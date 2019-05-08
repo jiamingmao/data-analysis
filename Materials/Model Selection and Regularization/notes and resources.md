@@ -31,3 +31,7 @@
     - Ridge, Lasso and Elastic-Net Regression in R [[video](https://www.youtube.com/watch?v=ctmNq7FgbvI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=12&t=0s)]
 - Minka, [Bayesian model selection](http://alumni.media.mit.edu/~tpminka/statlearn/demo/)
 - Mount & Zumel, [How do you know if your model is going to work?](http://www.win-vector.com/blog/2015/09/isyourmodelgoingtowork/)
+
+## Student Contributions
+- Zichao Li, [Shrinkage Estimation of Attitude toward Gun Control](https://lzc563236.github.io/2019/04/21/Homework4/)
+- Zihan Zhang & Zhaokun Zhang, [Predicting Nationality](https://landbuland.github.io/moments/2019/04/14/Homework-4-for-Data-Analysis.html)
