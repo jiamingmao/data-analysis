@@ -10,4 +10,4 @@
 
 3. Write a short tutorial on structural estimation and its applications in applied microeconomic research (such as labor economics and industrial organization).
 
-    - Your tutorial should be targetted toward your fellow students. Try to explain what structural estimation is, how it has been applied in various fields on applied microeconomics, and what its strength and limitations are.
+    - Your tutorial should be targetted toward your fellow students. Try to explain what structural estimation is, how it has been applied in the various fields of applied microeconomics, and what its strengths and limitations are.
