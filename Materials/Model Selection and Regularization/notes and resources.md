@@ -23,15 +23,8 @@
 - UC Business Analytics R Programming Guide
     - [Linear Model Selection](https://uc-r.github.io/model_selection)
     - [Regularized Regression](https://uc-r.github.io/regularized_regression)
-- StatQuest
-    - Cross Validation [[video](https://www.youtube.com/watch?v=fSytzGwwBVw&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=3&t=0s)]
-    - Ridge Regression [[video](https://www.youtube.com/watch?v=Q81RR3yKn30&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=9&t=0s)]
-    - Lasso Regression [[video](https://www.youtube.com/watch?v=NGf0voTMlcs&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=10&t=30s)]
-    - Elastic Net [[video](https://www.youtube.com/watch?v=1dKRdX9bfIo&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=11&t=0s)]
-    - Ridge, Lasso and Elastic-Net Regression in R [[video](https://www.youtube.com/watch?v=ctmNq7FgbvI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=12&t=0s)]
 - Minka, [Bayesian model selection](http://alumni.media.mit.edu/~tpminka/statlearn/demo/)
 - Mount & Zumel, [How do you know if your model is going to work?](http://www.win-vector.com/blog/2015/09/isyourmodelgoingtowork/)
 
 ## Student Contributions
 - Zichao Li, [Shrinkage Estimation of Attitude toward Gun Control](https://lzc563236.github.io/2019/04/21/Homework4/)
-- Zihan Zhang & Zhaokun Zhang, [Predicting Nationality](https://landbuland.github.io/moments/2019/04/14/Homework-4-for-Data-Analysis.html)

@@ -33,12 +33,6 @@
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 3, 6
 - Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
-- StatQuest
-    - Logistic Regression [video: [part 1](https://www.youtube.com/watch?v=yIYKR4sgzI8&feature=youtu.be), [2](https://www.youtube.com/watch?v=vN5cNN2-HWE&feature=youtu.be), [3](https://www.youtube.com/watch?v=BfKanl1aSG0&feature=youtu.be), [4](https://www.youtube.com/watch?v=xxFYro8QuXA&feature=youtu.be)]
-    - The Confusion Matrix [[video](https://www.youtube.com/watch?v=Kdsp6soqA7o)]
-    - Sensitivity and Specificity [[video](https://www.youtube.com/watch?v=sunUKFXMHGk)]
-    - ROC and AUC, Clearly Explained! [[video](https://www.youtube.com/watch?v=xugjARegisk&feature=youtu.be)]
-    - ROC and AUC in R [[video](https://www.youtube.com/watch?v=qcvAqAH60Yw&feature=youtu.be)]
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
 - Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)
 
@@ -46,5 +40,4 @@
 - Xiaoyu Ji, [Heart Disease Classification with R](https://xiaoyuji001.github.io/blog/2019/04/13/classification)
 - Xiaolu Li, [Heart Disease Classification with Python](https://xiaoluli97.github.io/2019/04/06/DA-A3/)
 - Youwen Zhang, [KNN Classification](https://zywxmu2016.github.io/2019/04/13/hw3/)
-- Zihan Zhang, [IIA and Nested Logit](https://landbuland.github.io/moments/2019/04/07/Homework-3-for-Data-Analysis.html)
 - Yuwei Zheng, [The Battle of the Sexes](https://github.com/Yuwei-Econ/yuwei-econ.github.io/blob/master/Homework3.md)
