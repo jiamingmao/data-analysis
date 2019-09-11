@@ -1,9 +1,9 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Data Analysis for Economics
-tagline:             'A Modern Introduction'
-description:         'Data Analysis for Economics'
+title:               Modern Data Analysis for Economics
+tagline:             'Statistical Modeling and Causal Inference'
+description:         'Modern Data Analysis for Economics'
 url:                 'http://jiamingmao.github.io'
 baseurl:             '/data-analysis'
 
@@ -16,7 +16,7 @@ author:
 # Permalinks
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: 
+color-scheme:
 
 permalink: pretty
 permalink: /:title/

@@ -11,11 +11,8 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 ## Assistant
-**Tie Shi**<br>
+**Muqing Song**<br>
 Email: <shitie@stu.xmu.edu.cn>
-
-**Xiaoqin Wang**<br>
-Email: <xqwang@stu.xmu.edu.cn>
 
 ---
 
