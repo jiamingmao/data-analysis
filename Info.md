@@ -12,7 +12,7 @@ Email: <jmao@xmu.edu.cn>
 
 ## Assistant
 **Muqing Song**<br>
-Email: <shitie@stu.xmu.edu.cn>
+Email: <smq941213@163.com>
 
 ---
 
@@ -22,7 +22,7 @@ Email: <shitie@stu.xmu.edu.cn>
 
 ## Requirements
 
-You are expected to have some familiarity with at least one programming/statistical computing language. We provide ample data analysis problems for you to work through in this course. Programs in `R`, `Python`, and `Stata` are provided. For your homework and final project, you can choose any language that you are familiar with.
+You are expected to have some familiarity with at least one programming/statistical computing language (`R`, `Python`, `Matlab`, `Stata`, etc.). We will provide ample data analysis problems for you to work through in this course. For your homework and final project, you can choose any language that you are familiar with.
 
 ---
 
