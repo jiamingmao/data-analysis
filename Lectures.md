@@ -13,7 +13,7 @@ toc:
 
 <a id="introduction" />
 
-Introduction ([slides]({{ site.baseurl }}/assets/Lectures/Data_Analysis_for_Economics_-_Introduction.pdf))
+Introduction ([slides]({{ site.baseurl }}/assets/Lectures/Data_Analysis_for_Economics_-_Introduction.pdf)) [[video](https://www.youtube.com/watch?v=EFbEO3CUD9c)]
 - *Topics:* regression; classification; supervised vs. unsupervised learning; parametric vs. nonparametric models; bias-variance tradeoff; causal inference; treatment effect; randomized experiment; self-selection bias; causal diagram; structural estimation; counterfactual simulation
 
 ---
