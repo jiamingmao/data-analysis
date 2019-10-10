@@ -7,6 +7,7 @@ toc:
 - Introduction
 - Part I
 - Foundations of Statistical Learning
+- Regression
 ---
 
 <p style="height: 1px"></p>
@@ -35,4 +36,4 @@ Foundations of Statistical Learning ([slides]({{ site.baseurl }}/assets/Lectures
 Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 - *Topics:* linear regression; hypothesis testing; bootstrap; linear basis expansion; polynomial regression; piecewise constant regression; regression splines; generalized additive model
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Regression/notes%20and%20resources.md)
-- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Regression/R)
+- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Regression/codes/R)
