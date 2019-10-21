@@ -8,6 +8,7 @@ toc:
 - Part I
 - Foundations of Statistical Learning
 - Regression
+- The Truth about P-values
 ---
 
 <p style="height: 1px"></p>
@@ -33,7 +34,15 @@ Foundations of Statistical Learning ([slides]({{ site.baseurl }}/assets/Lectures
 
 <a id="regression" />
 
-Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
+Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf)) [[video](https://www.youtube.com/watch?v=-I882DMYbss&list=PLazlcI8_-ZkMIWIxCSu_HbbNn3L16FYhL&index=9)]
 - *Topics:* linear regression; hypothesis testing; bootstrap; linear basis expansion; polynomial regression; piecewise constant regression; regression splines; generalized additive model
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Regression/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Regression/codes/R)
+
+---
+
+<a id="the-truth-about-p-values" />
+
+The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_about_P-values.pdf))
+- *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/The%20Truth%20about%20P-values/notes%20and%20resources.md)
