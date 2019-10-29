@@ -32,6 +32,10 @@
 - Arnold, [Generalized Linear Models](https://jrnold.github.io/bayesian_notes/generalized-linear-models.html)
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 3, 6
+- Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
+    - Chapter 17
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 10
 - Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
 - Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)

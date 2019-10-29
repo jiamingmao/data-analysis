@@ -12,6 +12,10 @@
     - Chapter 16
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 2, 4, 5
+- Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
+    - Chapter 16
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 24, 25
 - Hyndman
     - [Cross-validation for time series](https://robjhyndman.com/hyndsight/tscv/)
     - [Time series cross-validation: an R example](https://robjhyndman.com/hyndsight/tscvexample/)

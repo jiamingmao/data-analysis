@@ -16,6 +16,8 @@
     - [Bias-Variance and Error Analysis](http://cs229.stanford.edu/section/error-analysis.pdf)
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 2, 9, 12
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 8
 - Fortmann-Roe, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 - Olah, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
 - The RL Probabilist, [KL Divergence for Machine Learning](https://dibyaghosh.com/blog/probability/kldivergence.html)

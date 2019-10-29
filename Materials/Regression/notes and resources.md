@@ -15,6 +15,10 @@
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 3
 - Harvard AM207, [From the normal model to regression](http://am207.info/wiki/normalreg.html)
+- Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
+    - Chapter 7 - 15
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 6
 - fast.ai, [Linear Regression](http://wiki.fast.ai/index.php/Linear_Regression)
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Vanhove, [Some illustrations of bootstrapping](https://janhove.github.io/teaching/2016/12/20/bootstrapping)
