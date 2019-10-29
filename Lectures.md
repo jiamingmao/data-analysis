@@ -44,7 +44,7 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf)) [[video
 
 <a id="the-truth-about-p-values" />
 
-The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_about_P-values.pdf))
+The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_about_P-values.pdf)) [[video](https://www.youtube.com/watch?v=engy9fb8KRo&list=PLazlcI8_-ZkMIWIxCSu_HbbNn3L16FYhL&index=12)]
 - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/The%20Truth%20about%20P-values/notes%20and%20resources.md)
 
@@ -52,7 +52,7 @@ The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_
 
 <a id="classification-and-discrete-choice-models" />
 
-Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf))
+Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)) [[video](https://www.youtube.com/watch?v=32SB84Vl9mE&list=PLazlcI8_-ZkMIWIxCSu_HbbNn3L16FYhL&index=14)]
 - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification%20and%20Discrete%20Choice%20Models/R)
