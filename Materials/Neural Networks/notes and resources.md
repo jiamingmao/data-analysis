@@ -8,6 +8,8 @@
     - Chapter 4, 10
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 11
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 28
 - UFLDL
     - [Stochastic Gradient Descent](http://deeplearning.stanford.edu/tutorial/supervised/OptimizationStochasticGradientDescent/)
     - [Multi-Layer Neural Network](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)

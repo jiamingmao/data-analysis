@@ -36,6 +36,11 @@
     - Chapter 17
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
     - Chapter 10
+- Colonescu, [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
+    - Chapter 16
+- Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+    - Chapter 11
+- Rodrigues, [Nonlinear Gmm with R - Example with a logistic regression](https://www.brodrigues.co/blog/2013-11-07-gmm-with-rmd/)
 - Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
 - Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)

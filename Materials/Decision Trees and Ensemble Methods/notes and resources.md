@@ -3,6 +3,8 @@
 - Harvard BST 260, [Decision Trees](https://htmlpreview.github.io/?https://github.com/datasciencelabs/2018/blob/master/ml/decision-trees.html)
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 11
+- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Chapter 26, 27
 - Stanford CS229
     - [Boosting algorithms and weak learning](http://cs229.stanford.edu/extra-notes/boosting.pdf)
 - R2D3, [A Visual Introduction to Machine Learning](http://www.r2d3.us)
@@ -19,3 +21,4 @@
     - [Gradient Boosting Machines](https://uc-r.github.io/gbm_regression)
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 13
+- Rodrigues, [Predicting job search by training a random forest on an unbalanced dataset](https://www.brodrigues.co/blog/2018-02-11-census-random_forest/)

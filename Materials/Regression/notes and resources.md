@@ -19,11 +19,13 @@
     - Chapter 7 - 15
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
     - Chapter 6
+- Colonescu, [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
+    - Chapter 2 - 8
+- Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+    - Chapter 4 - 9
 - fast.ai, [Linear Regression](http://wiki.fast.ai/index.php/Linear_Regression)
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Vanhove, [Some illustrations of bootstrapping](https://janhove.github.io/teaching/2016/12/20/bootstrapping)
-- Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
-    - Chapter 4 - 9
 - r-statistics.co
     - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
@@ -32,3 +34,5 @@
 - UC Business Analytics R Programming Guide
     - [Linear Regression](https://uc-r.github.io/linear_regression)
     - [Multivariate Adaptive Regression Splines](http://uc-r.github.io/mars)
+- Rodrigues, [Dealing with heteroskedasticity: regression with robust standard errors using R](https://www.brodrigues.co/blog/2018-07-08-rob_stderr/)
+- Rodrigues, [Split-apply-combine for Maximum Likelihood Estimation of a linear model](https://www.brodrigues.co/blog/2019-10-05-parallel_maxlik/)
