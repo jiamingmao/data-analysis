@@ -2,9 +2,9 @@
 ## Ketchup #
 ############
 ## Code to accompany Lecture on 
-## Classification
+## Classification and Discrete Choice Models
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 library(mlogit)
 rm(list=ls())
@@ -32,14 +32,6 @@ probitfit2$omega
 logitfit <- mlogit(choice ~ price|income, ketchup.long, reflevel = "stb")
 summary(logitfit)
 logitfit$omega
-
-################
-# Nested Logit #
-################
-nlfit = mlogit(choice ~ price|income, ketchup.long, reflevel = "stb",
-               nests = list(g1 = c("stb","delmonte"), g2 = c("heinz","hunts")))
-summary(nlfit)
-nlfit$omega
 
 ############################################
 # Experiment: 20% price increase for Heinz #

@@ -2,9 +2,9 @@
 ## Probit #
 ###########
 ## Code to accompany Lecture on 
-## Classification
+## Classification and Discrete Choice Models
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 library(MASS)
 library(ramify)
@@ -28,9 +28,6 @@ y <- factor(y)
 prop.table(table(y))
 mydata <- data.frame(s,y)
 head(mydata)
-
-## visualize data
-boxplot(s~y,xlab="y",ylab="s", col=c("cornflowerblue","brown"))
 
 ## Probit regression
 probitfit <- glm(y ~ s,family = binomial(link = "probit"))
@@ -68,7 +65,6 @@ summary(probitfit)
 beta_true <- c(-12,20)/sqrt(sig[1]^2+sig[2]^2-2*rho*sig[1]*sig[2])
 beta_true
 
-
 ################
 # Experiment 3 #
 ################
@@ -90,6 +86,6 @@ probitfit <- glm(y ~ s + z1 + z2,family = binomial(link = "probit"))
 summary(probitfit)
 
 ## Probit regression 2
-dz = z2 - z1
+dz <- z2 - z1
 probitfit <- glm(y ~ s + dz,family = binomial(link = "probit"))
 summary(probitfit)

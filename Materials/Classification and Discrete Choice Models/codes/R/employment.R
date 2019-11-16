@@ -2,14 +2,12 @@
 ## Employment #
 ###############
 ## Code to accompany Lecture on 
-## Classification
+## Classification and Discrete Choice Models
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 library(mlogit)
 library(ramify)
-library(ggplot2)
-library(ggthemes)
 library(descr)
 set.seed(123)
 
@@ -17,14 +15,8 @@ set.seed(123)
 rm(list = ls())
 emp <- read.csv("employment.csv")
 emp$sex <- factor(emp$sex,labels=c("male","female"))
-N = nrow(emp) 
-J = length(levels(emp$sector))
-
-## visualize
-freq(emp$sector,plot=FALSE) #require("descr")
-aggregate(wage ~ sector,emp,mean)
-plot(emp$sector,emp$sex,ylab="",xlab="")
-ggplot(emp, aes(x = sector, y = education)) + geom_boxplot() + theme_economist() + scale_colour_economist()
+N <- nrow(emp) 
+J <- length(levels(emp$sector))
 
 ## counterfactual wage
 emp0 <- emp #preserve the original data
@@ -64,7 +56,7 @@ b <- coef(fit)["wage"]
 X <- model.matrix(fit)
 V <- X %*% coef(fit)
 V <- matrix(V,N,J,byrow=TRUE)
-U = log(rowSums(exp(V)))/b
+U <- log(rowSums(exp(V)))/b
 summary(U)
 
 ##################################################
@@ -78,14 +70,14 @@ colMeans(predict(fit,emp2.long))
 
 # welfare calculation
 X2 <- X 
-X2[index(emp.long)$alt=="manufacturing","wage"] = X2[index(emp.long)$alt=="manufacturing","wage"]*.8 
+X2[index(emp.long)$alt=="manufacturing","wage"] <- X2[index(emp.long)$alt=="manufacturing","wage"]*.8 
 V2 <- X2 %*% coef(fit) 
 V2 <- matrix(V2,N,J,byrow=TRUE) 
-U2 = log(rowSums(exp(V2)))/b
+U2 <- log(rowSums(exp(V2)))/b
 summary(U2)
 
-dU = U2 - U
+dU <- U2 - U
 summary(dU)
-emp.final = data.frame(emp0,U,U2,dU) 
+emp.final <- data.frame(emp0,U,U2,dU) 
 aggregate(dU ~ education,emp.final,mean)
 aggregate(dU ~ sex,emp.final,mean)

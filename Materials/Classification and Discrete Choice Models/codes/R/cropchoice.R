@@ -2,12 +2,9 @@
 ## Crop Choice #
 ################
 ## Code to accompany Lecture on 
-## Classification
+## Classification and Discrete Choice Models
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
-
-library(nnet)
-library(AER)
+## https://jiamingmao.github.io/data-analysis/
 
 ## reading data
 rm(list = ls())
@@ -16,8 +13,9 @@ attach(cropchoice)
 crops <- as.matrix(cropchoice[,4:7])
 
 ## Logistic
+require(nnet)
 logitfit <- multinom(crops ~ temperature + rainfall)
-coeftest(logitfit)
+summary(logitfit)
 
 ## Linear Regression 
 p <- crops/fields
@@ -41,7 +39,6 @@ xtemp = pretty(temperature, 20)
 xrain = pretty(rainfall, 20)
 XX <- expand.grid(temperature=xtemp,rainfall=xrain)
 logit.crops <- predict(logitfit,XX,type="probs")
-cropfit = data.frame(XX,logit.crops)
-write.csv(cropfit, file = "cropfit.csv",row.names=FALSE)
 
+#
 detach(cropchoice)

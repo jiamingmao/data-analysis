@@ -2,9 +2,9 @@
 ## Transportation #
 ###################
 ## Code to accompany Lecture on 
-## Classification
+## Classification and Discrete Choice Models
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 library(mlogit)
 set.seed(123)
