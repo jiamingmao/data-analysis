@@ -14,7 +14,6 @@ set.seed(5)
 n <- 1e3
 x <- 100*runif(n)
 y <- rnorm(n,mean=5*x, sd=exp(x))
-plot(x,y)
 
 ## regression
 r = lm(y~x)

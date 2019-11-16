@@ -36,4 +36,3 @@ mlefit$par
 parnames(nll) <- c("beta0","beta1","beta2","sigma")
 result <- mle2(nll,start=c(beta0=0,beta1=0,beta2=0,sigma=1))
 summary(result)
-plot(profile(result))

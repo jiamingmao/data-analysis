@@ -10,12 +10,6 @@
 rm(list=ls())
 oj <- read.csv("oj.csv") 
 
-## visualize
-brandcol <- c("green","red","gold")
-par(mfrow=c(1,2))
-plot(log(price) ~ brand, data=oj, col=brandcol)
-plot(logmove ~ log(price), data=oj, col=brandcol[oj$brand])
-
 ## regression 1
 reg1 = lm(logmove ~ log(price), data=oj)
 summary(reg1)

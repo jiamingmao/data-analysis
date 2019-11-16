@@ -36,9 +36,3 @@ b2 <- cov(u2,y)/var(u2)
 
 b0 = mean(y) - b1*mean(x1) - b2*mean(x2)
 cbind(b0,b1,b2)
-
-# scatter plot of y vs u1 and u2
-plot(u1,y) 
-abline(lm(y~u1),col="red",lwd=2) 
-plot(u2,y) 
-abline(lm(y~u2),col="red",lwd=2)
