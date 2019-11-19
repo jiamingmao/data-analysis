@@ -4,7 +4,7 @@
 ## Code to accompany Lecture on 
 ## Model Selection and Regularization
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis
 
 library(leaps)
 library(glmnet)
@@ -25,22 +25,6 @@ all <- summary(all.fit)
 all$outmat
 all$cp 
 all$bic
-
-# Plot: Cp/BIC of best model vs number of variables
-plot(all$cp ,xlab="Number of Variables",ylab="Cp", type="l")
-k1 <- which.min(all$cp) #minimum Cp
-points(k1,all$cp[k1], col="red",cex=2,pch=20)
-
-plot(all$bic ,xlab="Number of Variables ", ylab="BIC",type="l")
-k2 <- which.min(all$bic) #minimum BIC
-points(k2,all$bic[k2], col="red",cex=2,pch=20)
-
-# Visualze the best model at each Cp/BIC value
-plot(all.fit,scale="Cp")
-plot(all.fit,scale="bic")
-
-coef(all.fit,k1) # best overall model according to Cp
-coef(all.fit,k2) # best overall model according to BIC
 
 #####################
 # Forward Selection # 

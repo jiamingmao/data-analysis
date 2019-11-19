@@ -4,7 +4,7 @@
 ## Code to accompany Lecture on 
 ## Regression
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 library(bbmle)
 rm(list=ls())

@@ -4,7 +4,7 @@
 ## Code to accompany Lecture on 
 ## Regression
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis/
 
 rm(list=ls())
 library(ISLR) # contains the data set 'Wage'

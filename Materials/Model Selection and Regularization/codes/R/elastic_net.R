@@ -4,7 +4,7 @@
 ## Code to accompany Lecture on 
 ## Model Selection and Regularization
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis
 
 library(MASS)
 library(glmnet)
