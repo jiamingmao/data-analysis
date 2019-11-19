@@ -56,7 +56,7 @@ The Truth about P-values ([slides]({{ site.baseurl }}/assets/Lectures/The_Truth_
 Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)) [[video](https://www.youtube.com/watch?v=32SB84Vl9mE&list=PLazlcI8_-ZkMIWIxCSu_HbbNn3L16FYhL&index=14)]
 - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
-- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Classification%20and%20Discrete%20Choice%20Models/R)
+- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/codes/R)
 
 ---
 
@@ -65,4 +65,4 @@ Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Le
 Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf))
 - *Topics:* cross validation; information criteria; forward stepwise regression; regularization; ridge regression; lasso; elastic net; selective inference; smoothing splines
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
-- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/codes/Model%20Selection%20and%20Regularization/R)
+- `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Model%20Selection%20and%20Regularization/codes/R)
