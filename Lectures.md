@@ -63,7 +63,7 @@ Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Le
 
 <a id="model-selection-and-regularization" />
 
-Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf))
+Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf)) [[video](https://www.youtube.com/watch?v=RXFSqrzbRIg&list=PLazlcI8_-ZkMIWIxCSu_HbbNn3L16FYhL&index=19)]
 - *Topics:* cross validation; information criteria; forward stepwise regression; regularization; ridge regression; lasso; elastic net; selective inference; smoothing splines
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
 - `codes`: [`R`](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Model%20Selection%20and%20Regularization/codes/R)
