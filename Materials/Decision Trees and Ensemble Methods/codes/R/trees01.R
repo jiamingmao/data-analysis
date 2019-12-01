@@ -2,9 +2,9 @@
 ## Trees #
 ##########
 ## Code to accompany Lecture on 
-## Tree-based Methods
+## Decision Trees and Ensemble Methods
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis
 
 rm(list=ls())
 library(nnet)
@@ -30,7 +30,6 @@ train = sample(n,n*0.4)
 data_train = data[train,]
 data_test = data[-train,]
 ytrue = data_test[,"y"]
-plot(data_train$x1,data_train$x2,col=data_train$y)
 
 #######################
 # Logistic Regression #

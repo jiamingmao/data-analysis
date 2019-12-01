@@ -2,15 +2,13 @@
 ## Bankruptcy #
 ###############
 ## Code to accompany Lecture on 
-## Tree-based Methods
+## Decision Trees and Ensemble Methods
 ## Jiaming Mao (jmao@xmu.edu.cn)
-## https://jiamingmao.github.io
+## https://jiamingmao.github.io/data-analysis
 
 library(caret)
 library(glmnet)
-library(corrplot)
 library(rpart)
-library(rpart.plot)
 library(randomForest)
 library(nnet)
 library(gbm)
@@ -45,7 +43,6 @@ table(ytrue,yhat)
 set.seed(100)
 fit0 = rpart(bankrupt~.,data_train,control=rpart.control(cp=0))
 fit = prune(fit0,cp=fit0$cptable[which.min(fit0$cptable[,"xerror"]),"CP"])
-rpart.plot(fit,box.palette=list("Grays","Reds"))
 
 # test err
 yhat = predict(fit,data_test,type="class") 
@@ -57,9 +54,6 @@ yhat = predict(fit,data_test,type="class")
 set.seed(100)
 fit = randomForest(bankrupt~.,data=data_train,mtry=43)
 
-# variable importance plot
-varImpPlot(fit)
-
 ############
 # Boosting #
 ############
@@ -69,20 +63,6 @@ ntree = 5000
 fit = gbm(bankrupt~.,data_boost, distribution="adaboost",
           n.trees=ntree,interaction.depth=10,shrinkage=0.1)
 summary(fit)
-
-# Partial dependence plots
-h1 = plot(fit,i="Attr39",return.grid=T)
-h2 = plot(fit,i="Attr46",return.grid=T)
-plot(h1$Attr39,h1$y,type="l",col="darkred",lwd=4,
-     main="Operating Profit Margin",
-     xlim=c(-3,2),
-     cex.main=2, cex.lab=1.25,
-     xlab="Attr39",ylab="y")
-plot(h2$Attr46,h2$y,type="l",col="darkred",lwd=4,
-     main="Quick Ratio",
-     xlim=c(-9,100),
-     cex.main=2, cex.lab=1.25,
-     xlab="Attr46",ylab="y")
 
 # test error
 phat = predict(fit,data_test,n.trees=ntree,type="response")
