@@ -1,9 +1,7 @@
 ########
 ## MLE #
 ########
-## Code to accompany Lecture on 
-## Regression
-## Jiaming Mao (jmao@xmu.edu.cn)
+## Jiaming Mao (jiaming.mao@gmail.com)
 ## https://jiamingmao.github.io/data-analysis/
 
 library(bbmle)

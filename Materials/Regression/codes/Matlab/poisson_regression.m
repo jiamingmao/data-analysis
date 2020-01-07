@@ -1,7 +1,9 @@
 %% Poisson and Log Normal Regression
 %{
-    Author: Jiaming Mao (jiaming.i.mao@gmail.com)
+    Jiaming Mao (jiaming.mao@gmail.com)
+    https://jiamingmao.github.io/data-analysis/
 %}
+clc; clear;
 rng default
 n = 1e4; % # of individuals 
 x = rand(n,1);
