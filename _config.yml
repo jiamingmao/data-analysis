@@ -2,7 +2,7 @@
 
 # Setup
 title:               Modern Data Analysis for Economics
-tagline:             'Statistical Modeling and Causal Inference'
+tagline:             'Statistical Learning and Causal Inference'
 description:         'Modern Data Analysis for Economics'
 url:                 'http://jiamingmao.github.io'
 baseurl:             '/data-analysis'

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-order: 3
+order: 4
 ---
 <p style="height: 1px"></p>
 
