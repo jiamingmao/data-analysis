@@ -11,12 +11,15 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 ## Assistant
-**Muqing Song**<br>
-Email: <smq941213@163.com>
+**Hongfei Li**<br>
+Email: <137748860@qq.com>
+
+**Beibei Wang**<br>
+Email: <baby.wang2016@foxmail.com>
 
 ---
 
-## Syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf), [slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course_Info.html))
+## Syllabus ([pdf]({{site.baseurl}}/assets/syllabus.pdf), [slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course-Info.html))
 
 ---
 
@@ -26,26 +29,20 @@ You are expected to have some familiarity with at least one programming/statisti
 
 ---
 
-## Communications
-
-We will be using [Piazza](https://piazza.com) for course related discussions. All questions about course materials should be posted to Piazza, so that everyone can benefit from the discussions. Extra credits will be awarded for active participation on the platform.
-
----
-
 ## Textbooks
 
 There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
-- Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press.
-- Hernán, M. A. and J. M. Robins (2019). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
-- Morgan, S. L. and C. Winship. (2007). *Counterfactuals and Causal Inference: Methods and Principles for Social Research*. Cambridge University Press.
+- Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[book website](https://www.mostlyharmlesseconometrics.com/)]
+- Hernán, M. A. and J. M. Robins (2020). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
+- Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
 - James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 
 ### Graduate
 - Abu-Mostafa, Y. S., M. Magdon-Ismail, and H. Lin. (2012). *Learning from Data*. AMLBook. [[book website](https://work.caltech.edu/telecourse.html)]
-- Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press.
+- Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press. [[book website](http://cameron.econ.ucdavis.edu/mmabook/mma.html)]
 - Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
-- Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press.
+- Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press. [[book website](http://bayes.cs.ucla.edu/BOOK-2K/)]
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
