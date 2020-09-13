@@ -1,0 +1,1137 @@
+---
+title: "Homework 5 - An analysis of Wines"
+author: "Giacomo Sanna"
+date: "12/15/2019"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+  html_document:
+    df_print: paged
+header-includes: \usepackage[fontsize=11pt]{scrextend}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+#knitr::opts_knit$set(root.dir = "")
+```
+
+
+```{r ,  include=FALSE} 
+######################
+##Packages
+######################
+
+#install.packages("rpart.plot")
+#install.packages("psych")
+#install.packages("gbm")
+
+library(MASS)  ##this package includes the function mvnrom()
+library(caret) ##this package includes the function createFolds()
+library(dplyr) ## ##this package includes the function sample_n()
+library(boot) ##this package includes the function cv.glm()
+library(base)
+library(stringr)
+library(rpart)
+library(rpart.plot)
+library(randomForest)
+library(psych)
+library(data.table)
+library(gbm)
+```
+
+```{r , echo=FALSE, eval=FALSE} 
+######################
+##Data Preparation
+######################
+
+setwd("C:/Users/jacky/Dropbox/2. Courses/2.1 Xiamen/Microeconometrics and Applications/Assignments/05/Dataset")
+
+dataset <- rbind(read.csv("winemag-1-800.csv", na.strings = c("", "NA")), 
+                 read.csv("winemag-801-1600.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-1601-2400.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-2401-3200.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-3201-4000.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-4001-4800.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-4801-5600.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-5601-6400.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-6401-7200.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-7201-8000.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-8001-8800.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-8801-9600.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-9601-10400.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-10401-11200.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-11201-12000.csv", na.strings = c("", "NA")),
+                 read.csv("winemag-12001-12800.csv", na.strings = c("", "NA"))
+                 ); dataset_backup <- dataset
+
+dataset <- dataset_backup # back up from here
+
+## data cleaning
+#exclude variables that we will not use
+dataset$title <- NULL
+dataset$url <- NULL
+dataset$subregion <- NULL
+dataset$subsubregion <- NULL
+# dataset$description <- NULL
+# dataset$designation <- NULL
+# dataset$winery <- NULL
+
+# dataset$category <- NULL because similar with variety
+# dataset$region <- NULL
+ 
+# dataset$region <- NULL
+# dataset$winery <- NULL
+
+# cleaning data
+dataset <- dataset[complete.cases(dataset),] # removes rows with missing values
+dataset <- dataset[!dataset$alcohol>40, ] 
+dataset <- dataset[!dataset$vintage<1900, ] 
+dataset <- dataset[!dataset$vintage>2018, ]
+        
+#dataset <- as.data.table(dataset)[, N := .N, by = varietal][N > 100] # keep only wines > #obs
+        # y = count(dataset, varietal); View(y)
+        # y <- y[y$n > 100, ] #keep only column varietal, with frequency > # chosen
+
+dataset <- as.data.table(dataset)[, N := .N, by = country][N > 200] # keey only countries >#obs
+dataset$country <- as.factor(as.character(dataset$country))
+        # y = count(dataset, country); View(y)
+
+# new variables
+dataset$dscrpt_length <- str_length(dataset$description)
+
+# dataset$decade <- NULL  # in what decade was the wine produced
+dataset$decade[dataset$vintage >  1900 & dataset$vintage <=1949] <- "Before 50s"
+dataset$decade[dataset$vintage >= 1950 & dataset$vintage <=1959] <- "50s"
+dataset$decade[dataset$vintage >= 1960 & dataset$vintage <=1969] <- "60s"
+dataset$decade[dataset$vintage >= 1970 & dataset$vintage <=1979] <- "70s"
+dataset$decade[dataset$vintage >= 1980 & dataset$vintage <=1989] <- "80s"
+dataset$decade[dataset$vintage >= 1990 & dataset$vintage <=1999] <- "90s"
+dataset$decade[dataset$vintage >= 2000 & dataset$vintage <=2009] <- "00s"
+dataset$decade[dataset$vintage >= 2010 & dataset$vintage <=2020] <- "10s"
+
+dataset$decade <- factor(dataset$decade, 
+                       levels = c("Before 50s","50s", "60s","70s","80s","90s","00s","10s"))
+
+## ranking for classification
+# dataset$rank <- NULL
+dataset$rank[dataset$rating >=80 & dataset$rating <= 85 ] <-  "Low Quality"
+dataset$rank[dataset$rating > 85 & dataset$rating <= 90 ] <-  "Average"
+dataset$rank[dataset$rating > 90 & dataset$rating <= 95 ] <-  "Good"
+dataset$rank[dataset$rating > 95 & dataset$rating <= 100] <-  "Excellent"
+dataset$rank <- factor(dataset$rank, 
+                       levels = c("Low Quality", "Average", "Good", "Excellent"))
+
+
+dataset$type[dataset$alcohol <=10                            ] <- "Low"
+dataset$type[dataset$alcohol > 10   & dataset$alcohol <= 11.5] <- "Medium-low"
+dataset$type[dataset$alcohol > 11.5 & dataset$alcohol <= 13.5] <- "Medium"
+dataset$type[dataset$alcohol > 13.5 & dataset$alcohol <= 15.5] <- "Medium-high"
+dataset$type[dataset$alcohol > 15.5                          ] <- "High"
+
+dataset$type <- factor(dataset$type, 
+                       levels = c("Low", "Medium-low", "Medium", "Medium-high", "High"))
+
+
+
+# reducing the factor number for varietal
+dataset$variety <- as.character(dataset$varietal)
+dataset$variety[str_detect(dataset$varietal, pattern = "Alicante")] <- "Alicante"
+dataset$variety[str_detect(dataset$varietal, pattern = "Alvarinho")] <- "Alvarinho"
+dataset$variety[str_detect(dataset$varietal, pattern = "Arinto")] <- "Arinto"
+dataset$variety[str_detect(dataset$varietal, pattern = "Assyr")] <- "Assyrtiko"
+dataset$variety[str_detect(dataset$varietal, pattern = "Bordeaux-style")] <- "Bordeaux-style"
+dataset$variety[str_detect(dataset$varietal,pattern="Cabernet Sauvignon")] <- "Cabernet Sauvignon"
+dataset$variety[str_detect(dataset$varietal, pattern = "Cabernet Blend")] <- "Cabernet Franc"
+dataset$variety[str_detect(dataset$varietal, pattern = "RosÃ©")] <- "RosÃ©"
+dataset$variety[str_detect(dataset$varietal, pattern = "Cabernet Franc")] <- "Cabernet Franc"
+dataset$variety[str_detect(dataset$varietal, pattern = "Carignan")] <- "Carignan"
+dataset$variety[str_detect(dataset$varietal, pattern = "Chardonnay")] <- "Chardonnay"
+dataset$variety[str_detect(dataset$varietal, pattern = "Chenin Blanc")] <- "Chenin Blanc"
+dataset$variety[str_detect(dataset$varietal, pattern = "Fiano")] <- "Fiano"
+dataset$variety[str_detect(dataset$varietal, pattern = "Garmay")] <- "Garmay"
+dataset$variety[str_detect(dataset$varietal, pattern = "GewÃ¼rztraminer")] <- "GewÃ¼rztraminer"
+dataset$variety[str_detect(dataset$varietal, pattern = "Garnacha")] <- "Garnacha"
+dataset$variety[str_detect(dataset$varietal, pattern = "Grenache")] <- "Garnacha"
+dataset$variety[str_detect(dataset$varietal, pattern = "Greco")] <- "Greco"
+dataset$variety[str_detect(dataset$varietal, pattern = "Inzolia")] <- "Insolia"
+dataset$variety[str_detect(dataset$varietal, pattern = "Lambrusco")] <- "Lambrusco"
+dataset$variety[str_detect(dataset$varietal, pattern = "Macabeo")] <- "Macabeo"
+dataset$variety[str_detect(dataset$varietal, pattern = "Malbec")] <- "Malbec"
+dataset$variety[str_detect(dataset$varietal, pattern = "Malvasia")] <- "Malvasia"
+dataset$variety[str_detect(dataset$varietal, pattern = "Marsanne")] <- "Marsanne"
+dataset$variety[str_detect(dataset$varietal, pattern = "Melon")] <- "Melon"
+dataset$variety[str_detect(dataset$varietal, pattern = "Merlot")] <- "Merlot"
+dataset$variety[str_detect(dataset$varietal, pattern = "Monastrell")] <- "Monastrell"
+dataset$variety[str_detect(dataset$varietal, pattern = "Muscat")] <- "Moscato"
+dataset$variety[str_detect(dataset$varietal, pattern = "Nerello")] <- "Nerello"
+dataset$variety[str_detect(dataset$varietal, pattern = "Petit")] <- "Petit"
+dataset$variety[str_detect(dataset$varietal, pattern = "Pinot Grigio")] <- "Pinot Gris"
+dataset$variety[str_detect(dataset$varietal, pattern = "Pinot Blanc")] <- "Pinot Gris"
+dataset$variety[str_detect(dataset$varietal, pattern = "Petit")] <- "Petit"
+dataset$variety[str_detect(dataset$varietal, pattern = "Petit")] <- "Petit"
+dataset$variety[str_detect(dataset$varietal, pattern = "Portuguese")] <- "Portuguese"
+dataset$variety[str_detect(dataset$varietal, pattern = "Primitivo")] <- "Primitivo"
+dataset$variety[str_detect(dataset$varietal, pattern = "RhÃ´ne-style")] <- "RhÃ´ne-style"
+dataset$variety[str_detect(dataset$varietal, pattern = "Rosado")] <- "Rosato"
+dataset$variety[str_detect(dataset$varietal, pattern = "Roussanne")] <- "Roussanne"
+dataset$variety[str_detect(dataset$varietal, pattern = "Sangiovese")] <- "Sangiovese"
+dataset$variety[str_detect(dataset$varietal, pattern = "Sauvignon Blanc")] <- "Sauvignon Blanc"
+dataset$variety[str_detect(dataset$varietal, pattern = "Shiraz")] <- "Shiraz"
+dataset$variety[str_detect(dataset$varietal, pattern = "Syrah")] <- "Syrah"
+dataset$variety[str_detect(dataset$varietal, pattern = "Tannat")] <- "Tannat"
+dataset$variety[str_detect(dataset$varietal, pattern = "Tempranillo")] <- "Tempranillo"
+dataset$variety[str_detect(dataset$varietal, pattern = "Tempranillo Blend")] <- "Tempranillo"
+dataset$variety[str_detect(dataset$varietal, pattern = "Tinta")] <- "Tinta"
+dataset$variety[str_detect(dataset$varietal, pattern = "Trousseau")] <- "Trousseau"
+dataset$variety[str_detect(dataset$varietal, pattern = "Verdejo")] <- "Verdejo"
+dataset$variety[str_detect(dataset$varietal, pattern = "Vidal")] <- "Vidal"
+dataset$variety[str_detect(dataset$varietal, pattern = "Vidal")] <- "Vidal"
+dataset$variety[str_detect(dataset$varietal, pattern = "Viognier")] <- "Viognier"
+dataset$variety[str_detect(dataset$varietal, pattern = "Weiss")] <- "Weiss"
+dataset$variety[str_detect(dataset$varietal, pattern = "Zierfandler")] <- "Zierfandler"
+dataset$variety[str_detect(dataset$varietal, pattern = "Zinfandel")] <- "Zierfandler"
+dataset$variety[str_detect(dataset$varietal, pattern = "Zweigelt")] <- "Zweigelt"
+
+dataset <- as.data.table(dataset)[, N := .N, by = variety][N > 200] # keep only wines > #obs
+
+dataset$variety <- as.factor(dataset$variety)
+# y = count(dataset, variety); View(y)
+# dataset$variety <- as.character(dataset$variety)
+# dataset$variety <- as.factor(dataset$variety
+
+
+dataset$ID <- seq.int(nrow(dataset)); dataset_backup2 <- dataset #ready for analysis
+
+
+
+```
+
+```{r , include=FALSE, eval=F} 
+######################
+#Training and test set
+######################
+# Splitting the dataset
+set.seed(123)
+n <- nrow(dataset)
+
+#create partitions for training and test #####checkkkk
+inTest <- createDataPartition(dataset$ID, p = 0.3, list = FALSE) # % in test
+inTrain <- createDataPartition(dataset$ID[-inTest], 
+                               p = 0.7, list = FALSE) # % in training (excludes test)
+
+#test, training and validation sets
+test_set <- dataset[inTest, ] 
+train_set <- dataset[-inTest, ][inTrain,]
+val_set <- dataset[-c(inTest),][-c(inTrain), ]
+```
+
+```{r , include=FALSE, eval=F} 
+######################
+#Reg. Decision Tree
+######################
+
+set.seed(123)
+fit_regtree = rpart(formula = rating ~ dscrpt_length + price + variety + type + country + decade, 
+                 #+ dscrpt_length,
+                  data = train_set,
+                  control = rpart.control(minsplit = 10), 
+                  method = "anova")
+
+
+fit_regtree_pruned <- prune(fit_regtree,cp=fit_regtree$cptable[which.min(fit_regtree$cptable[,"xerror"]),"CP"])
+
+# validation set
+yhat_regtree = predict(fit_regtree,val_set)
+mse_regtree <- sum((yhat_regtree - val_set$rating)^2)/nrow(val_set)
+R2_regtree <- 1-mse_regtree/var(val_set$rating)
+R2_regtree
+
+
+#table results
+
+
+# model.results[1,] <- c(mse_regtree, var(val_set$rating), R2_regtree)
+
+# model.results[1,] <- c(mse_tree, var(val_set$rating), R2_tree)
+
+```
+  
+```{r , include=FALSE, eval=F} 
+######################
+#Reg. Random Forest
+######################
+fit_regforest <- randomForest(rating ~ dscrpt_length + price + variety + type + country + decade,                     data = train_set, mtry = 3, ntree = 550, nodesize = 250 )
+
+
+fit_regforest
+yhat_regforest = predict(fit_regforest, val_set)
+mse_regforest <- sum((yhat_regforest - val_set$rating)^2)/nrow(val_set)
+R2_regforest <- 1-mse_regforest/var(val_set$rating)
+
+#so you don't run it again
+#mse_regforest <- 4.083250704
+#R2_regforest <- 0.6071890
+
+#r2.forest1.20 <- 0.4411438 #rating ~ price + country + vintage + alcohol + variety + type
+#r2.forest1.20 <- 0.4689973 #rating ~ price + country + vintage + alcohol + variety
+#r2.forest1.50 <- 0.4689973 #rating ~ price + country + vintage + alcohol + variety
+#r2.forest2.20 <- 0.4579372 #rating ~ price + country + vintage + alcohol + variety
+#r2.forest3.10 <- 0.4579372 #rating ~ price + country + vintage + alcohol + variety
+#r2.forest1.20 <- 0.543473  #rating ~ dscrpt_length + price + variety
+#r2.forest1.20 <- 0.5395221 #rating ~ dscrpt_length + price + variety + type
+#r2.forest1.20 <- 0.5630926 #rating ~ dscrpt_length + price + variety + type + country
+#r2.forest1.20 <- 0.5748134 #rating ~ dscrpt_length + price + variety + type + country + decade
+#r2.forest1.20 <- 0.5677571 #rating ~ dscrpt_length + price + variety + type + country + decade +                              category,
+#r2.forest3.500.10000 <- 0.4943554 #rating ~ dscrpt_length + price + variety + type + country +                                        decade +  category,
+
+
+#rating ~ dscrpt_length + price + variety + type + country + decade,
+
+summary_regforest <- cbind(rep(3,9), 
+                        c(rep(500, 8),550),
+                        c(10000,5000,2500,2000,1500,1000,500,250,250),
+                        c(0.4943554, 0.5415327,0.5671098,0.573571,0.580593,
+                          0.589333, 0.600031,0.607055,0.607189))
+colnames(summary_regforest) <- c("mtry","n.tree","nodesize","R2")
+
+model.results[2,] <- c(mse_regforest, var(val_set$rating), R2_regforest)
+
+
+```
+
+```{r , include=FALSE, eval=F} 
+######################
+#Boosting Reg. Tree
+######################
+# We can use cross-validation to select the best number of trees
+# (iterations), the size of each tree, as well as the shrinkage factor
+
+
+#try1
+set.seed(123)
+boost.fit_regforest <- gbm(rating ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="gaussian", interaction.depth = 5, n.trees = 500, shrinkage = 1 )
+
+b1 <- summary(boost.fit_regforest)
+
+yhat_boost.fit_regforest = predict(boost.fit_regforest, val_set, n.trees = 500) # predict using fit$bestTune
+mse.b1 <- sum((yhat_boost.fit_regforest - val_set$rating)^2)/nrow(val_set)
+R2_b1 <- 1-mse.b1/var(val_set$rating)
+
+
+#try2
+set.seed(123)
+boost.fit_regforest <- gbm(rating ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="gaussian", interaction.depth = 7, n.trees = 500, shrinkage = 0.10 )
+
+b2 <- summary(boost.fit_regforest)
+
+yhat_boost.fit_regforest = predict(boost.fit_regforest, val_set, n.trees = 500) # predict using fit$bestTune
+mse.b2 <- sum((yhat_boost.fit_regforest - val_set$rating)^2)/nrow(val_set)
+R2_b2 <- 1-mse.b2/var(val_set$rating)
+
+
+#try3
+set.seed(123)
+boost.fit_regforest <- gbm(rating ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="gaussian", interaction.depth = 8, n.trees = 500, shrinkage = 0.10 )
+
+b3 <- summary(boost.fit_regforest)
+
+yhat_boost.fit_regforest = predict(boost.fit_regforest, val_set, n.trees = 500) # predict using fit$bestTune
+mse.b3 <- sum((yhat_boost.fit_regforest - val_set$rating)^2)/nrow(val_set)
+R2_b3 <- 1-mse.b3/var(val_set$rating)
+
+
+
+summary_boost_regforest <- rbind(summary_boost_regforest, 
+                                 cbind(rep(5,3), rep(500,3), c(0.01, 0.1, 1),
+                                       c(mse.b1,mse.b2,mse.b3), c(R2_b1,R2_b2,R2_b3)) )
+  
+
+
+colnames(summary_boost_regforest) <- c("depth","n.tree","shrink","MSE","R2")
+
+summary_boost_regforest[order(summary_boost_regforest[, "R2"]),]
+
+
+```
+
+```{r , include=FALSE, eval=F} 
+######################
+#Class. Decision Tree no
+######################
+fit_tree_class = rpart(formula = rank ~ dscrpt_length + price + variety +
+                         type + country + decade, 
+                  data = train_set,
+                  control = rpart.control(minsplit = 10000), 
+                  method = "class")
+
+printcp(fit_tree_class)
+
+fit_tree_pruned <- prune(fit_tree,cp=fit_tree$cptable[which.min(fit_tree$cptable[,"xerror"]),"CP"])
+
+yhat = predict(fit_tree_pruned,val_set)
+mse_tree <- sum((yhat - val_set$rating)^2)/nrow(val_set)
+R2_tree <- 1-mse_tree/var(val_set$rating)
+
+model.results[3,] <- c(mse_tree, var(val_set$rating), R2_tree)
+
+```
+
+```{r , include=FALSE, eval=F} 
+######################
+#Class. Random Forest
+######################
+#random forest classification
+
+set.seed(123)
+fit_classforest <- randomForest(rank ~ dscrpt_length + price + variety + type + country + decade, 
+                    data = train_set, mtry = 3, ntree = 550, nodesize = 250, 
+                    importance = T)
+
+yhat_classforest = predict(fit_classforest, val_set)
+err_classforest = 1-mean(yhat_classforest==val_set$rank)
+
+confusionMatrix(table(predicted = yhat_classforest, actual = val_set$rank))
+
+
+summary_classforest <- cbind(rep(3,8), 
+                        c(rep(500, 7),550),
+                        c(10000,5000,2500,2000,1000,500,250,250),
+                        c(0.6352418,0.6432108,0.6630561,0.6720696,
+                          0.6774468,0.6836750,0.6888975,0.6885106))
+colnames(summary_classforest) <- c("mtry","n.tree","nodesize","accuracy")
+
+#c(0.6352418,0.6432108,0.6630561,0.6720696,0.6774468,0.6836750,0.6888975,0.6885106)
+
+  
+#summary_classforest[8,4] <- mean(yhat_classforest==val_set$rank)
+#summary_classforest
+
+# but check this
+
+
+
+```
+
+
+```{r , include=FALSE, eval=F} 
+######################
+#Boosting Class. Tree
+######################
+
+#set.seed(123)
+#fit = train(rating ~ dscrpt_length + price + variety + type + country + decade, 
+ #           data=train_set,
+  #          method="gbm",distribution="gaussian",
+   #         tuneGrid=expand.grid(n.trees=c(50,100,250),
+    #                             interaction.depth=seq(1:3),
+     #                            n.minobsinnode=1,
+      ##                           shrinkage=c(0.001,0.01)),
+          #  trControl=trainControl(method="repeatedcv",repeats=3))
+#
+#
+#bz <- summary(fit)
+
+set.seed(123)
+boost.fit_classtree <- gbm(rank ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="multinomial", interaction.depth = 4, n.trees = 500, shrinkage = 0.1 )
+
+yhat_boost.fit_classtree = predict(boost.fit_classtree, val_set, n.tree = 500, type = "response")
+yhat_boost.fit_classtree2 <- round(yhat_boost.fit_classtree)
+yhat_boost.fit_classtree2 <- as.data.frame(yhat_boost.fit_classtree2)
+
+for(i in 1:nrow(yhat_boost.fit_classtree2) ){  
+  
+  if(yhat_boost.fit_classtree2[i,1] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Low Quality"
+    
+  } else if (yhat_boost.fit_classtree2[i,2] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Average"
+    
+  } else if (yhat_boost.fit_classtree2[i,3] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Good"
+    
+  } else if (yhat_boost.fit_classtree2[i,4] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Excellent"
+}
+}
+
+err_boost.fit_classtree = 1-mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+mse.b1 <- err_boost.fit_classtree
+R2_b1 <- mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+
+
+#try 2
+set.seed(123)
+boost.fit_classtree <- gbm(rank ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="multinomial", interaction.depth = 5, n.trees = 500, shrinkage = 0.1 )
+
+yhat_boost.fit_classtree = predict(boost.fit_classtree, val_set, n.tree = 500, type = "response")
+yhat_boost.fit_classtree2 <- round(yhat_boost.fit_classtree)
+yhat_boost.fit_classtree2 <- as.data.frame(yhat_boost.fit_classtree2)
+
+for(i in 1:nrow(yhat_boost.fit_classtree2) ){  
+  
+  if(yhat_boost.fit_classtree2[i,1] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Low Quality"
+    
+  } else if (yhat_boost.fit_classtree2[i,2] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Average"
+    
+  } else if (yhat_boost.fit_classtree2[i,3] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Good"
+    
+  } else if (yhat_boost.fit_classtree2[i,4] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Excellent"
+}
+}
+
+err_boost.fit_classtree = 1-mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+mse.b2 <- err_boost.fit_classtree
+R2_b2 <- mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+
+
+
+#try 3
+set.seed(123)
+boost.fit_classtree <- gbm(rank ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="multinomial", interaction.depth = 6, n.trees = 500, shrinkage = 0.1 )
+
+yhat_boost.fit_classtree = predict(boost.fit_classtree, val_set, n.tree = 500, type = "response")
+yhat_boost.fit_classtree2 <- round(yhat_boost.fit_classtree)
+yhat_boost.fit_classtree2 <- as.data.frame(yhat_boost.fit_classtree2)
+
+View(yhat_boost.fit_classtree2)
+
+for(i in 1:nrow(yhat_boost.fit_classtree2) ){  
+  
+  if(yhat_boost.fit_classtree2[i,1] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Low Quality"
+    
+  } else if (yhat_boost.fit_classtree2[i,2] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Average"
+    
+  } else if (yhat_boost.fit_classtree2[i,3] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Good"
+    
+  } else if (yhat_boost.fit_classtree2[i,4] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Excellent"
+}
+}
+
+err_boost.fit_classtree = 1-mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+mse.b3 <- err_boost.fit_classtree
+R2_b3 <- mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+
+
+summary_boost_classtree <- cbind(rep(3,3), c(3,3,4), c(0.01, 0.1, 0.1),
+                                       c(mse.b1,mse.b2,mse.b3), c(R2_b1,R2_b2,R2_b3))
+
+summary_boost_classtree <- rbind(summary_boost_classtree, 
+                                 cbind(rep(3,3), c(3,3,4), c(0.01, 0.1, 1),
+                                       c(mse.b1,mse.b2,mse.b3), c(R2_b1,R2_b2,R2_b3)) )
+  
+
+colnames(summary_boost_classtree) <- c("depth","n.tree","shrink","err","Accuracy")
+
+summary_boost_classtree[order(summary_boost_classtree[, "Accuracy"]),]
+
+
+
+summary_boost_classtree <- summary_boost_classtree[1:5]
+
+
+
+
+######################
+
+```
+
+```{r , include=F}
+load("C:/Users/jacky/Dropbox/2. Courses/2.1 Xiamen/Microeconometrics and Applications/Assignments/05/Dataset/my.data.RData")
+```
+
+
+```{r , include=F , eval=FALSE}
+#Saved Results
+######################
+
+#save.image("C:/Users/jacky/Dropbox/2. Courses/2.1 Xiamen/Microeconometrics and Applications/Assignments/05/Dataset/my.data2.RData")
+
+
+
+
+model.results <- matrix(0, 
+                        nrow = 5, ncol =2, byrow = T,
+                        dimnames = list(c("Regression Tree", "Reg.Random Forest",
+                                          "Boosted Reg. Tree","Class Random Forest",
+                                          "Boosted Class. Tree"),
+                                          c("MSE|err", "R2|Accuracy")) )
+
+
+
+
+# decision tree
+set.seed(123)
+fit_regtree = rpart(formula = rating ~ dscrpt_length + price + variety + type + country + decade,                   data = train_set,
+                  control = rpart.control(minsplit = 10), 
+                  method = "anova")
+yhat_regtree = predict(fit_regtree,val_set)
+mse_regtree <- sum((yhat_regtree - val_set$rating)^2)/nrow(val_set)
+R2_regtree <- 1-mse_regtree/var(val_set$rating)
+
+model.results[1,] <- c(mse_regtree, R2_regtree) # run decision tree
+
+
+
+# results of the reg.random forest (5+ minutes)
+summary_regforest <- cbind(rep(3,9), 
+                        c(rep(500, 8),550),
+                        c(10000,5000,2500,2000,1500,1000,500,250,250),
+                        c(0.4943554, 0.5415327,0.5671098,0.573571,0.580593,
+                          0.589333, 0.600031,0.607055,0.607189))
+colnames(summary_regforest) <- c("mtry","n.tree","nodesize","R2")
+
+fit_regforest <- randomForest(rating ~ dscrpt_length + price + variety + type + country + decade,                     data = train_set, mtry = 3, ntree = 550, nodesize = 250 )
+yhat_regforest = predict(fit_regforest, val_set)
+mse_regforest <- sum((yhat_regforest - val_set$rating)^2)/nrow(val_set)
+R2_regforest <- 1-mse_regforest/var(val_set$rating)
+
+model.results[2,] <- c(mse_regforest, R2_regforest)
+
+
+# results of the class. tree - skipped
+#model.results[3,] <- c(mse_tree, var(val_set$rating), R2_tree)
+
+
+# results boost reg tree 
+
+set.seed(123)
+boost.fit_regforest <- gbm(rating ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="gaussian", interaction.depth = 5, n.trees = 500, shrinkage = 1 )
+yhat_boost.fit_regforest = predict(boost.fit_regforest, val_set, n.trees = 500) 
+mse_boost.regtree <- sum((yhat_boost.fit_regforest - val_set$rating)^2)/nrow(val_set)
+R2_boost.regtree <- 1-mse_boost.regtree/var(val_set$rating)
+
+
+
+summary_boost_regtree <- rbind(c(5,500,1,4.517692,0.5653957), c(4,500,1,4.430109,0.5738213),
+                               c(3,500,0.01,4.394387,0.5772577),c(4,500,0.01,4.306369,0.585725),
+                                 c(5,500,0.01,4.306369,0.585725), c(3,500,1,4.28659,0.5876278),
+                                 c(3,500,0.1,4.072724,0.6082018), c(4,500,0.1,4.04108,0.611246),
+                                 c(5,500,0.1,4.018742,0.613395),
+                                 c(5,500,0.01,4.011347,0.6141064), 
+                                 c(5,500,0.1,4.00467,0.6147487), c(5,500,1,3.994215,0.6157545))
+
+colnames(summary_boost_regtree) <- c("depth","n.tree","shrink","MSE","R2")
+
+model.results[3,] <- c(3.994215, 0.6157545)
+
+
+# results of class. random forest
+
+set.seed(123)
+fit_classforest <- randomForest(rank ~ dscrpt_length + price + variety + type + country + decade,                     data = train_set, mtry = 3, ntree = 550, nodesize = 250, 
+                    importance = T)
+yhat_classforest = predict(fit_classforest, val_set)
+err_classforest = 1-mean(yhat_classforest==val_set$rank)
+
+summary_classforest <- cbind(rep(3,8), 
+                        c(rep(500, 7),550),
+                        c(10000,5000,2500,2000,1000,500,250,250),
+                        c(0.6352418,0.6432108,0.6630561,0.6720696,
+                          0.6774468,0.6836750,0.6888975,0.6885106))
+colnames(summary_classforest) <- c("mtry","n.tree","nodesize","accuracy")
+
+model.results[4,] <- c(1-0.6885106, 0.6885106)
+
+
+
+
+# results of boosted class tree
+
+set.seed(123)
+boost.fit_classtree <- gbm(rank ~ dscrpt_length + price + variety + type + country + decade, 
+                 data = train_set, 
+                 distribution="multinomial", interaction.depth = 4, 
+                 n.trees = 500, shrinkage = 0.1 )
+
+yhat_boost.fit_classtree = predict(boost.fit_classtree, val_set, n.tree = 500, type = "response")
+yhat_boost.fit_classtree2 <- round(yhat_boost.fit_classtree)
+yhat_boost.fit_classtree2 <- as.data.frame(yhat_boost.fit_classtree2)
+
+for(i in 1:nrow(yhat_boost.fit_classtree2) ){  
+  
+  if(yhat_boost.fit_classtree2[i,1] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Low Quality"
+    
+  } else if (yhat_boost.fit_classtree2[i,2] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Average"
+    
+  } else if (yhat_boost.fit_classtree2[i,3] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Good"
+    
+  } else if (yhat_boost.fit_classtree2[i,4] == 1){
+    
+    yhat_boost.fit_classtree2$rank[i] = "Excellent"
+}
+}
+
+err_boost.fit_classtree = 1-mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+mse.b1 <- err_boost.fit_classtree
+R2_b1 <- mean(yhat_boost.fit_classtree2$rank==val_set$rank)
+
+summary_boost_classtree <- rbind(c(3,3,0.01,0.3228627,0.6771373),c(3,3,0.1,0.309942,0.690058),
+                                 c(3,4,0.1,0.3095938,0.6904062),c(3,3,0.01,0.3095938,0.6904062),
+                                 c(3,3,0.1,0.3089749,0.6910251))
+
+colnames(summary_boost_classtree) <- c("depth","n.tree","shrink","err","Accuracy")
+
+model.results[5,] <- c(1-0.6910251, 0.6910251)
+
+model.results[1,] <- c(mse_regtree, R2_regtree) # run decision tree
+model.results[2,] <- c(mse_regforest, R2_regforest)
+model.results[3,] <- c(3.994215, 0.6157545)
+model.results[4,] <- c(1-0.6885106, 0.6885106)
+model.results[5,] <- c(1-0.6910251, 0.6910251)
+model.results
+
+
+
+
+```
+
+# What makes a wine good?
+
+## Introduction
+
+__Discaimer__: _for this assignment I use a somewhat informal language, as the main intended audience of this output are my classmates. This is meant to be a practical example of what can be achieved with the tools learnt during the "Decision Trees and Ensemble Methods" part of the course._
+
+
+For the "Decision Trees and Ensable methods" part of the course, I decided to analyze a dataset on wine that I obtained from _WineEnthusiast_ (www.winemag.com), a website and magazine that specializes in wines, collecting ratings and reviews and publishing articles and guides. The dataset contains about 250'000 reviews. 
+
+The idea here is to apply different models and try to predict the rating that a certain wine will get, based on a set of observed characteristics. The dataset is large, but before we can start to play with it, we need to have a look at the data:
+
+```{r, echo=F, fig.align="center"}
+
+knitr::kable(head(dataset[,c(1:3, 6,7,9,10)],4))
+
+```
+
+The table shows an example of the information available in the dataset. More columns related to the region (eg: California), subregion (eg: Napa), subsubregion (eg. St.Helena), and even designation, winery, description, weblink are available. 
+
+The first thing we should be concerned when working with a big dataset is the presence of missing values. After a simple exploratory analysis we notice quite a few missing values, especially in the columns related to subregion and subsubregion. For the purpose of this preliminary analysis, I decided to exclude these variables, as we already have information regarding the origin of the wine from the variables country and region. The variables that are excluded for the analysis are therefore: Subregion, Subsubregion, Title and Url. 
+
+To simplify our analysis further - in terms of computational power and time required - I decided to drop the observations whose frequency in terms of grape variety was less than 200. This is how you can do it:
+
+```{r, include = T, results='hide', eval=F}
+# Keep only the observations whose frequency is more than 200
+dataset <- as.data.table(dataset)[, N := .N, by = variety][N > 200]
+
+```
+
+\newpage
+
+Next, we check for the presence of possible outliers. After a quick search we can see that the majority of such outliers are due to data entry mistakes. Some notable examples are:
+
+- in the variable __"ancohol"__, the year (eg. 2016) or the rating (eg. 90) was entered instead of the alcohol content. Given more time and resources, one could try to interpolate or research the alcohol content using the other information available. For this time, I decided to drop these observations.
+
+- in the variable __"vintage"__, the year mentioned not always refers to the year of production, but instead to the name of the winery. We do not expect a wine from 1531 to cost 17 dollars: it's more likely that it comes from the Aimery Grand Cuvée 1531 winery. These observations are also dropped.
+
+- in the variable __"price""__, a few wines reach very high values, but a quick search online confirms that the prices are legitimate (for example one bottle of _2005 Petrus Red Bordeaux Pomerol France_ sells online for $ 3,774.58 ex. sales tax. 
+
+
+The final sample consists of 123'110 observations. 
+
+## Model Selection
+
+In the framework of model selection and prediction, there are many interesting things that could be attempted with this dataset: for example we could try to predict the country of origin of the wine, given its price, rating and type of grapes used; or we could try to predict the price, given the alcohol content and year of production. For this analysis, I will try to predict the rating that the user gave to the wine, using some of the variables available in the set. 
+
+The variable in question is named _"rating"_:
+
+```{r , echo=F}
+summary(dataset$rating)
+```
+
+In addition, I created a few additional variables that I will introduce during this assignment, to overcome the computational limits of my poor laptop and the limitations of the different models. To summarize, a total of 4 new variables were created to simplify the analysis:
+
+- __decade__: In which decade was the wine produced?
+- __type__: Classifying the wine based on the alcoholic content;
+- __variety__: Grouping the varietals of the wines in 52 levels; 
+- __dscrpt_length__: Length of the review;
+
+In particular, I was really interested in incorporating the variable "description" into my analysis. I found an article online performing a similar analysis (see my references for more information), using *text vectorization*, which consists in learning a way to assign weights to different words in order to improve the prediction results; this goes beyond my knowledge at the moment, so I limited myself to incorporating the "length" of the descriptions; assuming that a good rating would also be more likely to get a longer review.
+
+
+\newpage
+
+The models we will try to implement are, in order, the following:
+
+ 1. Regression tree
+ 2. Random forest regression 
+ 3. Boosted regression tree
+ 4. Classification forest 
+ 5. Boosted classification tree
+
+## Training and Test set
+
+We set aside a test set of roughly 37'000 observations (30% of the total set) and we further split the training set by holding out a validation set of roughly 26'000 observations (again, 30% of the remaining set, excluding the test set). I decided to have a bigger training set because I do not know a priori how these models will fit the data, I am more concerned with finding a good model.
+
+
+## Model 1: Decision tree
+
+The decision tree is the first model we will try. The variables involved are reported in the line of code below:
+
+```{r, include= T, results='hide', eval=F}
+
+# Decision tree
+fit_regtree = rpart(formula = rating ~ dscrpt_length + price + variety + type 
+                    + country + decade, 
+                  data = train_set,
+                  control = rpart.control(minsplit = 10), 
+                  method = "anova")
+```
+
+Compared to the code available in the slides, I added a new parameter: _"minsplit"_, which specifies the minimum value of observations that should be included before the algorithm attemps to perform another split; without this paramer we could end up making too many splits (even 1 split for each observation!) 
+
+Another interesting parameter is _"minbucket"_ which specifies how many observations are required to be included in the terminal nodes, a higher number implies a lower tree depth and may be faster to calculate. I will not use it here, but I will mention something similar when modeling a random forest on the data.
+
+
+### The complexity parameter table
+
+As we saw in class, sometimes the model can be improved by pruning the tree, using the parameter cp. This is the code that can be also found in the lecture notes. 
+
+```{r, include=T, results='hide', eval=F}
+
+# How to prune a tree: what these lines of code do
+fit_regtree_pruned <- prune(fit_regtree,
+                          cp=fit_regtree$cptable[which.min(
+                            fit_regtree$cptable[,"xerror"]),"CP"])
+
+```
+
+But what is the cp parameter?
+
+\newpage
+
+Once we fit the model, we can get a lot of insights using the function printcp(), which returns the complexity parameter table. What the code does, is to pick the CP from the table below, from the row related to the split that has achieved the lowest cross validation error (xerror).
+
+
+```{r, echo=F }
+#results='asis'
+knitr::kable(fit_regtree$cptable)
+```
+
+In short, the _cp parameter_ is the amount by which an additional splits improves the relative error. To make a very simple illustration, compare the rel errors in the first two rows. The amount the error changed is given by the CP parameter in the first row.In other words, the algorithm stops the splitting when the relative error (rel error) does not improve by "cp" anymore. 
+
+Another way to see how the CP evolves with each number of splits can be seen in the following graph, obtained with the function plotcp():
+
+```{r, echo=F}
+
+plotcp(fit_regtree) #prints the complexity parameter table
+
+```
+
+
+\newpage
+
+But in this case, as the lowest CP is obtained in the last split, there is no point in pruning the tree: we would obtain the same results we already got. Pruning would choose the CP that we already have used.
+
+What is the accuracy of the result obtained in the validation set? if we recall the that the MSE measures how much the predicted values are different from the actual values, then $R^2 = 1 - MSE/Variance$ is a simple way to report the prediction accuracy. 
+
+```{r, echo=F}
+knitr::kable(model.results[1,]) # Table of results
+
+```
+
+
+## Model 2: Random Forest regression
+
+Using the same regressors, I will next attempt to model a random forest regression.
+
+Before the implementation of the model, I realized that there is a limit of factor levels a variable can contain (not more than 53) in order to run a random forest regression, and this would have meant dropping grape varieties as originally there were more than 800 kinds present in the set. 
+
+Instead, the variable variety was regrouped by allowing similar grapes to belong to the same group. As already mentioned in the introduction, the varieties that had a frequency of less than 200 were discarded, allowing us to retain this important variable in our analysis.
+
+_As a side note, we cannot encode the variable in a different way, for example using as.character(), because including them in the model in this way would return an error_
+
+```{r, include = T, results='hide', eval=F}
+
+# Random Forest regression
+fit_regforest <- randomForest(rating ~ dscrpt_length + price + variety 
+                              + type + country + decade, 
+                              data = train_set, mtry = 3, ntree = 550, 
+                              nodesize = 250 )
+
+
+```
+
+The parameters chosen for this model are:
+
+- _mtry_: the number of predictors that are randomly chosen for each split. Given that we are working with 6 regressors, I set mtry = 3 (if nothing is specified, the function uses p/3 as default);
+- _ntree_: the number of trees to grow is 550, a bit more than the default 500;
+- _nodesize_: 250 observations should be included at the terminal nodes. Unfortunately given the time required for the calculations, I was not able to reduce the size further. In fact, as we will see soon, a smaller node size in this case does not seem to improve the prediction accuracy by much.
+
+The following table shows the prediction accuracy obtained in the validation set by setting different node size: 
+
+```{r , echo=F}
+knitr::kable(summary_regforest)
+```
+ 
+ As we can see from the table, setting a node size lower than 500 does not improve much the results, so due to computational limits of my computer I will not go over 550 trees. 
+We therefore pick the last row as our best hypothesis for this model.
+ 
+
+## Model 3: Boosting a regression tree
+
+Can we improve the results further? As we saw in class, another method that we can try is the boosting algorithm. As the the random forest model seems to perform better until this point, I decided to include the boosting method for regression trees. Another reason to do boost regression trees in this case is that in class we only covered boosting for classification problems and I wanted to learn how to apply the method to regression decision trees.
+
+```{r, include = T, results='hide', eval=F}
+# Boosted regression tree
+boost.fit_regforest <- gbm(rating ~ dscrpt_length + price + variety + type 
+                           + country + decade,
+                           data = train_set, distribution="gaussian", 
+                           interaction.depth = 5, n.trees = 500, shrinkage = 1 )
+
+
+```
+
+Compared to boosting a classification tree, the difference is that we use as one of the parameters the distribution "gaussian" (instead of "adaboost", which assumes an exponential loss for 0-1, not adequate for this case).
+
+Unfortunately I was not able to tune the parameters (shrinkage, depth) using cross validation (as shown in the code available in the lecture slides), because it would cause my computer to crash; alternatively, I settled for checking different values of the parameters manually. 
+
+
+```{r , echo=F}
+knitr::kable(summary_boost_regtree)
+
+```
+
+The table just shown was sorted to present the hypotheses in ascending order of accuracy. The last row is our final hypothesis. We have been able to improve the accuracy of the regression tree, and even surpass the results obtained with the random forest, even if not by much.
+
+
+## Model 4: Random Forests of classification trees.
+
+I was curious to see how a a random forest of classification trees would perform in this setting, but unfortunately it is not possible to use the dependent variable _"rating"_ directly. The variable was re-encoded and renamed _"rank"_, classifying different wines in 4 groups based on their rating:
+
+- "Excellent" wine: wines whose rating was between 96 and 100;
+- "Good" wine: wines whose rating was between 91 and 95;
+- "Average" wine: wines whose rating was between 86 and 90;
+- "Low quality" wine: wines whose rating was between 80 and 85.
+
+```{r, include = T, results='hide', eval=F}
+# Classification random forest
+fit_classforest <- randomForest(rank ~ dscrpt_length + price + variety 
+                                + type + country + decade,
+                                data = train_set, mtry = 3, ntree = 550, 
+                                nodesize = 250, importance = T)
+
+
+```
+
+The regressors used in this analysis are the same. To calculate the accuracy we use the mean difference between the predicted target observation and the actual observation. For the implementation, we used the same parameters used for the regression random forest. Like in the previous case, the following table shows the prediction accuracy (as 1 - error) obtained in the validation set by setting different node sizes: 
+
+```{r , echo=F}
+
+knitr::kable(summary_classforest[c(1,2,2,7,8),])
+
+```
+
+An interesting insight can be drawn using varImpPlot(), included in the randomForest package. The graph below plots the variable importance in terms of both accuracy and gini. 
+
+```{r , echo=F}
+varImpPlot(fit_classforest)
+```
+
+### The Confusion matrix
+
+Another useful tool in the analysis of the results is the confusion matrix. Besides the accuracy, from the table we can derive the sensitivity, specificity and precision. The table is obtained with the function confusionMatrix(), from the caret package.
+
+```{r , echo=F}
+
+confusionMatrix(table(predicted = yhat_classforest, actual = val_set$rank))
+```
+
+You may notice that the matrix is very similar to the table we saw in class while discussing the "Classification and discete choice models", the only difference is that it the rows and columns are transposed. I am not sure why. Maybe nobody knows. Maybe this is why it's called confusion matrix.
+
+# Model 5: Boosting a classification tree
+
+Finally, the last method we try is a boosted classification tree. 
+
+```{r, include = T, results='hide', eval=F}
+# Boosted classification tree
+boost.fit_classtree <- gbm(rank ~ dscrpt_length + price + variety 
+                           + type + country + decade, 
+                           data = train_set,
+                           distribution="multinomial", interaction.depth = 4,
+                           n.trees = 500, shrinkage = 0.1 )
+
+```
+
+
+The difference with what we have seen in class is that the model here is multiclass. I was surprised to find out that in this case, the returned prediction is not exactly a "class", but the probability of falling withine each class. Here we can have an example of some of the observations.
+
+```{r , echo=F}
+knitr::kable(as.data.frame(yhat_boost.fit_classtree)[c(1,38,53),])
+
+```
+
+In order to calculate the error I will assume that the model picks the category with the highest probability and then confront it to the actual value. After some data wrangling, we obtain the following results:
+
+
+```{r , echo=F}
+knitr::kable(summary_boost_classtree[order(summary_boost_classtree[, "Accuracy"]),])
+
+```
+
+# The final model
+
+The following table contains the results obtained with the 5 models.
+
+
+```{r , echo=F}
+knitr::kable(model.results)
+
+```
+
+The best performing model is the boosted classification tree. Now that we have selected the best model, the training set and validation sets are combined, and the selected model is refitted. The performance of our new final hypothesis g** is tested on the test set. This will give us our estimate of the $E_{out}$.
+
+
+```{r, include = T, results='hide', eval=F}
+# Refitted model
+retrain <- rbind.data.frame(train_set, val_set) #combine train and validation sets
+
+refit <- gbm(rank ~ dscrpt_length + price + variety + type 
+             + country + decade,
+             data = retrain, 
+             distribution="multinomial", interaction.depth = 3, 
+             n.trees = 500, shrinkage = 0.1 )
+
+```
+
+In the table below we can see the variables in order of relative importance according to the refitted model:
+
+```{r , echo=F}
+knitr::kable(summary(refit))
+
+```
+
+
+```{r , include=FALSE, eval=F}
+
+# Combine the training set and validation set and refit our chosen model and
+# our final hypothesis g**.
+set.seed(123)
+retrain <- rbind.data.frame(train_set, val_set) #combine train and validation sets
+
+refit <- gbm(rank ~ dscrpt_length + price + variety + type + country + decade,
+                 data = retrain, 
+                 distribution="multinomial", interaction.depth = 3, n.trees = 500, shrinkage = 0.1 )
+
+  
+
+yhat_refit = predict(refit, test_set, n.tree = 500, type = "response")
+yhat_refit2 <- round(yhat_refit)
+yhat_refit2 <- as.data.frame(yhat_refit2)
+
+for(i in 1:nrow(yhat_refit2) ){  
+  
+  if(yhat_refit2[i,1] == 1){
+    
+    yhat_refit2$rank[i] = "Low Quality"
+    
+  } else if (yhat_refit2[i,2] == 1){
+    
+    yhat_refit2$rank[i] = "Average"
+    
+  } else if (yhat_refit2[i,3] == 1){
+    
+    yhat_refit2$rank[i] = "Good"
+    
+  } else if (yhat_refit2[i,4] == 1){
+    
+    yhat_refit2$rank[i] = "Excellent"
+}
+}
+
+err_refit = 1-mean(yhat_refit2$rank==test_set$rank)
+accuracy.refit <- mean(yhat_refit2$rank==test_set$rank)
+
+results.final <- cbind(err_refit,accuracy.refit )
+colnames(results.final) <- c("Error", "Accuracy")
+
+```
+
+Here are the final results.
+
+```{r , echo=F}
+knitr::kable(results.final)
+```
+
+\newpage
+
+# Conclusions
+
+For this assignment we tried many of the models introduced in class, and we applied to a dataset of wines in order to predict the rating a wine receives based on a set of variables such as the age of the wine, its price, origin. 
+
+Even though the final prediction accuracy is not great (almost 70%), I was surprised by the gain obtained by the random forest model compared to the decision tree model, and then again by using instead a random forest of classification decision trees. Many observations were dropped due to the physical limitations of my computer, with a more powerful machine it could be possible to work on a sample almost twice the size and to obtain much more accurate results.
+
+An interesting development would be to perform text vectorization on the actual review the wine received, and also on the wine designation (more than 60'000 different designations are available on the dataset but where not used for this analysis).
+
+
+## References
+
+
+
+Greg Ridgeway (2019). Generalized Boosted Models: A guide to the gbm package
+
+
+https://www.kaggle.com/zynicide/wine-reviews/version/4
+
+https://towardsdatascience.com/wine-ratings-prediction-using-machine-learning-ce259832b321
+
+https://medium.com/@hinasharma19se/exploration-of-wines-6c9ddaa3271
+
+https://github.com/activatedgeek/winemag-dataset
+
+https://www.winemag.com/2019/01/02/wine-vintage-chart-2019
+
+https://cran.r-project.org/web/packages/text2vec/vignettes/text-vectorization.html
+
+https://cran.r-project.org/web/packages/tokenizers/index.html
+
+https://mran.microsoft.com/snapshot/2016-02-06/web/packages/text2vec/vignettes/text-vectorization.html
+
+https://towardsdatascience.com/wine-ratings-prediction-using-machine-learning-ce259832b321
+
+https://www.kaggle.com/olivierg13/wine-ratings-analysis-w-supervised-ml
+
+https://medium.com/@hinasharma19se/exploration-of-wines-6c9ddaa3271
+
+https://machinelearningmastery.com/machine-learning-evaluation-metrics-in-r/
+
+

@@ -34,9 +34,9 @@ Course website:
 
 - Github repo: https://github.com/jiamingmao/data-analysis
 
-- Homework submission: http://l.xmu.edu.cn (Moodle; pw: raven)
+- Homework submission: http://l.xmu.edu.cn (SPOC; pw: raven)
 
-- Class discussion: https://piazza.com/xmu.edu.cn/fall2019/microeconometrics (Piazza)
+- Discussion and announcements: [WeChat Group](#10)
 
 Course materials are continually updated and posted to the website and the Github repository. It is recommended that you clone the repo and pull regularly to get updates (here is information on  [how](https://jiamingmao.github.io/principles-of-economics/Software)).
 
@@ -56,25 +56,13 @@ Course materials are continually updated and posted to the website and the Githu
     
 **Assistant**
 
-- Muqing Song
+- Hongfei Li 
 
-    - Email: [smq941213@163.com](Emailto: smq941213@163.com)
+    - Email: [137748860@qq.com](Emailto: 137748860@qq.com)
+    
+- Beibei Wang
 
----
-
-# Time and Location
-
-**Class**
-
-- Time: Tue, Thu 4:40 - 6:20pm
-
-- Location: Lianxing 401
-
-**Review** 
-
-- Time: TBD
-
-- Location: TBD
+    - Email: [baby.wang2016@foxmail.com](Emailto: baby.wang2016@foxmail.com)
 
 ---
 
@@ -117,22 +105,6 @@ This course offers a *unified* introduction to:
 
 ---
 
-# This Course 
-
-- Weekly review sessions will go over course materials, as well as programming and data analysis problems.
-
-    - Consider them partly as lab sessions!
-    
-- Due to time constraint, many topics discussed in the lecture notes will not be covered in detail in class.
-
-    - You are encouraged to read them by yourself or in study groups.
-    
-    - If you have any questions, ask on Piazza!
-    
-> How much you learn depends on how much time you spend.
-
----
-
 # Computing
 
 - You are expected to have some familiarity with *at least one* programming/statistical computing languages (`R`, `Python`, `Matlab`, `Stata`, etc.). 
@@ -151,15 +123,16 @@ This course offers a *unified* introduction to:
 
 Final Grade | 100%
 -------- | -------
-Final Exam | 20%
+Midterm Exam | 15%
+Final Exam | 15%
 Homework | 50%
-Final Project | 30%
+Final Project | 20%
 
 ---
 
 # Homework
 
-- Homework assignments are submitted on [Moodle](http://l.xmu.edu.cn).
+- Homework assignments are submitted on [SPOC](http://l.xmu.edu.cn).
 
 - One homework for each lecture:
 
@@ -169,32 +142,23 @@ Final Project | 30%
     
     - Completing "homework challenges" for extra credits
     
-- You are encouraged to discuss and collaborate with classmates. Up to 2 individuals are allowed to work together on a single homework.
-
----
-
-# Communications
-
-- We will be using [Piazza]( https://piazza.com/xmu.edu.cn/fall2019/microeconometrics) for course related discussions.
-
-- If you any questions about course materials, the best way to get answers is to ask them on Piazza.
-
-    - Other students invariably have the same questions as you do and everyone can benefit from the discussions.
-    
-    - You can edit questions and answers wiki-style.
-    
-    - You can be anonymous if you wish.
-    
-    - You can also send private notes to the teaching staff.
-    
-- Active participation on Piazza will be considered towards the final grade.
+- You are encouraged to discuss and collaborate with classmates. Up to **2** individuals are allowed to work together on a single homework.
 
 ---
 
 # Where can I learn more?
 
-- [Syllabus](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf): recommended readings  
+- [The Official Syllabus](https://jiamingmao.github.io/data-analysis/assets/syllabus.pdf)
+
+- Recommended readings: https://jiamingmao.github.io/data-analysis/Info
 
 - Related courses, programming resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
 
-- My book list on data science: https://www.goodreads.com/review/list/59975031-jiaming-mao?shelf=data-science
+---
+
+# WeChat Group
+
+<center><img src="wechat.jpeg" height="500"></center>
+
+[back](#2)
+
