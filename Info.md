@@ -11,9 +11,6 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 ## Assistant
-**Hongfei Li**<br>
-Email: <137748860@qq.com>
-
 **Beibei Wang**<br>
 Email: <baby.wang2016@foxmail.com>
 
