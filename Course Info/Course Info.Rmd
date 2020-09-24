@@ -55,10 +55,6 @@ Course materials are continually updated and posted to the website and the Githu
     - Email: [jmao@xmu.edu.cn](Emailto: jmao@xmu.edu.cn)
     
 **Assistant**
-
-- Hongfei Li 
-
-    - Email: [137748860@qq.com](Emailto: 137748860@qq.com)
     
 - Beibei Wang
 
@@ -123,10 +119,10 @@ This course offers a *unified* introduction to:
 
 Final Grade | 100%
 -------- | -------
-Midterm Exam | 15%
-Final Exam | 15%
+Midterm Exam | 10%
+Final Exam | 10%
 Homework | 50%
-Final Project | 20%
+Final Project | 30%
 
 ---
 
