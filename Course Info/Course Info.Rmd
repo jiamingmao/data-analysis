@@ -36,7 +36,7 @@ Course website:
 
 - Homework submission: http://l.xmu.edu.cn (SPOC; pw: raven)
 
-- Discussion and announcements: [WeChat Group](#10)
+- Discussion and announcements: WeChat Group
 
 Course materials are continually updated and posted to the website and the Github repository. It is recommended that you clone the repo and pull regularly to get updates (here is information on  [how](https://jiamingmao.github.io/principles-of-economics/Software)).
 
@@ -56,9 +56,9 @@ Course materials are continually updated and posted to the website and the Githu
     
 **Assistant**
     
-- Beibei Wang
+- Hongfei Li
 
-    - Email: [baby.wang2016@foxmail.com](Emailto: baby.wang2016@foxmail.com)
+    - Email: [137748860@qq.com](Emailto: 137748860@qq.com)
 
 ---
 
@@ -119,10 +119,10 @@ This course offers a *unified* introduction to:
 
 Final Grade | 100%
 -------- | -------
-Midterm Exam | 10%
-Final Exam | 10%
+Midterm Exam | 15%
+Final Exam | 15%
 Homework | 50%
-Final Project | 30%
+Final Project | 20%
 
 ---
 
@@ -149,12 +149,4 @@ Final Project | 30%
 - Recommended readings: https://jiamingmao.github.io/data-analysis/Info
 
 - Related courses, programming resources, etc.: https://jiamingmao.github.io/data-analysis/Resources
-
----
-
-# WeChat Group
-
-<center><img src="wechat.jpeg" height="500"></center>
-
-[back](#2)
 
