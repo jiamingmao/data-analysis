@@ -39,7 +39,7 @@ Demonstrate or apply a statistical/econometric method introduced in or relevant 
 - Implement a method using simulated data
 - Analyze real data
 
-For sources of data, see [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous). You are also encouraged to use the data you are using in your own research.
+For sources of data, see, for example, [here](https://jiamingmao.github.io/data-analysis/Resources/#miscellaneous) and [here](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Data). You are also encouraged to use the data you are using in your own research.
 
 You **must** include your code with your report.
 
