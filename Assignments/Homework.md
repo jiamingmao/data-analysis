@@ -4,24 +4,22 @@
 
 - Each assignment will be graded on a 0 - 4 scale.
     - Truly exceptional assignment may get a 5 and will be posted on the course repo.
-- Up to two people are allowed to work on the same assignment. The assignment will have two authors.
+- Up to *two* people are allowed to work on the same assignment. The assignment will have two authors.
 - You can write your assignment in either English or Chinese.
 
 ## Format
 You should compile your assignment to `pdf` or `html` and submit on SPOC. In addition, submit all source files (e.g., latex, markdown or jupyter notebooks) and data associated with the homework.
 
-#### Extra Points
-+0.25:
 - writing in `LaTeX`
     - see [here](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Software/LaTex/LaTex.md)
 - writing in `R markdown`
     - see [here](https://jiamingmao.github.io/data-analysis/Resources/#rr-markdown)
 - writing in `Jupyter notebook`
     - see [here](https://jupyter.org/) and [here](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) for instructions. see [here](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#statistics-machine-learning-and-data-science) for examples.
-    - here is an entire course written in `jupyter notebooks`: [Computational Statistics and Statistical Computing](http://people.duke.edu/~ccc14/sta-663-2018/index.html) (also an excellent course you can check out)
+    - here is an entire course written in `jupyter notebooks`: [Principles and Techniques of Data Science](http://www.textbook.ds100.org/) (also an excellent course you can check out)
 
 +n: completing a challenge satisfactorily (n varies by challenge)
-- n = maximum additional points you can get by doing the challenge
+- n = maximum *additional* points you can get by doing the challenge
 
 *note*: if two people co-author an assignment, **both** need to submit it on SPOC.
 
@@ -33,7 +31,7 @@ Write a short report (1 - 2 pages) on a lecture-related topic.
 
 *Important*: you should write as if your target audience is your fellow students, *not* me. In other words, imagine you are writing a tutorial for your fellow students and try to be as clear as possible.
 
-Examples: [[1](http://am207.info/wiki/Divergence.html)], [[2](http://am207.info/wiki/Entropy.html)], [[3](https://vsoch.github.io/2013/bias-and-variance-tradeoff/)], [[4](https://sudongqi.github.io/p6)], [[5](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[6](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[7](https://pandeykartikey.github.io/machine/learning/basics/2018/05/22/cross-entropy.html)], [[8](https://colah.github.io/posts/2015-09-Visual-Information/)], [[9](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)], [[10](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
+Examples: [[1](https://sudongqi.github.io/p6)], [[2](https://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/)], [[3](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)], [[4](https://colah.github.io/posts/2015-09-Visual-Information/)], [[5](https://ethen8181.github.io/machine-learning/model_selection/kl_divergence.html)]
 
 ## Empirical Analysis
 
