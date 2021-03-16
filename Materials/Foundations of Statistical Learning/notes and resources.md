@@ -2,6 +2,7 @@
 
 - Abu-Mostafa, [Learning from Data](https://work.caltech.edu/telecourse.html) 
     - Lectures 1 - 8
+- Stanford Statistics 231, [Statistical Learning Theory](https://web.stanford.edu/class/cs229t/2017/lectures.html)
 - Vapnik, [Statistical Theory of Learning](https://www.youtube.com/watch?v=Ow25mjFjSmg) [`video`]
 - Rosenberg, [Foundations of Machine Learning](https://bloomberg.github.io/foml/#home)
     - Lecture 3
