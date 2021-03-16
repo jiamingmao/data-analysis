@@ -1,19 +1,10 @@
 # Notes and Resources
 
-- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
+- Abu-Mostafa, [Learning from Data](https://work.caltech.edu/telecourse.html) 
     - Lectures 1 - 8
-- Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
-    - Chapter 10, 15
-- Harvard AM207
-    - [Entropy](http://am207.info/wiki/Entropy.html)
-    - [Divergence and Deviance](http://am207.info/wiki/Divergence.html)
-    - [Learning without noise](http://am207.info/wiki/noiseless_learning.html)
-    - [Learning with noise](http://am207.info/wiki/noisylearning.html)
-    - [Machine learning- ERM and Bayesian](http://am207.info/wiki/generativemodels.html#erm)
-- Stanford CS229
-    - [Learning Theory](http://cs229.stanford.edu/notes/cs229-notes4.pdf)
-    - [Hoeffding’s inequality](http://101.96.10.72/cs229.stanford.edu/extra-notes/hoeffding.pdf)
-    - [Bias-Variance and Error Analysis](http://cs229.stanford.edu/section/error-analysis.pdf)
+- Vapnik, [Statistical Theory of Learning](https://www.youtube.com/watch?v=Ow25mjFjSmg) [`video`]
+- Rosenberg, [Foundations of Machine Learning](https://bloomberg.github.io/foml/#home)
+    - Lecture 3
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 2, 9, 12
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
@@ -21,7 +12,6 @@
 - Fortmann-Roe, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 - Olah, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
 - The RL Probabilist, [KL Divergence for Machine Learning](https://dibyaghosh.com/blog/probability/kldivergence.html)
-- Bata, [Discriminative vs Generative models](https://deveshbatra.github.io/Generative-vs-Discriminative-models/)
 - Stanford Encyclopedia of Philosophy
     - [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)
     - [Bayesian Epistemology](https://plato.stanford.edu/entries/epistemology-bayesian/)
