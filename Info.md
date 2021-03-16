@@ -32,6 +32,7 @@ There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
 - Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[book website](https://www.mostlyharmlesseconometrics.com/)]
+- Zhao, X. (2017). *Mostly Useful Econometrics*. Peking University Press.
 - Hernán, M. A. and J. M. Robins (2020). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
 - James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
@@ -43,4 +44,3 @@ There are no textbooks for this course. Recommended readings:
 - Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press. [[book website](http://bayes.cs.ucla.edu/BOOK-2K/)]
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
-- 赵西亮. (2017). *基本有用的计量经济学*. 北京大学出版社.
