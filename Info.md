@@ -43,3 +43,4 @@ There are no textbooks for this course. Recommended readings:
 - Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press. [[book website](http://bayes.cs.ucla.edu/BOOK-2K/)]
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
+- 赵西亮. (2017). *基本有用的计量经济学*. 北京大学出版社.
