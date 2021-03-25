@@ -3,18 +3,16 @@
 - Santon, [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](http://www.amstat.org/publications/jse/v9n3/stanton.html)
 - Machine Learning Cheatsheet, [Linear Regression](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)
 - Roelants, [Regression quattro stagioni](https://peterroelants.github.io/posts/linear-regression-four-ways)
-- Stanford CS229, [Linear Regression](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
 - Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
-    - Chapter 10 - 16
+    - Chapter 16
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
-    - Chapter 13, 14, 18
+    - Chapter 14, 18
 - Rodríguez, [Generalized Linear Models](https://data.princeton.edu/wws509/notes)
     - Chapter 2
 - Penn State STAT 501, [Regression Methods](https://newonlinecourses.science.psu.edu/stat501/)
-    - Lesson 1 - 7, 9, 11, 12
+    - Lesson 1 - 13
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 3
-- Harvard AM207, [From the normal model to regression](http://am207.info/wiki/normalreg.html)
 - Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
     - Chapter 7 - 15
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
@@ -23,16 +21,14 @@
     - Chapter 2 - 8
 - Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
     - Chapter 4 - 9
-- fast.ai, [Linear Regression](http://wiki.fast.ai/index.php/Linear_Regression)
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Vanhove, [Some illustrations of bootstrapping](https://janhove.github.io/teaching/2016/12/20/bootstrapping)
 - r-statistics.co
     - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
-    - [Robust Regression](http://r-statistics.co/Robust-Regression-With-R.html)
 - McDermott, [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html)
-- UC Business Analytics R Programming Guide
-    - [Linear Regression](https://uc-r.github.io/linear_regression)
-    - [Multivariate Adaptive Regression Splines](http://uc-r.github.io/mars)
-- Rodrigues, [Dealing with heteroskedasticity: regression with robust standard errors using R](https://www.brodrigues.co/blog/2018-07-08-rob_stderr/)
-- Rodrigues, [Split-apply-combine for Maximum Likelihood Estimation of a linear model](https://www.brodrigues.co/blog/2019-10-05-parallel_maxlik/)
+- UC Business Analytics R Programming Guide, [Linear Regression](https://uc-r.github.io/linear_regression)
+- VanderPlas, [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
+    - [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)
+- Ranger, [Implementing and vectorizing a Maximum Likelihood model with scipy](https://nbviewer.jupyter.org/github/VHRanger/MLE-tutorial/blob/master/Implementing%20and%20vectorizing%20a%20Maximum%20Likelihood%20model%20with%20scipy--1.ipynb)
+- The Statistical Consulting Group, UCLA Institute for Digital Research & Education, [Regression with Stata](https://stats.idre.ucla.edu/stat/stata/webbooks/reg/default.htm)
