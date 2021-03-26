@@ -1,5 +1,6 @@
 # Notes and Resources
 
+- Gelman, Loken. (2016). "[The Statistical Crisis in Science]()," *American Scientist*, 102 (6). 
 - Gelman, The Statistical Crisis in Science [[video](https://www.youtube.com/watch?v=KS3yPw91iC0)]
 - Kenkel, [The Statistical Crisis in Science, or: How I Learned to Stop Worrying and Love Insignificant Results](http://bkenkel.com/psci8357/notes/03-crisis.html)
 - Smith, [Mistakes Involving the Limitations of Frequentist Inference Procedures (Hypothesis Tests and Confidence Intervals)](https://web.ma.utexas.edu/users/mks/statmistakes/mistakesHypTestandCI.html)
