@@ -45,7 +45,7 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 
 Significance Testing, P-Hacking, and Publication Bias ([slides]({{ site.baseurl }}/assets/Lectures/Significance_Testing,_P-Hacking,_and_Publication_Bias.pdf)) 
 - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
-- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/https://github.com/jiamingmao/data-analysis/tree/master/Materials/Significance%20Testing%2C%20P-Hacking%2C%20and%20Publication%20Bias/notes%20and%20resources.md)
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Significance%20Testing%2C%20P-Hacking%2C%20and%20Publication%20Bias/notes%20and%20resources.md)
  
 
 
