@@ -36,14 +36,13 @@ order: 4
 - Hank et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
 - Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
-- Colonescu, [Principles of Econometrics with R] (https://bookdown.org/ccolonescu/RPoE4/)
+- Colonescu, [Principles of Econometrics with R](https://bookdown.org/ccolonescu/RPoE4/)
 - McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
 - Xie et al., [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
 ### Python
 - [The Python Tutorial](https://docs.python.org/3/tutorial)
 - [Google's Python Class](https://developers.google.com/edu/python/)
-- Stanford CS231n, [NumPy Tutorial](https://cs231n.github.io/python-numpy-tutorial)
 - QuantEcon, [Python Fundamentals](https://datascience.quantecon.org/python_fundamentals/basics.html)
 - QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
 - QuantEcon, [Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html)
