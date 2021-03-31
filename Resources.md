@@ -11,6 +11,7 @@ order: 4
 ---
 
 ## Related Courses
+- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
 - [Statistical Learning](https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning) (Hastie & Tibshirani, Stanford)
 - [Machine Learning](http://cs229.stanford.edu/index.html) (Stanford CS229)
 - [Principles and Techniques of Data Science](http://www.ds100.org) (Berkeley DS100)
