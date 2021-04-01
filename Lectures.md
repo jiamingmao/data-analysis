@@ -9,6 +9,7 @@ toc:
 - Foundations of Statistical Learning
 - Regression
 - Significance Testing, P-Hacking, and Publication Bias
+- Classification and Discrete Choice Models
 ---
 
 <p style="height: 1px"></p>
@@ -46,6 +47,15 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 Significance Testing, P-Hacking, and Publication Bias ([slides]({{ site.baseurl }}/assets/Lectures/Significance_Testing,_P-Hacking,_and_Publication_Bias.pdf)) 
 - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Significance%20Testing%2C%20P-Hacking%2C%20and%20Publication%20Bias/notes%20and%20resources.md)
+
+---
+
+<a id="classification-and-discrete-choice-models" />
+
+Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)) 
+- *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
+- `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
  
 
 
