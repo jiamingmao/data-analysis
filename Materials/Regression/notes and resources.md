@@ -7,8 +7,6 @@
     - Chapter 16
 - Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 14, 18
-- Rodríguez, [Generalized Linear Models](https://data.princeton.edu/wws509/notes)
-    - Chapter 2
 - Penn State STAT 501, [Regression Methods](https://newonlinecourses.science.psu.edu/stat501/)
     - Lesson 1 - 13
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
@@ -21,6 +19,8 @@
     - Chapter 2 - 8
 - Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
     - Chapter 4 - 9
+- Nguyen, [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+    - Chapter 5, 11
 - Clark, [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Vanhove, [Some illustrations of bootstrapping](https://janhove.github.io/teaching/2016/12/20/bootstrapping)
 - r-statistics.co
