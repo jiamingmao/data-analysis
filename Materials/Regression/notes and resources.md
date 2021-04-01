@@ -26,6 +26,9 @@
 - r-statistics.co
     - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
     - [Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
+- Econometrics Academy, [Master's Econometrics](https://sites.google.com/site/econometricsacademy/masters-econometrics)
+    - Lesson 2 - 9
+- Econometrics Academy, [Linear Regression](https://sites.google.com/site/econometricsacademy/econometrics-models/linear-regression)
 - McDermott, [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html)
 - UC Business Analytics R Programming Guide, [Linear Regression](https://uc-r.github.io/linear_regression)
 - VanderPlas, [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
