@@ -12,4 +12,3 @@
 - [IgNobel Prize in Neuroscience: The dead salmon study](https://blogs.scientificamerican.com/scicurious-brain/ignobel-prize-in-neuroscience-the-dead-salmon-study/)
 - Gewin, V. "[Turning point: Craig Bennett](https://www.nature.com/articles/nj7420-437a)," Nature 490, 437 (2012).
 - Schimmack, [Why the Journal of Personality and Social Psychology Should Retract Article “Feeling the Future: Experimental evidence for anomalous retroactive influences on cognition and affect” by Daryl J. Bem](https://replicationindex.com/2018/01/05/bem-retraction/)
-- 
