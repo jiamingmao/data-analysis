@@ -42,7 +42,7 @@ Regression ([slides]({{ site.baseurl }}/assets/Lectures/Regression.pdf))
 
 ---
 
-<a id="significance_testing,_p-Hacking,_and_publication_bias" />
+<a id="significance-testing,-p-Hacking,-and-publication-bias" />
 
 Significance Testing, P-Hacking, and Publication Bias ([slides]({{ site.baseurl }}/assets/Lectures/Significance_Testing,_P-Hacking,_and_Publication_Bias.pdf)) 
 - *Topics:* p-values; multiple testing; Bonferroni correction; publication bias; p-hacking; data-snooping
