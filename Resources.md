@@ -18,6 +18,7 @@ order: 4
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
+- [Topics in Empirical Industrial Organization](Kawaguchi, HKU)
 
 ---
 
@@ -40,6 +41,7 @@ order: 4
 - Colonescu, [Principles of Econometrics with R](https://bookdown.org/ccolonescu/RPoE4/)
 - McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
 - Xie et al., [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+- Shalizi, [Using R Markdown for Class Reports](http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
 
 ### Python
 - [The Python Tutorial](https://docs.python.org/3/tutorial)
