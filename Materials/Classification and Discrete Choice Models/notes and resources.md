@@ -1,52 +1,34 @@
 # Notes and Resources
 
+- Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
 - Machine Learning Cheatsheet, [Logistic Regression](https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#)
 - Yeh, [Binary vs. Multi-Class Logistic Regression](https://chrisyeh96.github.io/2018/06/11/logistic-regression.html)
-- r-statistics.co
-    - [Logistic Regression](http://r-statistics.co/Logistic-Regression-With-R.html)
-    - [Probit Regression](http://r-statistics.co/Probit-Regression-With-R.html)
-    - [Multinomial Regression](http://r-statistics.co/Multinomial-Regression-With-R.html)
-    - [Ordinal Logistic Regression](http://r-statistics.co/Ordinal-Logistic-Regression-With-R.html)
-    - [Poisson and Negative Binomial Regression](http://r-statistics.co/Poisson-and-Negative-Binomial-Regression-With-R.html)
-- fast.ai
-    - [Log Loss](http://wiki.fast.ai/index.php/Log_Loss)
-    - [Logistic Regression](http://wiki.fast.ai/index.php/Logistic_Regression)
-- UC Business Analytics R Programming Guide, [Logistic Regression](https://uc-r.github.io/logistic_regression)
 - Berkeley Data 8, [The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro)
-    - Chapter 17, 18
-- Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
     - Chapter 17
-- Harvard AM207
-    - [Logistic Regression MLE](http://am207.info/wiki/LogisticBP.html)
-- Stanford CS229
-    - [Classification and logistic regression, Generalized Linear Models](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
-    - [Binary classification](http://cs229.stanford.edu/extra-notes/loss-functions.pdf)
+- Berkeley DS100, [Principles and Techniques of Data Science](https://www.textbook.ds100.org)
+    - Chapter 23
+- Penn State STAT 504, [Analysis of Discrete Data](https://online.stat.psu.edu/stat504/)
+    - Lesson 6 - 8
 - Penn State STAT 508, [Applied Data Mining and Statistical Learning](https://newonlinecourses.science.psu.edu/stat508/)
     - Lesson 9
-- Penn State STAT504, [Relationship between the Multinomial and Poisson](https://newonlinecourses.science.psu.edu/stat504/node/48/)
-- UCLA idre
-    - [Probit Regression](https://stats.idre.ucla.edu/stata/dae/probit-regression/)
-    - [Ordered Logistic Regression](https://stats.idre.ucla.edu/stata/dae/ordered-logistic-regression/)
-- Rodríguez, [Generalized Linear Models](https://data.princeton.edu/wws509/notes)
-    - Chapter 3, 5
-- Arnold, [Generalized Linear Models](https://jrnold.github.io/bayesian_notes/generalized-linear-models.html)
-- Daumé III, [A Course in Machine Learning](http://ciml.info/)
-    - Chapter 3, 6
 - Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
     - Chapter 17
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
-    - Chapter 10
+    - Chapter 7, 9, 10
+- Rodríguez, [Generalized Linear Models](https://data.princeton.edu/wws509/notes)
+    - Chapter 3
 - Colonescu, [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
     - Chapter 16
 - Hanck et al., [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
     - Chapter 11
-- Rodrigues, [Nonlinear Gmm with R - Example with a logistic regression](https://www.brodrigues.co/blog/2013-11-07-gmm-with-rmd/)
-- Train, [Discrete Choice Methods with Simulation](https://eml.berkeley.edu/books/choice2.html)
+- Daumé III, [A Course in Machine Learning](http://ciml.info/)
+    - Chapter 3, 6
+- Stanford CS231n, [Image Classification](https://cs231n.github.io/classification/)
+- UC Business Analytics R Programming Guide, [Logistic Regression](https://uc-r.github.io/logistic_regression)
+- UCLA idre
+    - [Probit Regression](https://stats.idre.ucla.edu/stata/dae/probit-regression/)
+    - [Ordered Logistic Regression](https://stats.idre.ucla.edu/stata/dae/ordered-logistic-regression/)
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
-- Hocking, [K-Nearest-Neighbors](http://members.cbio.mines-paristech.fr/~thocking/animint-book/Ch00-preface.html)
-
-## Student Contributions
-- Xiaoyu Ji, [Heart Disease Classification with R](https://xiaoyuji001.github.io/blog/2019/04/13/classification)
-- Xiaolu Li, [Heart Disease Classification with Python](https://xiaoluli97.github.io/2019/04/06/DA-A3/)
-- Youwen Zhang, [KNN Classification](https://zywxmu2016.github.io/2019/04/13/hw3/)
-- Yuwei Zheng, [The Battle of the Sexes](https://github.com/Yuwei-Econ/yuwei-econ.github.io/blob/master/Homework3.md)
+- Rodrigues, [Nonlinear Gmm with R - Example with a logistic regression](https://www.brodrigues.co/blog/2013-11-07-gmm-with-rmd/)
+- Matlab, [Classification Using Nearest Neighbors](https://www.mathworks.com/help/stats/classification-using-nearest-neighbors.html)
+- scikit-learn, [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html#classification)
