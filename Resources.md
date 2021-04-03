@@ -18,7 +18,7 @@ order: 4
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
-- [Topics in Empirical Industrial Organization](Kawaguchi, HKU)
+- [Topics in Empirical Industrial Organization](https://kohei-kawaguchi.github.io/EmpiricalIO/) (Kawaguchi, HKU)
 
 ---
 
