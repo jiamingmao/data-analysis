@@ -14,11 +14,10 @@ order: 4
 - [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
 - [Statistical Learning](https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning) (Hastie & Tibshirani, Stanford)
 - [Machine Learning](http://cs229.stanford.edu/index.html) (Stanford CS229)
-- [Principles and Techniques of Data Science](http://www.ds100.org) (Berkeley DS100)
 - [Undergraduate Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/17/) (Shalizi, CMU)
 - [Causal Inference](http://www.mattblackwell.org/teaching/gov2002/) (Blackwell, Harvard)
-- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 - [Topics in Empirical Industrial Organization](https://kohei-kawaguchi.github.io/EmpiricalIO/) (Kawaguchi, HKU)
+- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 
 ---
 
@@ -47,8 +46,8 @@ order: 4
 ### Python
 - [The Python Tutorial](https://docs.python.org/3/tutorial)
 - [Google's Python Class](https://developers.google.com/edu/python/)
+- Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
+- VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
 - QuantEcon, [Python Fundamentals](https://datascience.quantecon.org/python_fundamentals/basics.html)
 - QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
 - QuantEcon, [Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html)
-- Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
-- VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
