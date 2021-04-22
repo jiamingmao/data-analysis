@@ -13,8 +13,7 @@ More generally, let $Q_{\tau}(y)$ denote the $\tau-\text{th}$ quantile of $y$ (e
 
 ## Tasks
 1. Write a formal introduction to quantile regression
-    - Optional: How to solve the quantile loss minimization problem by linear programming
-3. Empirical implementation of quantile regression using real or simulated data (real data with real economic problems preferred) [^1]
+2. Empirical implementation of quantile regression using real or simulated data (real data with real economic problems preferred) [^1]
 
 [^1]: Use any statistical computing language that you like, e.g., Stata, R, Matlab, Python
 
