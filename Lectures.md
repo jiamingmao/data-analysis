@@ -10,6 +10,7 @@ toc:
 - Regression
 - Significance Testing, P-Hacking, and Publication Bias
 - Classification and Discrete Choice Models
+- Model Selection and Regularization
 ---
 
 <p style="height: 1px"></p>
@@ -55,6 +56,15 @@ Significance Testing, P-Hacking, and Publication Bias ([slides]({{ site.baseurl 
 Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)) 
 - *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
+- `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
+
+---
+
+<a id="model-selection-and-regularization" />
+
+Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/Model_Selection_and_Regularization.pdf)) 
+- *Topics:* cross validation; information criteria; forward stepwise regression; regularization; ridge regression; lasso; elastic net; selective inference; smoothing splines
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
 - `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
  
 
