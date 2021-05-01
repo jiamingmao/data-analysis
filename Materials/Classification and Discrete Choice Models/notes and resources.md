@@ -27,6 +27,8 @@
 - UCLA idre
     - [Probit Regression](https://stats.idre.ucla.edu/stata/dae/probit-regression/)
     - [Ordered Logistic Regression](https://stats.idre.ucla.edu/stata/dae/ordered-logistic-regression/)
+- Hossain, [Ordered Logit Model](http://rstudio-pubs-static.s3.amazonaws.com/481986_a5ca0845932641e9a5594e7ce53db3b5.html)
+- Zelig, [Ordered Logistic Regression](http://docs.zeligproject.org/articles/zeligchoice_ologit.html)
 -  Pennec & Fermin, [Supervised Classification: an Exploration with R](http://www.cmap.polytechnique.fr/~lepennec/R/Learning/Learning.html)
 - Rodrigues, [Nonlinear Gmm with R - Example with a logistic regression](https://www.brodrigues.co/blog/2013-11-07-gmm-with-rmd/)
 - Matlab, [Classification Using Nearest Neighbors](https://www.mathworks.com/help/stats/classification-using-nearest-neighbors.html)

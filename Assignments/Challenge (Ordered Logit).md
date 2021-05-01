@@ -5,3 +5,7 @@
 
 1. Write a tutorial on ordered logit. Clearly explain the theory, model, usage and technical details. 
 2. Estimate an ordered logit model on a real data set for an empirical application. 
+
+## References
+
+See [notes and resources](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md) for references on ordered logit. 
