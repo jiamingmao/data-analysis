@@ -1,4 +1,5 @@
-# Homework Challenge (2 Extra Points)
+# Classification and Discrete Choice Models
+# Homework Challenge: Discrete Game (2 Extra Points)
 
 In the random utility framework, we model individual choice as individual i choosing among K choices by maximizing her utility U(i,k), with U(i,k) being a function of observed individual and alternative characteristics x(i,k).
 
