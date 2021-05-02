@@ -15,7 +15,10 @@ In these cases, individual choices involve **strategic interactions**, which we 
 
 Can you think of a way to model this type of strategic interactions in discrete choice problems?
 
-Challenge: do a simple discrete game model involving several players and estimate their utility parameters from data (feel free to simulate the data yourself).
+Challenge: 
+
+1. Write an introduction on discrete game. In particular, what are games of complete and incomplete information? What are the relevant equilibrium concepts? 
+2. Do a simple discrete game model with complete or incomplete information involving several players and estimate their utility parameters from data (feel free to simulate the data yourself).
 
 ## Reference
 
