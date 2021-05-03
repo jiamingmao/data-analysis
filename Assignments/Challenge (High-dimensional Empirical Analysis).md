@@ -1,5 +1,5 @@
 # Model Selection and Regularization
-# Homework Challenge: High-dimensional Empirical Analysis (1 Extra Point)
+# Homework Challenge: High-dimensional Empirical Analysis (2 Extra Point)
 
 [1] Look for data to perform high-dimensional analysis. For exmaple, you may take a look at the following survey data:
 
