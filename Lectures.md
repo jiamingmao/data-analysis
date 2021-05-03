@@ -11,6 +11,7 @@ toc:
 - Significance Testing, P-Hacking, and Publication Bias
 - Classification and Discrete Choice Models
 - Model Selection and Regularization
+- Decision Trees and Ensemble Methods
 ---
 
 <p style="height: 1px"></p>
@@ -67,6 +68,14 @@ Model Selection and Regularization ([slides]({{ site.baseurl }}/assets/Lectures/
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Model%20Selection%20and%20Regularization/notes%20and%20resources.md)
 - `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
  
+ ---
+
+<a id="decision-trees-and-ensemble-learning" />
+
+Decision Trees and Ensemble Methods ([slides]({{ site.baseurl }}/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf))
+- *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Methods/notes%20and%20resources.md)
+- `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
 
 
 
