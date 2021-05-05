@@ -22,3 +22,4 @@
 - Daumé III, [A Course in Machine Learning](http://ciml.info/)
     - Chapter 13
 - Rodrigues, [Predicting job search by training a random forest on an unbalanced dataset](https://www.brodrigues.co/blog/2018-02-11-census-random_forest/)
+- Lewinson, [Explaining Feature Importance by example of a Random Forest](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
