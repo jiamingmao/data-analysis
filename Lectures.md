@@ -12,6 +12,8 @@ toc:
 - Classification and Discrete Choice Models
 - Model Selection and Regularization
 - Decision Trees and Ensemble Methods
+- Part II
+- Foundations of Causal Inference
 ---
 
 <p style="height: 1px"></p>
@@ -76,6 +78,18 @@ Decision Trees and Ensemble Methods ([slides]({{ site.baseurl }}/assets/Lectures
 - *Topics:* decision trees; ensemble learning; bagging; random forest; boosting
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Decision%20Trees%20and%20Ensemble%20Methods/notes%20and%20resources.md)
 - `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
+
+---
+
+<a id="part-II" />
+
+## Part II
+
+<a id="foundations-of-causal-inference" />
+
+Foundations of Causal Inference ([slides]({{ site.baseurl }}/assets/Lectures/Foundations_of_Causal_Inference.pdf))
+- *Topics:* causal effect and causal mechanism learning; identification and estimation; discriminative vs. generative causal inference; Rubin causal model; potential outcomes framework; average treatment effect; randomized controlled trials (RCT); exchangeability; self-selection bias; sample-selection bias; internal and external validity; SUTVA; Bayesian belief network; causal graphical model; endogeneity and exogeneity; do-calculus; reduced-form analysis; back-door and front-door criterion; structural estimation; dynamic structural model; counterfactual simulation
+- *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/blob/master/Materials/Foundations%20of%20Causal%20Inference/notes%20and%20resources.md)
 
 
 
