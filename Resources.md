@@ -29,6 +29,10 @@ order: 4
 
 ## Computing
 
+### Stata
+
+- Ludwig-Mayerhofer, [Internet Guide to Stata](https://wlm.userweb.mwn.de/Stata/)
+
 ### R/R Markdown
 - Michonneau, F., [The R Class](http://r-bio.github.io/)
 - Bryan, [Data wrangling, exploration, and analysis with R](https://stat545.com/index.html)
