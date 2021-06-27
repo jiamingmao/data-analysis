@@ -58,7 +58,7 @@ Significance Testing, P-Hacking, and Publication Bias ([slides]({{ site.baseurl 
 <a id="classification-and-discrete-choice-models" />
 
 Classification and Discrete Choice Models ([slides]({{ site.baseurl }}/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)) 
-- *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility framework; probit; conditional logit; independence of irrelevant alternatives (IIA)
+- *Topics:* binary and multiclass classification; generalized linear models; logistic regression; similarity-based methods; K-nearest neighbors (KNN); ROC curve; discrete choice models; random utility maximization (RUM); probit; conditional logit; independence of irrelevant alternatives (IIA)
 - *Notes and resources:* [link](https://github.com/jiamingmao/data-analysis/tree/master/Materials/Classification%20and%20Discrete%20Choice%20Models/notes%20and%20resources.md)
 - `codes`: [`R`](https://l.xmu.edu.cn/mod/folder/view.php?id=87904)
 
