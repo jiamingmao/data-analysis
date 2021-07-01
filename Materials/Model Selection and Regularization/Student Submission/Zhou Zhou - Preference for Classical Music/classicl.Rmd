@@ -1,0 +1,251 @@
+---
+title: "High-dimensional Empirical Analysis: Whether liking classical music"
+author: "Zhou Zhou 15220182202882"
+date: "2021/5/16"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+
+  There are probably more variables than we can imagine to be justifiable to affect people's love of **classical music-symphony & chamber** on the social network or in realistic life.
+  
+  Based on many variables from GSS(U.S. General Social Survey) in 1993, I'll try to predict whether a person love classical music-symphony & chamber by performing regularized linear with a regularizer that combines L1 and L2 (Elastic Net) in this article.
+
+# Background
+
+  To perform least squares linear regression, we use the model:
+  
+  $$f_ {\hat {\theta} }(x) = \hat {\theta} \cdot x$$
+
+  We fit the model by minimizing the mean squared error cost function:
+  
+  $$L (\hat{\theta}, X, y) = \frac {1}{n} \sum _i ^n (y_i - f_ {\hat{\theta}} (X_i)) ^2$$
+  
+  In the above definitions, $X$ represents the $n \times p$ data matrix, $x$ represents a row of $X$, $y$ represents the observed outcomes, and $\hat{\theta}$ represents the model weights.
+  
+## L2 Regularization: Ridge Regression
+
+  $L_2$ regularization, a method of penalizing large weights in our cost function to lower model variance.
+
+  To add $L_2$ regularization to the model, we modify the cost function above:
+  
+  $$L (\hat{\theta}, X, y) = \frac {1}{n} \sum _i ^n (y_i - f_ {\hat{\theta}} (X_i)) ^2 + \lambda \sum _{j=1} ^p \hat{\theta} _j ^2$$
+  
+  Notice that the cost function above is the same as before with the addition of the $L_2$ regularization $\lambda \sum _{j=1} ^p \hat{\theta} _j ^2$ term. The summation in this term sums the square of each model weight $\hat{\theta}_1,\hat{\theta}_2,…,\hat{\theta}_p$. The term also introduces a new scalar model parameter $\lambda$ that adjusts the regularization penalty.
+  
+  The regularization term causes the cost to increase if the values in $\hat{\theta}$ are further away from 0. With the addition of regularization, the optimal model weights minimize the combination of loss and regularization penalty rather than the loss alone. Since the resulting model weights tend to be smaller in absolute value, the model has lower variance and higher bias.
+
+  Using $L_2$ regularization with a linear model and the mean squared error cost function is also known more commonly as **ridge regression**.
+  
+  Using $L_2$ regularization allows us to tune model bias and variance by penalizing large model weights. $L_2$ regularization for least squares linear regression is also known by the more common name ridge regression. Using regularization adds an additional model parameter $\lambda$ that we adjust using cross-validation.
+
+## L1 Regularization: Lasso Regression
+
+  $L_1$ regularization, another regularization technique that is useful for feature selection.
+  
+  We fit the model by minimizing the mean squared error cost function with an additional regularization term:
+  
+  $$L (\hat{\theta}, X, y) = \frac {1}{n} \sum _i ^n (y_i - f_ {\hat{\theta}} (X_i)) ^2 + \lambda \sum _{j=1} ^p \hat{\theta} _j ^2$$
+  
+  In the above definitions, $X$ represents the $n \times p$ data matrix, $x$ represents a row of $X$, $y$ represents the observed outcomes, and $\hat{\theta}$ represents the model weights, and $\lambda$ represents the regularization parameter.
+  
+  To add $L_1$ regularization to the model, we modify the cost function above:
+  
+  $$L (\hat{\theta}, X, y) = \frac {1}{n} \sum _i ^n (y_i - f_ {\hat{\theta}} (X_i)) ^2 + \lambda \sum _{j=1} ^p |\hat{\theta} _j |$$
+  
+  Observe that the two cost functions only differ in their regularization term. $L_1$ regularization penalizes the sum of the absolute weight values instead of the sum of squared values.
+  
+  Using $L_1$ regularization with a linear model and the mean squared error cost function is also known more commonly as **lasso regression**. (Lasso stands for Least Absolute Shrinkage and Selection Operator.)
+  
+  Lasso regression performs *feature selection*—it discards a subset of the original features when fitting model parameters. This is particularly useful when working with high-dimensional data with many features. A model that only uses a few features to make a prediction will run much faster than a model that requires many calculations. Since unneeded features tend to increase model variance without decreasing bias, we can sometimes increase the accuracy of other models by using lasso regression to select a subset of features to use.
+  
+  Using $L_1$ regularization, like $L_2$ regularization, allows us to tune model bias and variance by penalizing large model weights. $L_1$ regularization for least squares linear regression is also known by the more common name lasso regression. Lasso regression may also be used to perform feature selection since it discards insignificant features.
+  
+## Lasso vs. Ridge In Practice
+  
+  If our goal is merely to achieve the highest prediction accuracy, we can try both types of regularization and use cross-validation to select between the two types.
+
+  Sometimes we prefer one type of regularization over the other because it maps more closely to the domain we are working with. For example, if know that the phenomenon we are trying to model results from many small factors, we might prefer ridge regression because it won’t discard these factors. On the other hand, some outcomes result from a few highly influential features. We prefer lasso regression in these situations because it will discard unneeded features.
+  
+##  Elastic Net
+
+  Like ridge and lasso, we again attempt to minimize the residual sum of squares plus some penalty term:
+  
+  $$L (\hat{\theta}, X, y) = \frac {1}{n} \sum _i ^n (y_i - f_ {\hat{\theta}} (X_i)) ^2 + \lambda [(1 - \alpha) \frac{||β||_2 ^2}{2} + \alpha||β||_1]$$
+
+  Here, $||β||_1$ is called the $L_1$ norm.
+  
+  $$||β||_1 = \sum _{j=1} ^p |\hat{\theta} _j|$$
+
+  Similarly,  $||β||_2$  is called the $L_2$, or Euclidean norm.
+  
+  $$||β||_2 = \sqrt{\sum _{j=1} ^p \hat{\theta} _j ^2}$$
+
+  These both quantify how “large” the coefficients are. Like lasso and ridge, the intercept is not penalized and can use glment takes care of standardization internally. Also reported coefficients are on the original scale.
+
+  The new penalty is  $\frac {\lambda ⋅( 1 - \alpha)}{2}$  times the ridge penalty plus $\lambda \cdot \alpha $ times the lasso lasso penalty. (Dividing the ridge penalty by 2 is a mathematical convenience for optimization.) Essentially, with the correct choice of  $\lambda$  and $\alpha$ these two “penalty coefficients” can be any positive numbers.
+
+  Often it is more useful to simply think of $\alpha$ as controlling the mixing between the two penalties and $\lambda$ controlling the amount of penalization. $\alpha$ takes values between 0 and 1. Using $\alpha = 1$ gives the lasso that we have seen before. Similarly, $\alpha = 0$ gives ridge.
+
+# Empirical Analysis
+
+## Data Description
+
+Questions from GSS(U.S. General Social Survey) associated with liking classical music:
+
+I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music (HAND CARD CA TO RESPONDENT.) Let's start with big band music. Do you like it very much(1), like it(2), have mixed feelings(3), dislike it(4), dislike it very much(5), or is this a type of music that you don't know much about? 
+
+*F. Classical music-symphony & chamber*
+
+To capture what factors effect people’s preference to classical music most, I choose 62 variables that might correlate with it from GSS and run both Lasso and elastic net method to regularize the regression model. The variables are listed below:
+
+Variable name|Variable Label
+-----------|---------------
+popular|To be well liked or popular
+workhard|To work hard
+hrs2|Number of hours usually work a week
+drunk|Ever drink too much?
+smoke|Does r smoke
+grass|Should marijuana be made legal
+pawrkslf|Father self-emp. or worked for somebody
+jobsec|No danger of being fired
+postlife|Belief in life after death
+sibs|Number of brothers and sisters
+childs|Number of children
+age|Age of respondent
+degree|Rs highest degree
+padeg|Fathers highest degree
+madeg|Mothers highest degree
+spdeg|Spouses highest degree
+mapa|Contrast between mother and father
+sex|Respondents sex
+race|Race of respondent
+absingle|Not married
+hompop|Number of persons in household
+income|Total family income
+rincome|Respondents income
+bigband|Like or dislike bigband music
+blugrass|Like or dislike bluegrass music
+country|Like or dislike country western music
+blues|Like or dislike blues or r and b music
+musicals|Like or dislike broadway musicals
+classicl|Like or dislike classical music
+income91|Total family income
+folk|Like or dislike folk music
+gospel|Like or dislike gospel music
+jazz|Like or dislike jazz
+latin|Like or dislike latin music
+moodeasy|Like or dislike easy listening music
+newage|Like or dislike new age music
+premarsx|Sex before marriage
+opera|Like or dislike opera
+anrights|Animals have rights too
+rap|Like or dislike rap music
+reggae|Like or dislike reggae music
+conrock|Like or dislike contemporary rock music
+oldies|Like or dislike oldies rock music
+hvymetal|Like or dislike heavy metal music
+tvshows|How often r watches tv drama or sitcoms
+hitage|Beaten as child or adult
+excelart|Artistic excellence found in folk art
+fear|Afraid to walk at night in neighborhood
+owngun|Have gun in home
+happy|General happiness
+hapmar|Happiness of marriage
+health|Condition of health
+natenvir|Improving & protecting environment
+life|Is life exciting or dull
+natheal|Improving & protecting nations health
+natfare|Welfare
+confinan|Confid in banks & financial institutions
+natsoc|Social security
+sexfreq|Frequency of sex during last year
+coneduc|Confidence in education
+confed|Confid. in exec branch of fed govt
+conpress|Confidence in press
+
+ *Note that all the data are limited in year of 1993.*
+ 
+## Preparation of Dataset
+
+```{r Dataset}
+getwd()
+library(foreign)
+library(AER)
+library(haven)
+GSS <- read_dta("C:/Users/84057/Desktop/GSS1993.dta")
+attach(GSS)
+dataset <- data.frame(popular, workhard, hrs2, drunk, smoke, grass, pawrkslf, jobsec, postlife, sibs, childs, age, degree, padeg, madeg, spdeg, mapa, sex, race, absingle, hompop, income, rincome, bigband, blugrass, country, blues, musicals, income91, folk, gospel, jazz, latin, moodeasy, newage, premarsx, opera, anrights, rap, reggae, conrock, oldies, hvymetal, tvshows, hitage, excelart, fear, owngun, happy, hapmar, health, natenvir, life, natheal, natfare, confinan, natsoc, sexfreq, coneduc, confed, conpress, classicl)
+detach(GSS)
+
+library(glmnet)
+summary(dataset$classicl)
+```
+
+## Data Processing
+
+```{r Data Processing}
+dataset <- replace(dataset, TRUE, lapply(dataset, na.aggregate))
+logit<-glm(classicl~.,dataset,family='gaussian',control=list(maxit=100))
+coeftest(logit)
+```
+
+  Then I regularize it with Lasso approach:
+
+```{r Lasso}
+# Regularized by LASSO
+x<-model.matrix(classicl~.,dataset) 
+y<-dataset$classicl
+lassofit.all<-glmnet(x,y,alpha=1,family="gaussian") 
+plot(lassofit.all,xvar="lambda")
+```
+
+```{r Cross Validation_1}
+# Cross Validation
+cv.lasso <- cv.glmnet(x,y,alpha=1,family="gaussian") 
+plot(cv.lasso)
+```
+
+```{r}
+lambda.star <- cv.lasso$lambda.min
+lassofit.star <- glmnet(x,y,alpha=1,lambda=lambda.star,family="gaussian") 
+coef(lassofit.star)
+```
+
+  Furthermore, I regularize it via elatic net approach:
+  
+```{r Elastic Net}
+# Regularized by Elastic Net
+x<-model.matrix(classicl~.,dataset)
+y<-dataset$classicl
+elastic<-glmnet(x,y,alpha=0.3,family="gaussian") 
+plot(elastic,xvar="lambda")
+```
+
+```{r Cross Validation_2}
+# Cross Validation
+cv.elastic<-cv.glmnet(x,y,alpha=0.3,family="gaussian")
+plot(cv.elastic)
+```
+
+```{r}
+lambda.star_elastic<-cv.elastic$lambda.min
+elastic.star<-glmnet(x,y,alpha=0.3,lambda=lambda.star_elastic,family="gaussian")
+coef(elastic.star)
+```
+
+# Conclusion
+
+  From the above results, we can use these two methods to explain the person who loves classical music more: the less smoking, the higher education, the more fond of folk, opera and rap, and the person who opposes holding guns. In this process, the income of the respondents and their families is not significant, which is different from our previous expectations.
+  
+# Reference
+
+  [1] Model Selection and Regularization, Jiaming Mao
+  
+  [2] GSS Data Explorer
