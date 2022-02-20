@@ -10,10 +10,6 @@ order: 1
 D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
-## Assistant
-**Hongfei Li**<br>
-Email: <137748860@qq.com>
-
 ---
 
 ## Syllabus ([pdf]({{site.baseurl}}/assets/syllabus.pdf), [slides](https://raw.githack.com/jiamingmao/data-analysis/master/Course%20Info/Course-Info.html))
@@ -33,7 +29,7 @@ There are no textbooks for this course. Recommended readings:
 ### Undergraduate
 - Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[book website](https://www.mostlyharmlesseconometrics.com/)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[book website](https://mixtape.scunning.com/index.html)]
-- Hernán, M. A. and J. M. Robins (2020). *Causal Inference*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book)]
+- Hernán, M. A. and J. M. Robins (2020). *Causal Inference: What If*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book),[codes](https://remlapmot.github.io/cibookex-r/)]
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
 - James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
