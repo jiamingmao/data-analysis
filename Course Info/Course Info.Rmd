@@ -53,12 +53,6 @@ Course materials are continually updated and posted to the website and the Githu
     - Office Hour: by appointment
     
     - Email: [jmao@xmu.edu.cn](Emailto: jmao@xmu.edu.cn)
-    
-**Assistant**
-    
-- Hongfei Li
-
-    - Email: [137748860@qq.com](Emailto: 137748860@qq.com)
 
 ---
 
@@ -119,9 +113,8 @@ This course offers a *unified* introduction to:
 
 Final Grade | 100%
 -------- | -------
-Midterm Exam | 15%
-Final Exam | 15%
 Homework | 50%
+Final Exam | 30%
 Final Project | 20%
 
 ---
@@ -132,7 +125,9 @@ Final Project | 20%
 
 - One homework for each lecture:
 
-    - Writing a report on a lecture-related topic
+    - Report on a lecture-related topic
+    
+    - Referee report on a lecture-related paper
     
     - Empirical applications of statistical and econometric methods
     
