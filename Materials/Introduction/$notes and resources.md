@@ -5,3 +5,5 @@
 - Athey, Machine Learning and Causal Inference for Policy Evaluation [[video 1](https://www.youtube.com/watch?v=Yx6qXM_rfKQ)], [[2](https://www.youtube.com/watch?v=DixuYCsXFig)]
 - Gelman, 100 Stories of Causal Inference [[video](https://www.youtube.com/watch?v=jnI5KI843Lk)]
 - Gelman, Crimes against Data [[video](https://www.youtube.com/watch?v=fc1hkFC2c1E)]
+- Gelman, The Statistical Crisis in Science and How to Move Forward [[video](https://www.youtube.com/watch?v=KS3yPw91iC0)]
+
