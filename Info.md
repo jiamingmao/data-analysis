@@ -27,7 +27,7 @@ You are expected to have some familiarity with at least one programming/statisti
 There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
-- Angrist, J. D. and J. Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[book website](https://www.mostlyharmlesseconometrics.com/)]
+- Angrist, J. D. and J-S, Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press. [[book website](https://www.masteringmetrics.com/)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[book website](https://mixtape.scunning.com/index.html)]
 - Hernán, M. A. and J. M. Robins (2020). *Causal Inference: What If*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book),[codes](https://remlapmot.github.io/cibookex-r/)]
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
@@ -36,6 +36,7 @@ There are no textbooks for this course. Recommended readings:
 
 ### Graduate
 - Abu-Mostafa, Y. S., M. Magdon-Ismail, and H. Lin. (2012). *Learning from Data*. AMLBook. [[book website](https://work.caltech.edu/telecourse.html)]
+- Angrist, J. D. and J-S, Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[book website](https://www.mostlyharmlesseconometrics.com/)]
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press.
 - Hastie, T., R. Tibshirani, and J. Friedmand. (2008). *The Elements of Statistical Learning (2nd ed.)*. Springer. [[book website](https://web.stanford.edu/~hastie/ElemStatLearn)]
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference (2nd ed.)*. Cambridge University Press. [[book website](http://bayes.cs.ucla.edu/BOOK-2K/)]
