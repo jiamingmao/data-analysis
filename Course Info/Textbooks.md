@@ -18,6 +18,7 @@
 - Angrist, J. D. and J-S, Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[link](https://www.mostlyharmlesseconometrics.com/)]
 - Huntington-Klein, N. (2021). *The Effect: An Introduction to Research Design and Causality*. Routledge. [[link](https://theeffectbook.net/ch-Matching.html)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[link](https://mixtape.scunning.com/index.html)]
+- Gertler et al. (2011). *Impact Evaluation in Practice*. World Bank. [[link](https://openknowledge.worldbank.org/handle/10986/2550)]
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press. [[link](http://cameron.econ.ucdavis.edu/mmabook/mma.html)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
