@@ -19,6 +19,13 @@ order: 4
 
 ---
 
+## Recommended Readings
+
+ - [books](https://github.com/jiamingmao/data-analysis/blob/master/Course%20Info/Textbooks.md) 
+ - [tutorials](https://github.com/jiamingmao/data-analysis/blob/master/Course%20Info/Tutorials.md)
+
+---
+
 ## Miscellaneous
 - [Kaggle](https://www.kaggle.com/)
 - [UCI Machine learning repository](https://archive.ics.uci.edu/ml/index.php)
@@ -26,6 +33,15 @@ order: 4
 ---
 
 ## Computing
+
+### Python
+- [The Python Tutorial](https://docs.python.org/3/tutorial)
+- [Google's Python Class](https://developers.google.com/edu/python/)
+- Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
+- VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
+- QuantEcon, [Python Fundamentals](https://datascience.quantecon.org/python_fundamentals/basics.html)
+- QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
+- QuantEcon, [Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html)
 
 ### R
 - Michonneau, F., [The R Class](http://r-bio.github.io/)
@@ -37,11 +53,4 @@ order: 4
 - Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
 - McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
 
-### Python
-- [The Python Tutorial](https://docs.python.org/3/tutorial)
-- [Google's Python Class](https://developers.google.com/edu/python/)
-- Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
-- VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
-- QuantEcon, [Python Fundamentals](https://datascience.quantecon.org/python_fundamentals/basics.html)
-- QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
-- QuantEcon, [Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html)
+
