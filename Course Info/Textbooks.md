@@ -16,6 +16,7 @@
 
 - Angrist, J. D. and J-S, Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press. [[link](https://www.masteringmetrics.com/)]
 - Angrist, J. D. and J-S, Pischke. (2009). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press. [[link](https://www.mostlyharmlesseconometrics.com/)]
+- Huntington-Klein, N. (2021). *The Effect: An Introduction to Research Design and Causality*. Routledge. [[link](https://theeffectbook.net/ch-Matching.html)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[link](https://mixtape.scunning.com/index.html)]
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press. [[link](http://cameron.econ.ucdavis.edu/mmabook/mma.html)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
