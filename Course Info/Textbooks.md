@@ -12,6 +12,8 @@
 - Goodfellow, I., Y. Bengio, A. Courville. (2016). *Deep Learning*. The MIT Press. [[link](https://www.deeplearningbook.org/)]
 - Sutton, R. S. and A. G. Barto. (2018). *Reinforcement Learning: An Introduction (2nd ed.)*. The MIT Press. [[link](http://www.incompleteideas.net/book/the-book-2nd.html)]
 
+---
+
 # Causal Inference and Econometrics
 
 - Angrist, J. D. and J-S, Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press. [[link](https://www.masteringmetrics.com/)]

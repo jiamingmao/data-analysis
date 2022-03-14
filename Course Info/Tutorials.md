@@ -4,8 +4,10 @@
 - [CS229: Machine Learning](http://cs229.stanford.edu/index.html) (Stanford)
 - [Data 8: The Foundations of Data Science](http://data8.org/) (Berkeley)
 - [Data 100: Principles and Techniques of Data Science](https://ds100.org/) (Berkeley)
+- [Machine Learning](http://campus.murraystate.edu/academic/faculty/cmecklin/STA430/_book/) (Mecklin, Murray State)
 - [A Course in Machine Learning](http://ciml.info/) (Hal Daumé III, University of Maryland)
 - Kurz, A. S., [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/) 
+- Zhang et al., [Dive into Deep Learning](https://d2l.ai/index.html)
 
 ---
 
