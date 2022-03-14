@@ -34,7 +34,6 @@ There are no textbooks for this course. Recommended readings:
 - Hernán, M. A. and J. M. Robins (2020). *Causal Inference: What If*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book),[codes](https://remlapmot.github.io/cibookex-r/)]
 - Glymour, M., J. Pearl, and N. P. Jewell. (2016) - *Causal Inference in Statistics - A Primer*. Wiley. 
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
-- Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 
 ### Graduate
 
