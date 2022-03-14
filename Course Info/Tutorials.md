@@ -28,10 +28,12 @@
 # Causal Inference and Econometrics
 
 - Robinson, T. S., [Ten Fundamental Theorems for Econometrics](https://bookdown.org/ts_robinson1994/10_fundamental_theorems_for_econometrics/)
-- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
+- [14.387: Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
+- [Econ 293: Machine Learning and Causal Inference](https://gsbdbi.github.io/ml_tutorial/) (Athey & Wager, Sanford)
+- [Stats 361: Causal Inference](https://web.stanford.edu/~swager/stats361.pdf) (Wager, Stanford)
 - [Econ 626: Empirical Microeconomics](http://economics.ozier.com/econ626/) (University of Maryland)
+- [Sociology 504: Advanced data analysis for the social sciences](http://www.princeton.edu/~mjs3/soc504_s2015/) (Princeton)
 - [Program Evaluation](https://evalsp20.classes.andrewheiss.com/syllabus/) (Heiss, Georgia State)
-- [Advanced data analysis for the social sciences](http://www.princeton.edu/~mjs3/soc504_s2015/) (Salganik, Princeton)
 - [What's New in Econometrics?](https://www.nber.org/lecture/summer-institute-2007-methods-lectures-whats-new-econometrics) (NBER Summer Institute 2007 Methods Lectures)
 - Hanck et al., [Introduction to Econometrics with R](https://bookdown.org/machar1991/ITER/)
 - [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Bauer, Mannheim)
