@@ -28,7 +28,7 @@ There are no textbooks for this course. Recommended readings:
 
 ### Undergraduate
 
-- James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
+- James, G., D. Witten, T. Hastie, and R. Tibshirani. (2021). *An Introduction to Statistical Learning: with Applications in R* (2nd ed.). Springer. [[book](https://www.statlearning.com/)]
 - Huntington-Klein, N. (2021). *The Effect: An Introduction to Research Design and Causality*. Routledge. [[link](https://theeffectbook.net/ch-Matching.html)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[book website](https://mixtape.scunning.com/index.html)]
 - Cameron, A. C. and P. K. Trivedi. (2022). *Microeconometrics using Stata (2nd ed.)*. Stata Press. [[link](http://cameron.econ.ucdavis.edu/mus2/)]
