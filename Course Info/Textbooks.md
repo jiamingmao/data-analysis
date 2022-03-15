@@ -25,6 +25,7 @@
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[book](https://mixtape.scunning.com/index.html)]
 - Gertler et al. (2011). *Impact Evaluation in Practice*. World Bank. [[book](https://openknowledge.worldbank.org/handle/10986/2550)]
 - Cameron, A. C. and P. K. Trivedi. (2005). *Microeconometrics: Methods and Applications*. Cambridge University Press. [[link](http://cameron.econ.ucdavis.edu/mmabook/mma.html)]
+- Cameron, A. C. and P. K. Trivedi. (2022). *Microeconometrics using Stata (2nd ed.)*. Stata Press. [[link](http://cameron.econ.ucdavis.edu/mus2/)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data (2nd ed.)*. The MIT Press.
 - Imbens, G. W. And D. B. Rubin. (2015) - *Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction*. Cambridge University Press.
