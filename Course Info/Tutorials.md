@@ -66,7 +66,7 @@
 - [QuantEcon](https://quantecon.org/)
 - Adolph, C., [Visualizing Data and Models](http://faculty.washington.edu/cadolph/index.php?page=22)
 - Kabacoff, R. [Data Visualization with R](https://rkabacoff.github.io/datavis/)
-- [Data science for economists](https://github.com/uo-ec607/lectures) (McDermott, University of Oregon)
+- [Data Science for Economists](https://github.com/uo-ec607/lectures) (McDermott, Oregon)
 - [BST 260: Introduction to Data Science](https://datasciencelabs.github.io/index.html) (Harvard)
 - [CS 265: Big Data Systems](http://daslab.seas.harvard.edu/classes/cs265/) (Harvard)
 - [CS 245: Principles of Data-Intensive Systems](https://web.stanford.edu/class/cs245/) (Stanford)
