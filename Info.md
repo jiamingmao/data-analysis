@@ -31,6 +31,7 @@ There are no textbooks for this course. Recommended readings:
 - James, G., D. Witten, T. Hastie, and R. Tibshirani. (2013). *An Introduction to Statistical Learning: with Applications in R*. Springer. [[book website](http://www-bcf.usc.edu/~gareth/ISL/)]
 - Huntington-Klein, N. (2021). *The Effect: An Introduction to Research Design and Causality*. Routledge. [[link](https://theeffectbook.net/ch-Matching.html)]
 - Cunningham, C. (2021). *Causal Inference: The Mixtape*. Yale University Press. [[book website](https://mixtape.scunning.com/index.html)]
+- Cameron, A. C. and P. K. Trivedi. (2022). *Microeconometrics using Stata (2nd ed.)*. Stata Press. [[link](http://cameron.econ.ucdavis.edu/mus2/)]
 - Hernán, M. A. and J. M. Robins (2020). *Causal Inference: What If*. CRC Press. [[book website](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book),[codes](https://remlapmot.github.io/cibookex-r/)]
 - Glymour, M., J. Pearl, and N. P. Jewell. (2016) - *Causal Inference in Statistics - A Primer*. Wiley. 
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research (2nd ed.)*. Cambridge University Press.
