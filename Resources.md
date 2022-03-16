@@ -46,13 +46,12 @@ order: 4
 - QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
 
 ### R
-- Michonneau, F., [The R Class](http://r-bio.github.io/)
-- Bryan, [Data wrangling, exploration, and analysis with R](https://stat545.com/index.html)
-- Kabacoff, [Data Visualization with R](https://rkabacoff.github.io/datavis/)
+- Wickham, H., [Advanced R](https://adv-r.hadley.nz/index.html)
+- Bryan, J., [Data wrangling, exploration, and analysis with R](https://stat545.com/index.html)
+- Kabacoff, R., [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 - Grolemund, G. and H. Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
 - Ejdemyr, S., [R Tutorials: Statistics](https://sejdemyr.github.io/r-tutorials/statistics/)
-- Dalpiaz, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
-- Dalpiaz, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
-- McDermott, G., [Data Science for Economists](https://github.com/uo-ec607/lectures)
+- Dalpiaz, D., [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
+- Dalpiaz, D., [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
 
 
