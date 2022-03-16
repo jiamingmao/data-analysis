@@ -73,5 +73,7 @@
 - [CS 186: Introduction to Database Systems](https://cs186berkeley.net/) (Berkeley)
 - [6.830: Database Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/index.htm) (MIT)
 - [15-445: Database Systems](https://15445.courses.cs.cmu.edu/fall2021/) (CMU)
+- Wickham, H., [Advanced R](https://adv-r.hadley.nz/index.html)
+- Bryan, J., [Data wrangling, exploration, and analysis with R](https://stat545.com/index.html)
 - [Google's Python Class](https://developers.google.com/edu/python/)
 - [Python for you and me](https://pymbook.readthedocs.io/en/latest/)
