@@ -43,7 +43,7 @@ order: 4
 - [Google's Python Class](https://developers.google.com/edu/python/)
 - Das, K., [Python for you and me](https://pymbook.readthedocs.io/en/latest)
 - VanderPlas, J. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook)
-- QuantEcon, [Quantitative Economics with Python](https://lectures.quantecon.org/py)
+- QuantEcon, [Quantitative Economics with Python](https://quantecon.org/lectures/)
 
 ### R
 - Wickham, H., [Advanced R](https://adv-r.hadley.nz/index.html)
