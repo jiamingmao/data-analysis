@@ -16,6 +16,7 @@ order: 4
 - [Big Data](http://veronikarock.com/) (Rockova, Chicago Booth)
 - [Data Science for Economists](https://github.com/uo-ec607/lectures) (McDermott, Oregon)
 - [Program Evaluation](https://evalsp20.classes.andrewheiss.com/syllabus/) (Heiss, Georgia State)
+- [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/ch-Matching.html) (Huntington-Klein, Seattle)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/index.html) (Cunningham, Baylor)
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 
