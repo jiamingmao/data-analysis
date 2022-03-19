@@ -1,6 +1,6 @@
 # Notes and Resources
 
-- Varian, H. R., Causal Inference, Econometrics, and Big Data [[video](https://www.youtube.com/watch?v=8xa-hSlJFo0)]
+- Varian, H. R., [Causal Inference, Econometrics, and Big Data](https://www.youtube.com/watch?v=8xa-hSlJFo0) [`video`]
 - Rubin, D., Identification and estimation of causal effects using observation [[video](https://www.youtube.com/watch?v=AH7lvy45k2U)]
 - Athey, S., Counterfactual Inference [[video](https://www.youtube.com/watch?v=yKs6msnw9m8)]
 - Athey, S., Machine Learning and Causal Inference for Policy Evaluation [[video 1](https://www.youtube.com/watch?v=Yx6qXM_rfKQ)], [[2](https://www.youtube.com/watch?v=DixuYCsXFig)]

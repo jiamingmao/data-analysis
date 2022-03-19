@@ -25,6 +25,7 @@
 - [Machine Learning](http://campus.murraystate.edu/academic/faculty/cmecklin/STA430/_book/) (Mecklin, Murray State)
 - [Foundations of Machine Learning](https://bloomberg.github.io/foml/#home) (Rosenberg, Bloomberg)
 - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro) (Google)
+- [Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) (StatQuest)
 - Hal Daumé III, [A Course in Machine Learning](http://ciml.info/) 
 - Winn, J. M., [Model-Based Machine Learning](https://www.mbmlbook.com/)
 - Kurz, A. S., [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/) 
@@ -32,8 +33,6 @@
 - Dalpiaz, D., [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
 - Nielsen, M., [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 - Zhang et al., [Dive into Deep Learning](https://d2l.ai/index.html)
-
----
 
 # Causal Inference and Econometrics
 
@@ -59,8 +58,6 @@
 - [Quantitative Dynamic Model](https://sites.google.com/site/yixusite/econ881-32-quantitative-dynamic-model?authuser=0) (Xu, Duke)
 - Schmidt, A., [Causal Inference in Education](https://bookdown.org/aschmi11/causal_inf/)
 - Gow & Ding, [Accounting Research: An Introductory Course](http://www.iangow.me/far_book/)
-
----
 
 # Data Science
 

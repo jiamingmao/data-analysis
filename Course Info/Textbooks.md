@@ -15,8 +15,6 @@
 - Goodfellow, I., Y. Bengio, A. Courville. (2016). *Deep Learning*. The MIT Press. [[link](https://www.deeplearningbook.org/)]
 - Sutton, R. S. and A. G. Barto. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). The MIT Press. [[book](http://www.incompleteideas.net/book/the-book-2nd.html)]
 
----
-
 # Causal Inference and Econometrics
 
 - Angrist, J. D. and J-S, Pischke. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press. [[link](https://www.masteringmetrics.com/)]
@@ -35,8 +33,6 @@
 - Pearl, J. And D. Mackenzie. (2018). *The Book of Why: The New Science of Cause and Effect*. Basic Books. [[link](http://bayes.cs.ucla.edu/WHY/)]
 - Glymour, M., J. Pearl, and N. P. Jewell. (2016). *Causal Inference in Statistics - A Primer*. Wiley. 
 - Pearl, J. (2009). *Causality: Models, Reasoning and Inference* (2nd ed.). Cambridge University Press. [[link](http://bayes.cs.ucla.edu/BOOK-2K/)]
-
----
 
 # Data Science
 
