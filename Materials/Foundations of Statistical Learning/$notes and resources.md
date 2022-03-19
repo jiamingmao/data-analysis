@@ -13,17 +13,16 @@
 - [Statistics 231: Statistical Learning Theory](https://web.stanford.edu/class/cs229t/2017/lectures.html) (Duchi, Stanford)
 - [9.520: Statistical Learning Theory and Applications](https://www.mit.edu/~9.520/fall19/) (MIT)
 - [EECS 598: Statistical Learning Theory](https://web.eecs.umich.edu/~cscott/past_courses/eecs598w14/index.html) (Scott, Michigan)
-- Abu-Mostafa, Y., Learning from Data [[video](https://www.youtube.com/playlist?list=PLD63A284B7615313A)]
-- Ben-David, S., Machine Learning Theory [[video](https://www.youtube.com/playlist?list=PLPW2keNyw-usgvmR7FTQ3ZRjfLs5jT4BO)]
-- 2019 Mathematics of Machine Learning Summer School [[video](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9)]
-- Vapnik, V., Statistical Theory of Learning [[video](https://www.youtube.com/watch?v=Ow25mjFjSmg)]
-- Shawe-Taylor, J., Statistical Learning Theory for Modern Machine Learning [[video](https://www.youtube.com/watch?v=6hLsS-rbCgQ)]
-- Lawrence, N., What is Machine Learning: A Probabilistic Perspective [[video I](https://www.youtube.com/watch?v=rcZHO2Lyd8Q), [II](https://www.youtube.com/watch?v=4FAZdCcj3MA)]
-- Deep Learning: History, Motivation, and Evolution of Deep Learning [[video](https://www.youtube.com/watch?v=19Vy5Yi6fNI))
+- Abu-Mostafa, Y., [Learning from Data](https://www.youtube.com/playlist?list=PLD63A284B7615313A) [`video`]
+- Ben-David, S., [Machine Learning Theory](https://www.youtube.com/playlist?list=PLPW2keNyw-usgvmR7FTQ3ZRjfLs5jT4BO) [`video`]
+- [2019 Mathematics of Machine Learning Summer School](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9) [`video`]
+- Vapnik, V., [Statistical Theory of Learning](https://www.youtube.com/watch?v=Ow25mjFjSmg) [`video`]
+- Shawe-Taylor, J., [Statistical Learning Theory for Modern Machine Learning](https://www.youtube.com/watch?v=6hLsS-rbCgQ) [`video`]
 
 ## Tutorials
 
 - Fortmann-Roe, S., [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 - Olah, C., [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+- QuantEcon, [Maximum Likelihood Estimation](https://python.quantecon.org/mle.html#id5)
 - Stanford Encyclopedia of Philosophy, [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)
 
