@@ -13,6 +13,7 @@ order: 4
 ## Related Courses
 - [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
 - [Machine Learning](http://cs229.stanford.edu/index.html) (Stanford CS229)
+- [Statistical Learning](https://www.edx.org/course/statistical-learning) (Hastie & Tibshirani, Stanford)
 - [Big Data](http://veronikarock.com/) (Rockova, Chicago Booth)
 - [Data Science for Economists](https://github.com/uo-ec607/lectures) (McDermott, Oregon)
 - [The Effect](https://theeffectbook.net/ch-Matching.html) (Huntington-Klein, Seattle)
@@ -52,7 +53,6 @@ order: 4
 - Bryan, J., [Data wrangling, exploration, and analysis with R](https://stat545.com/index.html)
 - Kabacoff, R., [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 - Grolemund, G. and H. Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
-- Ejdemyr, S., [R Tutorials: Statistics](https://sejdemyr.github.io/r-tutorials/statistics/)
 - Dalpiaz, D., [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
 - Dalpiaz, D., [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
 
