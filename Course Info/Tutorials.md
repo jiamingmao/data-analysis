@@ -1,7 +1,7 @@
 # Statistical Learning
 
-- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
-- [CS229: Machine Learning](http://cs229.stanford.edu/index.html) (Stanford)
+- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech) [[video](https://www.youtube.com/playlist?list=PLD63A284B7615313A)]
+- [CS229: Machine Learning](http://cs229.stanford.edu/index.html) (Stanford) [[video](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)]
 - [Stats 214: Machine Learning Theory](http://web.stanford.edu/class/stats214/) (Stanford)
 - [Statistical Learning](https://www.edx.org/course/statistical-learning) (Hastie & Tibshirani, Stanford)
 - [Data 8: The Foundations of Data Science](http://data8.org/) (Berkeley) [[textbook](https://inferentialthinking.com/chapters/intro.html)]
