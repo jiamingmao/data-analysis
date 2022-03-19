@@ -16,6 +16,7 @@
 - Abu-Mostafa, Y., Learning from Data [[video](https://www.youtube.com/playlist?list=PLD63A284B7615313A)]
 - Ben-David, S., Machine Learning Theory [[video](https://www.youtube.com/playlist?list=PLPW2keNyw-usgvmR7FTQ3ZRjfLs5jT4BO)]
 - 2019 Mathematics of Machine Learning Summer School [[video](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9)]
+- StatQuest, Machine Learning [[video](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)]
 - Vapnik, V., Statistical Theory of Learning [[video](https://www.youtube.com/watch?v=Ow25mjFjSmg)]
 - Shawe-Taylor, J., Statistical Learning Theory for Modern Machine Learning [[video](https://www.youtube.com/watch?v=6hLsS-rbCgQ)]
 - Lawrence, N., What is Machine Learning: A Probabilistic Perspective [[video I](https://www.youtube.com/watch?v=rcZHO2Lyd8Q), [II](https://www.youtube.com/watch?v=4FAZdCcj3MA)]

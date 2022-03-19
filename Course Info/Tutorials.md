@@ -41,6 +41,7 @@
 - [14.387: Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 - [Econ 293: Machine Learning and Causal Inference](https://gsbdbi.github.io/ml_tutorial/) (Athey & Wager, Sanford)
 - [Stats 361: Causal Inference](https://web.stanford.edu/~swager/stats361.pdf) (Wager, Stanford)
+- [Stat 286: Causal Inference](https://imai.fas.harvard.edu/teaching/cause.html) (Imai, Harvard)
 - [Econ 626: Empirical Microeconomics](http://economics.ozier.com/econ626/) (University of Maryland)
 - [Sociology 504: Advanced data analysis for the social sciences](http://www.princeton.edu/~mjs3/soc504_s2015/) (Princeton)
 - [Program Evaluation](https://evalsp20.classes.andrewheiss.com/syllabus/) (Heiss, Georgia State)
