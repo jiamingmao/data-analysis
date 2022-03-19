@@ -20,6 +20,7 @@
 - Vapnik, V., Statistical Theory of Learning [[video](https://www.youtube.com/watch?v=Ow25mjFjSmg)]
 - Shawe-Taylor, J., Statistical Learning Theory for Modern Machine Learning [[video](https://www.youtube.com/watch?v=6hLsS-rbCgQ)]
 - Lawrence, N., What is Machine Learning: A Probabilistic Perspective [[video I](https://www.youtube.com/watch?v=rcZHO2Lyd8Q), [II](https://www.youtube.com/watch?v=4FAZdCcj3MA)]
+- Deep Learning: History, Motivation, and Evolution of Deep Learning [[video](https://www.youtube.com/watch?v=19Vy5Yi6fNI))
 
 ## Tutorials
 
