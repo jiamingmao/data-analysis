@@ -15,7 +15,6 @@
 - [EECS 598: Statistical Learning Theory](https://web.eecs.umich.edu/~cscott/past_courses/eecs598w14/index.html) (Scott, Michigan)
 - Ng, A., [Machine Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) [`video`]
 - de Freitas, N., [Machine Learning](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6) [`video`]
-- StatQuest, [Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) [`video`]
 - Abu-Mostafa, Y., [Learning from Data](https://www.youtube.com/playlist?list=PLD63A284B7615313A) [`video`]
 - Ben-David, S., [Machine Learning Theory](https://www.youtube.com/playlist?list=PLPW2keNyw-usgvmR7FTQ3ZRjfLs5jT4BO) [`video`]
 - [2019 Mathematics of Machine Learning Summer School](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9) [`video`]
@@ -24,7 +23,11 @@
 
 ## Tutorials
 
+- StatQuest, [Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) [`video`]
 - Fortmann-Roe, S., [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
+- Serrano, L., [A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4) [`video`]
+- Serrano, L., [Machine Learning: Testing and Error Metrics](https://www.youtube.com/watch?v=aDW44NPhNw0) [`video`]
+- Serrano, L., [Shannon Entropy and Information Gain](https://www.youtube.com/watch?v=9r7FIXEAGvs) [`video`]
 - Olah, C., [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
 - QuantEcon, [Maximum Likelihood Estimation](https://python.quantecon.org/mle.html#id5)
 - Stanford Encyclopedia of Philosophy, [Philosophy of Statistics](https://plato.stanford.edu/entries/statistics/)

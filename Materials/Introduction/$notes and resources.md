@@ -1,8 +1,10 @@
 # Notes and Resources
 
 - Varian, H. R., [Causal Inference, Econometrics, and Big Data](https://www.youtube.com/watch?v=8xa-hSlJFo0) [`video`]
-- Xu, Y., [Causal Inference Challenges in Industry](https://www.youtube.com/watch?v=OoKsLAvyIYA) [`video`]
+- Meng, X., [Statistical paradises and paradoxes in Big Data](https://www.youtube.com/watch?v=8YLdIDOMEZs) [`video`]
+- Blei, D., [Economics and Probabilistic Machine Learning](https://www.youtube.com/watch?v=zwcjJQoK8_Q) [`video`]
 - Microsoft Research, [Frontiers in Machine Learning: Big Ideas in Causality and Machine Learning](https://www.youtube.com/watch?v=wYVptiGkmQM) [`video`]
+- Xu, Y., [Causal Inference Challenges in Industry](https://www.youtube.com/watch?v=OoKsLAvyIYA) [`video`]
 - Athey, S., 
     - [Causal Inference](https://www.youtube.com/watch?v=ZsLV0ayTVIY) [`video`]
     - [Counterfactual Inference](https://www.youtube.com/watch?v=yKs6msnw9m8) [`video`]
