@@ -13,9 +13,6 @@
 - [Statistics 231: Statistical Learning Theory](https://web.stanford.edu/class/cs229t/2017/lectures.html) (Duchi, Stanford)
 - [9.520: Statistical Learning Theory and Applications](https://www.mit.edu/~9.520/fall19/) (MIT)
 - [EECS 598: Statistical Learning Theory](https://web.eecs.umich.edu/~cscott/past_courses/eecs598w14/index.html) (Scott, Michigan)
-- Ng, A., [Machine Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) [`video`]
-- de Freitas, N., [Machine Learning](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6) [`video`]
-- StatQuest, [Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) [`video`]
 - Abu-Mostafa, Y., [Learning from Data](https://www.youtube.com/playlist?list=PLD63A284B7615313A) [`video`]
 - Ben-David, S., [Machine Learning Theory](https://www.youtube.com/playlist?list=PLPW2keNyw-usgvmR7FTQ3ZRjfLs5jT4BO) [`video`]
 - [2019 Mathematics of Machine Learning Summer School](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9) [`video`]

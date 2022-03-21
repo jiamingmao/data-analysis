@@ -1,7 +1,7 @@
 # Statistical Learning
 
-- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech) [[video](https://www.youtube.com/playlist?list=PLD63A284B7615313A)]
-- [CS229: Machine Learning](http://cs229.stanford.edu/index.html) (Stanford) [[video](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)]
+- [Learning from Data](https://work.caltech.edu/telecourse.html) (Abu-Mostafa, Caltech)
+- [CS229: Machine Learning](http://cs229.stanford.edu/index.html) (Stanford)
 - [Stats 214: Machine Learning Theory](http://web.stanford.edu/class/stats214/) (Stanford)
 - [Statistical Learning](https://www.edx.org/course/statistical-learning) (Hastie & Tibshirani, Stanford)
 - [Data 8: The Foundations of Data Science](http://data8.org/) (Berkeley) [[textbook](https://inferentialthinking.com/chapters/intro.html)]
@@ -25,14 +25,11 @@
 - [Machine Learning](http://campus.murraystate.edu/academic/faculty/cmecklin/STA430/_book/) (Mecklin, Murray State)
 - [Foundations of Machine Learning](https://bloomberg.github.io/foml/#home) (Rosenberg, Bloomberg)
 - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro) (Google)
-- [Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) (StatQuest)
 - Hal Daumé III, [A Course in Machine Learning](http://ciml.info/) 
 - Winn, J. M., [Model-Based Machine Learning](https://www.mbmlbook.com/)
 - Kurz, A. S., [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/) 
 - Dalpiaz, D., [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
 - Dalpiaz, D., [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
-- Nielsen, M., [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
-- Zhang et al., [Dive into Deep Learning](https://d2l.ai/index.html)
 
 # Causal Inference and Econometrics
 
@@ -44,6 +41,7 @@
 - [Econ 626: Empirical Microeconomics](http://economics.ozier.com/econ626/) (University of Maryland)
 - [Sociology 504: Advanced data analysis for the social sciences](http://www.princeton.edu/~mjs3/soc504_s2015/) (Princeton)
 - [Program Evaluation](https://evalsp20.classes.andrewheiss.com/syllabus/) (Heiss, Georgia State)
+- [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course) (Neal, Mila)
 - [What's New in Econometrics?](https://www.nber.org/lecture/summer-institute-2007-methods-lectures-whats-new-econometrics) (NBER Summer Institute 2007 Methods Lectures)
 - Hanck et al., [Introduction to Econometrics with R](https://bookdown.org/machar1991/ITER/)
 - [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Bauer, Mannheim)
