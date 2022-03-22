@@ -1,5 +1,3 @@
-# Course Info
-
 
 - [Syllabus](https://github.com/jiamingmao/data-analysis/blob/master/Course%20Info/syllabus.pdf)
 
