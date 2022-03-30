@@ -20,6 +20,7 @@ order: 4
 - [Program Evaluation](https://evalsp20.classes.andrewheiss.com/syllabus/) (Heiss, Georgia State)
 - [Causal Inference](https://imai.fas.harvard.edu/teaching/cause.html) (Imai, Harvard)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/index.html) (Cunningham, Baylor)
+- [Machine Learning and Causal Inference](https://gsbdbi.github.io/ml_tutorial/) (Athey & Wager, Sanford)
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/economics/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/index.htm) (Angrist & Chernozhukov, MIT)
 
 ---
