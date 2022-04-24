@@ -13,6 +13,7 @@
 ## Lectures
 
 - [Stat 501: Regression Methods](https://online.stat.psu.edu/stat501/) (PSU)
+- [Generalized Linear Models](https://data.princeton.edu/wws509/notes) (Rodríguez, Princeton)
 
 ## Tutorials
 
@@ -23,7 +24,7 @@
     - [The Geometry of OLS](https://www.youtube.com/watch?v=Pr1lNT8PG3w) [`video`]
     - [Properties of OLS Regression](https://www.youtube.com/watch?v=l_rlt7x_hGE) [`video`]
     - [Hypothesis Testing in OLS Regression](https://www.youtube.com/watch?v=tCy712irJbc) [`video`]
-- Machine Learning Glossary, [Linear Regression](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)
+- ML Glossary, [Linear Regression](https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)
 - Roelants, P., [Regression quattro stagioni](https://peterroelants.github.io/posts/linear-regression-four-ways)
 - Clark, M., [Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
 - Jordan, J., [Gradient descent](https://www.jeremyjordan.me/gradient-descent/)
