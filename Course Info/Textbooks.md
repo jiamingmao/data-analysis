@@ -25,7 +25,7 @@
 - Cameron, A. C. and P. K. Trivedi. (2022). *Microeconometrics using Stata* (2nd ed.). Stata Press. [[link](http://cameron.econ.ucdavis.edu/mus2/)]
 - Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach (7th ed.)*. Cengage Learning.
 - Wooldridge, J. M. (2011). *Econometric Analysis of Cross Section and Panel Data* (2nd ed.). The MIT Press.
-- Imbens, G. W. And D. B. Rubin. (2015) - *Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction*. Cambridge University Press.
+- Imbens, G. W. And D. B. Rubin. (2015). *Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction*. Cambridge University Press.
 - Morgan, S. L. and C. Winship. (2014). *Counterfactuals and Causal Inference: Methods and Principles for Social Research* (2nd ed.). Cambridge University Press.
 - Hernán, M. A. and J. M. Robins. (2020). *Causal Inference: What If*. CRC Press. [[book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book), [codes](https://remlapmot.github.io/cibookex-r/)]
 - Spirtes, P., C. Glamour, and R. Scheines. (2001). *Causation, Prediction, and Search* (2nd ed.). The MIT Press. [[book](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/web/.g/scottd/fullbook.pdf)]
